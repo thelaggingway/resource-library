@@ -2506,6 +2506,20 @@
     "details": "SiberAI is a security-focused inference provider built around Siber v3, serving DeepSeek V4.1 Uncensored plus its own Cyber v3-tuned model through an OpenAI-compatible API with Chat Completions and Responses endpoints and API keys. It also ships a downloadable agent for Windows, Linux, and macOS for code review, vulnerability research, and debugging, alongside a jailbreak agent product. Pricing is pay-per-use at $0.018 per 1M input tokens and $1.32 per 1M output tokens, with no KYC and no card required. The vendor's \"no rules, no content logs\" positioning and the uncensored-model claims are vendor-reported and unverified, and support runs through Telegram."
   },
   {
+    "title": "Silk Compute",
+    "week": "providers",
+    "url": "https://silkcompute.com/models",
+    "sharer": "Thoor",
+    "date": "15 Nov",
+    "categories": [
+      "providers"
+    ],
+    "brief": "Silk Compute is an inference provider serving abliterated (refusal-removed) open-weight models — Kimi K3.1 Pro, DeepSeek V4.1 Flash 1017, GLM-5.3, GLM-5.3 Flash, and Hy4 — through OpenAI- and Anthropic-compatible APIs with 1M-token context windows and per-token pricing. It targets security research, red teaming, and coding agents that get refused elsewhere, with zero data retention, prepaid credits from $5, and per-key budgets for teams. - Warning: Vendor markets uncensored models with no content filters or moderation; per-token rates are vendor-reported, and a channel reply noted the abliterated DeepSeek pricing is steep.",
+    "id": "silk-compute",
+    "warning": "",
+    "details": "Silk Compute is an inference provider that serves abliterated open-weight models — Kimi K3.1 Pro, DeepSeek V4.1 Flash 1017, GLM-5.3, GLM-5.3 Flash, and Hy4 — with refusal behavior removed from the weights and no added content filters or moderation layer, through OpenAI Chat Completions, OpenAI Responses, and Anthropic Messages APIs, so existing SDKs and coding agents such as Claude Code, Codex, OpenCode, and Cline work by changing the base URL to api.silkcompute.com. Every model accepts up to 1M tokens of context; per-1M-token pricing on the models page runs from $0.24 input and $0.90 output for DeepSeek V4.1 Flash 1017 up to $5.00 input and $15.00 output for Kimi K3.1 Pro, with cached-input rates and a cost-per-agent-run comparison on the page. It is aimed at security research, red teaming, synthetic-data generation, and coding agents that get refused by general-purpose models, with zero data retention (prompts and outputs are not stored), prepaid credits from $5 or monthly plans from $10, per-key budgets and spend tracking for teams, and enterprise SSO, audit-log streaming, and dedicated capacity. Pricing and the uncensored positioning are vendor-reported; a channel reply on the share noted the abliterated DeepSeek pricing is on the expensive side."
+  },
+  {
     "title": "Annnimate",
     "week": "1–8 Oct 2026",
     "url": "https://annnimate.com",

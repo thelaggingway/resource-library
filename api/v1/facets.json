@@ -1,6 +1,6 @@
 {
   "resource_type": {
-    "provider": 118,
+    "provider": 119,
     "repository": 118,
     "article-guide": 65,
     "tool": 56,
@@ -14,13 +14,13 @@
   },
   "topic": {
     "ai-agents": 181,
-    "inference": 172,
+    "inference": 173,
     "developer-tools": 102,
     "frontend": 44,
     "design": 43,
     "cloud-infrastructure": 24,
     "productivity": 20,
-    "security": 14,
+    "security": 15,
     "self-hosting": 11,
     "app-development": 8,
     "devops": 8,
@@ -31,7 +31,7 @@
     "databases": 3
   },
   "use_case": {
-    "run-inference": 146,
+    "run-inference": 147,
     "manage-agents": 108,
     "learn-technique": 84,
     "build-interfaces": 35,
@@ -49,7 +49,7 @@
   },
   "interface": {
     "web": 195,
-    "api": 141,
+    "api": 142,
     "cli": 60,
     "desktop": 31,
     "mcp": 16,
@@ -63,8 +63,8 @@
     "claude-code": 17,
     "mcp-protocol": 17,
     "javascript": 12,
-    "openai-api": 10,
-    "anthropic-api": 7,
+    "openai-api": 11,
+    "anthropic-api": 8,
     "go": 5,
     "docker": 4,
     "sqlite": 4,
@@ -84,7 +84,7 @@
   },
   "channel": {
     "share-tech": 310,
-    "providers": 144
+    "providers": 145
   },
   "open_source": {
     "true": 51,

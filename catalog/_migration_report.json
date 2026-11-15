@@ -1,6 +1,6 @@
 {
-  "migrated": 454,
-  "source_rows": 454,
+  "migrated": 455,
+  "source_rows": 455,
   "order_preserved": true,
   "all_fields_equal": true,
   "rows": [
@@ -2771,6 +2771,22 @@
       "all_equal": true,
       "shared_on": "2026-11-14",
       "date_evidence": "posted '14 Nov' within documented #providers lifetime 2026-07-20..2026-09-25 (raw/providers_2026-07-20_to_2026-09-25.md)"
+    },
+    {
+      "id": "silk-compute",
+      "checks": {
+        "id": true,
+        "title": true,
+        "url": true,
+        "brief": true,
+        "warning->caveat": true,
+        "sharer": true,
+        "week->display_period": true,
+        "categories->legacy_categories": true
+      },
+      "all_equal": true,
+      "shared_on": "2026-11-15",
+      "date_evidence": "posted '15 Nov' within documented #providers lifetime 2026-07-20..2026-09-25 (raw/providers_2026-07-20_to_2026-09-25.md)"
     },
     {
       "id": "annnimate",
