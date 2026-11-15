@@ -1,6 +1,6 @@
 # Inference providers — curated from CheapInfra #providers
 
-144 curated providers, with briefs.
+145 curated providers, with briefs.
 
 ## Isoquant
 - URL: https://isoquant.ai/
@@ -379,6 +379,12 @@
 - Shared by: simply_roo (14 Nov)
 - Categories: providers
 - Brief: SiberAI is a security-focused inference provider serving DeepSeek V4.1 Uncensored and its own Cyber v3-tuned model through an OpenAI-compatible API, with a downloadable agent for code review, vulnerability research, and debugging. It charges per token ($0.018/1M input, $1.32/1M output) with no KYC and no card required. - Warning: vendor markets uncensored models with "no rules, no content logs"; per-token rates are vendor-reported.
+
+## Silk Compute
+- URL: https://silkcompute.com/models
+- Shared by: Thoor (15 Nov)
+- Categories: providers
+- Brief: Silk Compute is an inference provider serving abliterated (refusal-removed) open-weight models — Kimi K3.1 Pro, DeepSeek V4.1 Flash 1017, GLM-5.3, GLM-5.3 Flash, and Hy4 — through OpenAI- and Anthropic-compatible APIs with 1M-token context windows and per-token pricing. It targets security research, red teaming, and coding agents that get refused elsewhere, with zero data retention, prepaid credits from $5, and per-key budgets for teams. - Warning: Vendor markets uncensored models with no content filters or moderation; per-token rates are vendor-reported, and a channel reply noted the abliterated DeepSeek pricing is steep.
 
 ## Prism Inference
 - URL: https://prisminference.com/pricing
