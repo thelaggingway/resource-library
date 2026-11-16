@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0",
+  "id": "baum",
+  "title": "baum",
+  "canonical_url": "https://github.com/baum-ai/baum",
+  "brief": "baum is a desktop app that sits on top of your coding agents — it reviews the pull requests in your GitHub repos, shows which Claude Code and Codex sessions need you, and links every change back to the sessions and decisions behind it. Everything runs locally with no baum account or server, and reviews run through your own Claude Code or Codex. MIT-licensed, desktop app for macOS and Linux.",
+  "caveat": null,
+  "details": "baum is a desktop app for keeping up with what your coding agents build. It reviews the pull requests in your GitHub repositories, ranks them by risk, and explains each one by the parts that need you rather than a line-by-line diff, while a sessions view shows which Claude Code and Codex sessions are waiting on you and a timeline groups PRs into features with the decisions made along the way. A decision log traces the reasoning from the agent session behind any piece of code, and a usage view shows how much of your Claude and Codex plans is left. It runs entirely on your computer with no baum account or server — reviews run through your own Claude Code or Codex — and it is MIT licensed with desktop builds for macOS and Linux.",
+  "resource_type": "tool",
+  "topics": [
+    "ai-agents",
+    "developer-tools"
+  ],
+  "use_cases": [
+    "manage-agents"
+  ],
+  "interfaces": [
+    "desktop"
+  ],
+  "technologies": [
+    "claude-code"
+  ],
+  "license": null,
+  "open_source": null,
+  "display_period": "12–19 Nov 2026",
+  "legacy_categories": [
+    "ai-tool",
+    "dev-tool"
+  ],
+  "source": {
+    "channel": "share-tech",
+    "sharer": "Tom"
+  },
+  "shared_on": "2026-11-15",
+  "verification": {
+    "status": "unchecked",
+    "checked_at": null,
+    "final_url": null
+  }
+}

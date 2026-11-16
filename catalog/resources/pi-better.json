@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0",
+  "id": "pi-better",
+  "title": "pi-better",
+  "canonical_url": "https://github.com/nicobailon/pi-better",
+  "brief": "pi-better is a Pi extension that rewrites your prompts before you send them — type /better and a forked subagent reads your code in the background, then applies Felix Rieseberg's \"Depth\" prompt to produce a sharper version grounded in your actual files. The improved prompt lands in your input box for review, and your agent can use it on subagent briefs too. MIT-licensed, 104 stars, installs with `pi install npm:pi-better`.",
+  "caveat": null,
+  "details": "pi-better is a Pi extension by Nico Bailon that rewrites your prompts before you send them. Type /better in front of a prompt and a forked subagent reads your code, files, docs and logs in the background, then applies Felix Rieseberg's \"Depth\" prompt — what a top professional would do that you didn't ask for, the rawest material to start from, the specific methods and tools, and an independent check of the result — to produce a sharper prompt grounded in your actual project. The improved prompt lands in your input box for review, nothing is sent until you press Enter, and your agent can use it on subagent briefs too via pi-subagents. It installs with pi install npm:pi-better, is MIT licensed, and had 104 stars within a week of its 8 Nov 2026 release.",
+  "resource_type": "repository",
+  "topics": [
+    "ai-agents",
+    "developer-tools"
+  ],
+  "use_cases": [
+    "manage-agents"
+  ],
+  "interfaces": [
+    "extension"
+  ],
+  "technologies": [],
+  "license": null,
+  "open_source": null,
+  "display_period": "12–19 Nov 2026",
+  "legacy_categories": [
+    "dev-tool",
+    "github"
+  ],
+  "source": {
+    "channel": "share-tech",
+    "sharer": "simply_roo"
+  },
+  "shared_on": "2026-11-15",
+  "verification": {
+    "status": "unchecked",
+    "checked_at": null,
+    "final_url": null
+  }
+}

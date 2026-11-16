@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0",
+  "id": "yab",
+  "title": "Yab",
+  "canonical_url": "https://github.com/yetanotherbrowser/yab",
+  "brief": "Yab is a fast native macOS browser — now fully open-source, with iPhone and Android companions — pitched as the best Arc alternative, with tabs across the top or down the left, spaces, and a single address/search field. Pages run on WebKit or, on Apple silicon, Chromium per tab, with a built-in ad blocker, reading mode, split view, and agents that work in their own tabs without seeing private ones. Apache-2.0, 336 stars.",
+  "caveat": null,
+  "details": "Yab is a fast native macOS browser, now fully open source under Apache-2.0, with iPhone and Android companions, pitched as the best Arc alternative. It keeps a single field for addresses and searches, tabs across the top or down the left with pins, folders and spaces, and pages running on WebKit by default or Chromium per tab on Apple silicon, with Chrome extensions and DevTools where needed. Built in are an ad blocker, element hiding, reading mode, floating video, split view and Peek, plus agents that work in their own tabs with your sign-ins and ask before they send, pay or delete anything. Sync between Macs and iPhone is optional and end-to-end encrypted, and the repo had 336 stars within two days of its 14 Nov 2026 open-sourcing.",
+  "resource_type": "tool",
+  "topics": [
+    "app-development",
+    "ai-agents"
+  ],
+  "use_cases": [
+    "automate-workflows"
+  ],
+  "interfaces": [
+    "desktop"
+  ],
+  "technologies": [],
+  "license": null,
+  "open_source": true,
+  "display_period": "12–19 Nov 2026",
+  "legacy_categories": [
+    "dev-tool",
+    "github"
+  ],
+  "source": {
+    "channel": "share-tech",
+    "sharer": "Tom"
+  },
+  "shared_on": "2026-11-15",
+  "verification": {
+    "status": "unchecked",
+    "checked_at": null,
+    "final_url": null
+  }
+}
