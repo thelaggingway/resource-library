@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0",
+  "id": "designbookmark-motion",
+  "title": "DesignBookmark Motion",
+  "canonical_url": "https://designbookmark.com/motion",
+  "brief": "DesignBookmark Motion is a gallery of animated UI components running live in the browser — springy inputs, morphing tooltips, jelly sliders, swipe decks and more — each with copyable code for Claude or Codex. Pick a motion you like, paste it into your project, and your AI coder builds it for you, so vibe-coded sites stop looking flat.",
+  "caveat": null,
+  "details": "DesignBookmark Motion is a gallery of animated UI components that run live in the browser, so you can see exactly how each motion feels before using it. The collection covers dozens of patterns — spring dropdowns, morph tooltips, jelly sliders, swipe decks, parallax tickets, glass lenses, pull-to-refresh, scramble text and more — each with copyable code for Claude or Codex. You pick a component, paste it into your project, and your AI coder builds it for you, which makes it a fast way to add polish to vibe-coded sites that otherwise look flat. The Motion page is free to browse with no account.",
+  "resource_type": "directory-gallery",
+  "topics": [
+    "design",
+    "frontend"
+  ],
+  "use_cases": [
+    "build-interfaces",
+    "discover-design-references"
+  ],
+  "interfaces": [
+    "web"
+  ],
+  "technologies": [],
+  "license": null,
+  "open_source": null,
+  "display_period": "12–19 Nov 2026",
+  "legacy_categories": [
+    "web-app",
+    "dev-tool"
+  ],
+  "source": {
+    "channel": "share-tech",
+    "sharer": "Tom"
+  },
+  "shared_on": "2026-11-15",
+  "verification": {
+    "status": "unchecked",
+    "checked_at": null,
+    "final_url": null
+  }
+}

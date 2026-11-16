@@ -6650,6 +6650,161 @@
   },
   {
     "schema_version": "1.0",
+    "id": "designbookmark-motion",
+    "title": "DesignBookmark Motion",
+    "canonical_url": "https://designbookmark.com/motion",
+    "brief": "DesignBookmark Motion is a gallery of animated UI components running live in the browser — springy inputs, morphing tooltips, jelly sliders, swipe decks and more — each with copyable code for Claude or Codex. Pick a motion you like, paste it into your project, and your AI coder builds it for you, so vibe-coded sites stop looking flat.",
+    "caveat": null,
+    "details": "DesignBookmark Motion is a gallery of animated UI components that run live in the browser, so you can see exactly how each motion feels before using it. The collection covers dozens of patterns — spring dropdowns, morph tooltips, jelly sliders, swipe decks, parallax tickets, glass lenses, pull-to-refresh, scramble text and more — each with copyable code for Claude or Codex. You pick a component, paste it into your project, and your AI coder builds it for you, which makes it a fast way to add polish to vibe-coded sites that otherwise look flat. The Motion page is free to browse with no account.",
+    "resource_type": "directory-gallery",
+    "topics": [
+      "design",
+      "frontend"
+    ],
+    "use_cases": [
+      "build-interfaces",
+      "discover-design-references"
+    ],
+    "interfaces": [
+      "web"
+    ],
+    "technologies": [],
+    "license": null,
+    "open_source": null,
+    "display_period": "12–19 Nov 2026",
+    "legacy_categories": [
+      "web-app",
+      "dev-tool"
+    ],
+    "source": {
+      "channel": "share-tech",
+      "sharer": "Tom"
+    },
+    "shared_on": "2026-11-15",
+    "verification": {
+      "status": "unchecked",
+      "checked_at": null,
+      "final_url": null
+    }
+  },
+  {
+    "schema_version": "1.0",
+    "id": "pi-better",
+    "title": "pi-better",
+    "canonical_url": "https://github.com/nicobailon/pi-better",
+    "brief": "pi-better is a Pi extension that rewrites your prompts before you send them — type /better and a forked subagent reads your code in the background, then applies Felix Rieseberg's \"Depth\" prompt to produce a sharper version grounded in your actual files. The improved prompt lands in your input box for review, and your agent can use it on subagent briefs too. MIT-licensed, 104 stars, installs with `pi install npm:pi-better`.",
+    "caveat": null,
+    "details": "pi-better is a Pi extension by Nico Bailon that rewrites your prompts before you send them. Type /better in front of a prompt and a forked subagent reads your code, files, docs and logs in the background, then applies Felix Rieseberg's \"Depth\" prompt — what a top professional would do that you didn't ask for, the rawest material to start from, the specific methods and tools, and an independent check of the result — to produce a sharper prompt grounded in your actual project. The improved prompt lands in your input box for review, nothing is sent until you press Enter, and your agent can use it on subagent briefs too via pi-subagents. It installs with pi install npm:pi-better, is MIT licensed, and had 104 stars within a week of its 8 Nov 2026 release.",
+    "resource_type": "repository",
+    "topics": [
+      "ai-agents",
+      "developer-tools"
+    ],
+    "use_cases": [
+      "manage-agents"
+    ],
+    "interfaces": [
+      "extension"
+    ],
+    "technologies": [],
+    "license": null,
+    "open_source": null,
+    "display_period": "12–19 Nov 2026",
+    "legacy_categories": [
+      "dev-tool",
+      "github"
+    ],
+    "source": {
+      "channel": "share-tech",
+      "sharer": "simply_roo"
+    },
+    "shared_on": "2026-11-15",
+    "verification": {
+      "status": "unchecked",
+      "checked_at": null,
+      "final_url": null
+    }
+  },
+  {
+    "schema_version": "1.0",
+    "id": "baum",
+    "title": "baum",
+    "canonical_url": "https://github.com/baum-ai/baum",
+    "brief": "baum is a desktop app that sits on top of your coding agents — it reviews the pull requests in your GitHub repos, shows which Claude Code and Codex sessions need you, and links every change back to the sessions and decisions behind it. Everything runs locally with no baum account or server, and reviews run through your own Claude Code or Codex. MIT-licensed, desktop app for macOS and Linux.",
+    "caveat": null,
+    "details": "baum is a desktop app for keeping up with what your coding agents build. It reviews the pull requests in your GitHub repositories, ranks them by risk, and explains each one by the parts that need you rather than a line-by-line diff, while a sessions view shows which Claude Code and Codex sessions are waiting on you and a timeline groups PRs into features with the decisions made along the way. A decision log traces the reasoning from the agent session behind any piece of code, and a usage view shows how much of your Claude and Codex plans is left. It runs entirely on your computer with no baum account or server — reviews run through your own Claude Code or Codex — and it is MIT licensed with desktop builds for macOS and Linux.",
+    "resource_type": "tool",
+    "topics": [
+      "ai-agents",
+      "developer-tools"
+    ],
+    "use_cases": [
+      "manage-agents"
+    ],
+    "interfaces": [
+      "desktop"
+    ],
+    "technologies": [
+      "claude-code"
+    ],
+    "license": null,
+    "open_source": null,
+    "display_period": "12–19 Nov 2026",
+    "legacy_categories": [
+      "ai-tool",
+      "dev-tool"
+    ],
+    "source": {
+      "channel": "share-tech",
+      "sharer": "Tom"
+    },
+    "shared_on": "2026-11-15",
+    "verification": {
+      "status": "unchecked",
+      "checked_at": null,
+      "final_url": null
+    }
+  },
+  {
+    "schema_version": "1.0",
+    "id": "yab",
+    "title": "Yab",
+    "canonical_url": "https://github.com/yetanotherbrowser/yab",
+    "brief": "Yab is a fast native macOS browser — now fully open-source, with iPhone and Android companions — pitched as the best Arc alternative, with tabs across the top or down the left, spaces, and a single address/search field. Pages run on WebKit or, on Apple silicon, Chromium per tab, with a built-in ad blocker, reading mode, split view, and agents that work in their own tabs without seeing private ones. Apache-2.0, 336 stars.",
+    "caveat": null,
+    "details": "Yab is a fast native macOS browser, now fully open source under Apache-2.0, with iPhone and Android companions, pitched as the best Arc alternative. It keeps a single field for addresses and searches, tabs across the top or down the left with pins, folders and spaces, and pages running on WebKit by default or Chromium per tab on Apple silicon, with Chrome extensions and DevTools where needed. Built in are an ad blocker, element hiding, reading mode, floating video, split view and Peek, plus agents that work in their own tabs with your sign-ins and ask before they send, pay or delete anything. Sync between Macs and iPhone is optional and end-to-end encrypted, and the repo had 336 stars within two days of its 14 Nov 2026 open-sourcing.",
+    "resource_type": "tool",
+    "topics": [
+      "app-development",
+      "ai-agents"
+    ],
+    "use_cases": [
+      "automate-workflows"
+    ],
+    "interfaces": [
+      "desktop"
+    ],
+    "technologies": [],
+    "license": null,
+    "open_source": true,
+    "display_period": "12–19 Nov 2026",
+    "legacy_categories": [
+      "dev-tool",
+      "github"
+    ],
+    "source": {
+      "channel": "share-tech",
+      "sharer": "Tom"
+    },
+    "shared_on": "2026-11-15",
+    "verification": {
+      "status": "unchecked",
+      "checked_at": null,
+      "final_url": null
+    }
+  },
+  {
+    "schema_version": "1.0",
     "id": "annnimate",
     "title": "Annnimate",
     "canonical_url": "https://annnimate.com",
