@@ -6805,6 +6805,46 @@
   },
   {
     "schema_version": "1.0",
+    "id": "tern",
+    "title": "Tern",
+    "canonical_url": "https://stencil.so/tern",
+    "brief": "Tern is a Rust-native terminal from Stencil whose sessions outlive the window — shells, omp and browser panes keep running in a daemon, shared live across Mac, iOS and a WebGPU browser tab, with git, SQLite, Jupyter, kanban, task-manager and screen-sharing blocks beside them. It draws your omp theme and powerlevel10k prompt natively, opens in 151 ms with no bundled Chromium, and is in closed beta behind a waitlist. The 151 ms startup claim is vendor-reported and unverified.",
+    "caveat": "The 151 ms startup claim is vendor-reported and unverified.",
+    "details": "Tern is a Rust-native terminal workspace from Stencil, built so terminal sessions outlive the window: a daemon keeps shells, omp agent sessions and browser panes running, and after a reboot every pane comes back in its directory with its scrollback intact, including remote servers reached over QUIC with tern remote serve. The same session follows you across Mac, iPhone and a WebGPU browser tab, and the terminal doubles as a workspace with native blocks for git, SQLite, Jupyter notebooks, a TODO.md kanban board, a task manager and screen sharing, plus Mermaid diagrams, LaTeX and live web pages rendered natively through the Tern Surface Protocol. It claims a 151 ms cold start with no bundled Chromium, wears your omp theme and powerlevel10k prompt natively, and is scriptable through tern split, run, capture and events. Tern is in closed beta behind a waitlist, so access is limited for now.",
+    "resource_type": "tool",
+    "topics": [
+      "developer-tools",
+      "ai-agents"
+    ],
+    "use_cases": [
+      "automate-workflows"
+    ],
+    "interfaces": [
+      "desktop",
+      "cli"
+    ],
+    "technologies": [
+      "rust"
+    ],
+    "license": null,
+    "open_source": null,
+    "display_period": "12–19 Nov 2026",
+    "legacy_categories": [
+      "dev-tool"
+    ],
+    "source": {
+      "channel": "share-tech",
+      "sharer": "simply_roo"
+    },
+    "shared_on": "2026-11-17",
+    "verification": {
+      "status": "unchecked",
+      "checked_at": null,
+      "final_url": null
+    }
+  },
+  {
+    "schema_version": "1.0",
     "id": "annnimate",
     "title": "Annnimate",
     "canonical_url": "https://annnimate.com",

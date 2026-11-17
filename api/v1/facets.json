@@ -3,7 +3,7 @@
     "provider": 119,
     "repository": 119,
     "article-guide": 65,
-    "tool": 58,
+    "tool": 59,
     "library-framework": 36,
     "directory-gallery": 30,
     "service-platform": 25,
@@ -13,9 +13,9 @@
     "other": 0
   },
   "topic": {
-    "ai-agents": 184,
+    "ai-agents": 185,
     "inference": 173,
-    "developer-tools": 104,
+    "developer-tools": 105,
     "frontend": 45,
     "design": 44,
     "cloud-infrastructure": 24,
@@ -36,7 +36,7 @@
     "learn-technique": 84,
     "build-interfaces": 36,
     "generate-code": 30,
-    "automate-workflows": 27,
+    "automate-workflows": 28,
     "create-media": 23,
     "discover-design-references": 21,
     "test-software": 16,
@@ -50,15 +50,15 @@
   "interface": {
     "web": 196,
     "api": 142,
-    "cli": 60,
-    "desktop": 33,
+    "cli": 61,
+    "desktop": 34,
     "mcp": 16,
     "extension": 9
   },
   "technology": {
     "typescript": 25,
     "react": 22,
-    "rust": 20,
+    "rust": 21,
     "claude-code": 18,
     "python": 18,
     "mcp-protocol": 17,
@@ -83,7 +83,7 @@
     "zed": 0
   },
   "channel": {
-    "share-tech": 314,
+    "share-tech": 315,
     "providers": 145
   },
   "open_source": {
