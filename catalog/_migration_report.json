@@ -1,6 +1,6 @@
 {
-  "migrated": 459,
-  "source_rows": 459,
+  "migrated": 460,
+  "source_rows": 460,
   "order_preserved": true,
   "all_fields_equal": true,
   "rows": [
@@ -2851,6 +2851,22 @@
       "all_equal": true,
       "shared_on": "2026-11-15",
       "date_evidence": "posted '15 Nov' inside week label '12–19 Nov 2026'"
+    },
+    {
+      "id": "tern",
+      "checks": {
+        "id": true,
+        "title": true,
+        "url": true,
+        "brief": true,
+        "warning->caveat": true,
+        "sharer": true,
+        "week->display_period": true,
+        "categories->legacy_categories": true
+      },
+      "all_equal": true,
+      "shared_on": "2026-11-17",
+      "date_evidence": "posted '17 Nov' inside week label '12–19 Nov 2026'"
     },
     {
       "id": "annnimate",

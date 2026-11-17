@@ -1,0 +1,4 @@
+## Details
+
+### tern
+- Details: Tern is a Rust-native terminal workspace from Stencil, built so terminal sessions outlive the window: a daemon keeps shells, omp agent sessions and browser panes running, and after a reboot every pane comes back in its directory with its scrollback intact, including remote servers reached over QUIC with tern remote serve. The same session follows you across Mac, iPhone and a WebGPU browser tab, and the terminal doubles as a workspace with native blocks for git, SQLite, Jupyter notebooks, a TODO.md kanban board, a task manager and screen sharing, plus Mermaid diagrams, LaTeX and live web pages rendered natively through the Tern Surface Protocol. It claims a 151 ms cold start with no bundled Chromium, wears your omp theme and powerlevel10k prompt natively, and is scriptable through tern split, run, capture and events. Tern is in closed beta behind a waitlist, so access is limited for now.
