@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "id": "dsk",
+  "title": "dsk",
+  "canonical_url": "https://github.com/asx8678/dsk",
+  "brief": "dsk is a small headless CLI and Claude Code plugin that hands the hands-on work — scouting code, writing it, running checks and web research — to cheap DeepSeek V4.1 Flash while Claude plans, reviews and decides. Runs route across your providers with failover, nothing lands unreviewed, and each request extends the previous one byte for byte so most input is a cache hit.",
+  "caveat": null,
+  "details": "dsk is a small headless CLI and Claude Code plugin that lets Claude Code hand the hands-on work — scouting code, writing it, running checks and web research — to cheap DeepSeek V4.1 Flash while Claude plans, reviews and decides. It is written in TypeScript with no dependencies, runs its worker scripts in Python, and installs as its own Claude Code marketplace with plugin install dsk --marketplace asx8678/dsk. Runs route across your providers — DeepSeek's own API or any OpenAI-compatible endpoint serving a DeepSeek model — with automatic failover, and every run is measured rather than claimed: only the summary, answer, notes and question are the worker's words, the rest is measured by dsk. Nothing lands unreviewed: dsk runs every check itself, undoes changes outside the allowed scope, and a Stop hook sends Claude back to sessions still waiting for accept or reject. Costs stay low because each request extends the previous one byte for byte, so most input is a cache hit.",
+  "resource_type": "repository",
+  "topics": [
+    "ai-agents",
+    "developer-tools"
+  ],
+  "use_cases": [
+    "manage-agents"
+  ],
+  "interfaces": [
+    "cli",
+    "extension"
+  ],
+  "technologies": [
+    "claude-code"
+  ],
+  "license": null,
+  "open_source": null,
+  "display_period": "12–19 Nov 2026",
+  "legacy_categories": [
+    "dev-tool",
+    "github"
+  ],
+  "source": {
+    "channel": "share-tech",
+    "sharer": "asx"
+  },
+  "shared_on": "2026-11-17",
+  "verification": {
+    "status": "unchecked",
+    "checked_at": null,
+    "final_url": null
+  }
+}

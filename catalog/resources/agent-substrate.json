@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "id": "agent-substrate",
+  "title": "Agent Substrate",
+  "canonical_url": "https://github.com/agent-substrate/substrate",
+  "brief": "Agent Substrate is a zero-trust runtime for running millions of sandboxed agents on Kubernetes, isolating each agent in a microVM or gVisor sandbox with its own identity, storage and default-deny networking, and resuming idle agents from snapshots in under 500 ms — about 250 stateful actors multiplexed onto 8 pods at 10x the density of plain containers. It is framework-agnostic, runs any OCI image, and reached 1.0; Apache-2.0, 7,359 stars.",
+  "caveat": null,
+  "details": "Agent Substrate is a security-hardened, zero-trust runtime for sandboxed agents on Kubernetes, built to run millions of agents and tools at 10x the density of standard containers. Every agent (actor) runs inside a dedicated gVisor or Cloud Hypervisor microVM sandbox with segregated compute, network and storage — plain Linux containers are not supported — and gets a short-lived SPIFFE identity, while a built-in egress gateway injects credentials into approved outbound requests outside the sandbox so a compromised agent has nothing to exfiltrate. Because agents spend most of their lives waiting, Substrate snapshots idle actors out of memory and resumes them in under 500 ms, multiplexing roughly 250 stateful actors onto 8 worker pods with over 500 activations per second. It is framework-agnostic — ADK, LangChain, Claude Code, Codex, MCP servers — runs standard OCI images on Kubernetes with Pods, autoscaling and NetworkPolicies, and has reached 1.0. Apache-2.0 licensed, 7,359 stars.",
+  "resource_type": "repository",
+  "topics": [
+    "ai-agents",
+    "cloud-infrastructure"
+  ],
+  "use_cases": [
+    "manage-agents"
+  ],
+  "interfaces": [
+    "cli",
+    "api"
+  ],
+  "technologies": [
+    "kubernetes",
+    "go"
+  ],
+  "license": null,
+  "open_source": null,
+  "display_period": "12–19 Nov 2026",
+  "legacy_categories": [
+    "ai-tool",
+    "dev-tool",
+    "github"
+  ],
+  "source": {
+    "channel": "share-tech",
+    "sharer": "ROman"
+  },
+  "shared_on": "2026-11-18",
+  "verification": {
+    "status": "unchecked",
+    "checked_at": null,
+    "final_url": null
+  }
+}

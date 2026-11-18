@@ -1,6 +1,6 @@
 # Inference providers — curated from CheapInfra #providers
 
-145 curated providers, with briefs.
+146 curated providers, with briefs.
 
 ## Isoquant
 - URL: https://isoquant.ai/
@@ -385,6 +385,12 @@
 - Shared by: Thoor (15 Nov)
 - Categories: providers
 - Brief: Silk Compute is an inference provider serving abliterated (refusal-removed) open-weight models — Kimi K3.1 Pro, DeepSeek V4.1 Flash 1017, GLM-5.3, GLM-5.3 Flash, and Hy4 — through OpenAI- and Anthropic-compatible APIs with 1M-token context windows and per-token pricing. It targets security research, red teaming, and coding agents that get refused elsewhere, with zero data retention, prepaid credits from $5, and per-key budgets for teams. - Warning: Vendor markets uncensored models with no content filters or moderation; per-token rates are vendor-reported, and a channel reply noted the abliterated DeepSeek pricing is steep.
+
+## Alysis Code
+- URL: https://alysiscode.com/pricing
+- Shared by: ROman (18 Nov)
+- Categories: providers
+- Brief: Alysis Code is a coding agent for desktop and CLI that runs on your choice of 16 models — DeepSeek V4.1 Flash, GLM 5.3, GPT-6 Luna, Claude Haiku 5.5 and more — on credit plans, or free with your own API key or a local model. Every account starts with 50 free credits; paid plans run from Beta to Pro with more credits, more models and cloud compute hours. - Warning: The pricing page showed plan prices as temporarily unavailable at collection, so the plan figures are unconfirmed.
 
 ## Prism Inference
 - URL: https://prisminference.com/pricing

@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0",
+  "id": "ademark",
+  "title": "ADEMark",
+  "canonical_url": "https://ademark.dev/",
+  "brief": "ADEMark is an open benchmark of agentic dev environments — the apps you run coding agents in — measured side by side on one Mac mini M4 for launch speed, memory, tokens and orchestration. Its first results rank 14 ADEs across 12 tests with no overall winner: super.engineering leads 4 tests, Synara passes the build test fastest at 5.2 minutes, and plain Claude Code in a terminal is the baseline throughout.",
+  "caveat": null,
+  "details": "ADEMark is an open benchmark that measures agentic dev environments — the apps you run coding agents in — side by side on a single Mac mini M4 with 16 GB, against plain Claude Code in a terminal (the Bare CLI) as control. Its first results, from a run ending 12 November 2026, rank 14 ADEs across 12 tests covering cold start, relaunch, thread opening, typing lag, memory and CPU at rest and under load, tokens per hello, and a multi-agent build test. There is no overall winner by design — each test is ranked on its own — but super.engineering leads 4 of the 12 tests, Synara passes the build test fastest at 5.2 minutes, and the terminal still launches fastest at 0.69 seconds cold start. All apps ran as shipped with no added skills or plugins, and the method, including where the harness itself caused gaps, is published on the page.",
+  "resource_type": "article-guide",
+  "topics": [
+    "ai-agents",
+    "developer-tools"
+  ],
+  "use_cases": [
+    "test-software"
+  ],
+  "interfaces": [
+    "web"
+  ],
+  "technologies": [],
+  "license": null,
+  "open_source": false,
+  "display_period": "12–19 Nov 2026",
+  "legacy_categories": [
+    "web-app"
+  ],
+  "source": {
+    "channel": "share-tech",
+    "sharer": "thelaggingway"
+  },
+  "shared_on": "2026-11-17",
+  "verification": {
+    "status": "unchecked",
+    "checked_at": null,
+    "final_url": null
+  }
+}
