@@ -1,24 +1,24 @@
 {
   "resource_type": {
-    "provider": 119,
-    "repository": 119,
-    "article-guide": 65,
+    "repository": 122,
+    "provider": 120,
+    "article-guide": 66,
     "tool": 59,
     "library-framework": 36,
     "directory-gallery": 30,
-    "service-platform": 25,
+    "service-platform": 26,
     "documentation": 5,
     "dataset": 1,
     "template-starter": 1,
     "other": 0
   },
   "topic": {
-    "ai-agents": 185,
-    "inference": 173,
-    "developer-tools": 105,
+    "ai-agents": 190,
+    "inference": 174,
+    "developer-tools": 108,
     "frontend": 45,
     "design": 44,
-    "cloud-infrastructure": 24,
+    "cloud-infrastructure": 26,
     "productivity": 20,
     "security": 15,
     "self-hosting": 11,
@@ -32,15 +32,15 @@
   },
   "use_case": {
     "run-inference": 147,
-    "manage-agents": 110,
+    "manage-agents": 113,
     "learn-technique": 84,
     "build-interfaces": 36,
-    "generate-code": 30,
+    "generate-code": 31,
     "automate-workflows": 28,
     "create-media": 23,
     "discover-design-references": 21,
-    "test-software": 16,
-    "provision-infrastructure": 15,
+    "test-software": 17,
+    "provision-infrastructure": 16,
     "host-models": 9,
     "search-code": 8,
     "deploy-applications": 7,
@@ -48,24 +48,24 @@
     "operate-databases": 3
   },
   "interface": {
-    "web": 196,
-    "api": 142,
-    "cli": 61,
-    "desktop": 34,
+    "web": 198,
+    "api": 143,
+    "cli": 64,
+    "desktop": 35,
     "mcp": 16,
-    "extension": 9
+    "extension": 11
   },
   "technology": {
     "typescript": 25,
     "react": 22,
     "rust": 21,
-    "claude-code": 18,
+    "claude-code": 19,
     "python": 18,
     "mcp-protocol": 17,
     "javascript": 12,
     "openai-api": 11,
     "anthropic-api": 8,
-    "go": 5,
+    "go": 6,
     "docker": 4,
     "sqlite": 4,
     "next-js": 3,
@@ -73,9 +73,9 @@
     "ollama": 3,
     "tailwind-css": 3,
     "github-actions": 2,
+    "kubernetes": 2,
     "vue": 2,
     "electron": 1,
-    "kubernetes": 1,
     "neovim": 1,
     "postgres": 1,
     "svelte": 1,
@@ -83,11 +83,11 @@
     "zed": 0
   },
   "channel": {
-    "share-tech": 315,
-    "providers": 145
+    "share-tech": 320,
+    "providers": 146
   },
   "open_source": {
     "true": 52,
-    "false": 21
+    "false": 23
   }
 }

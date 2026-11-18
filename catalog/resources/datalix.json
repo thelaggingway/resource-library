@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "id": "datalix",
+  "title": "Datalix",
+  "canonical_url": "https://datalix.eu/2026-sale",
+  "brief": "Datalix is a German VPS host selling prepaid Xeon KVM servers from €2.45/month in Frankfurt, with full root access, NVMe storage, included DDoS protection and servers online within 60 seconds of payment. The shared page is its 2026 sale offer, so the entry price may not last beyond the sale.",
+  "caveat": null,
+  "details": "Datalix is a German hosting provider selling prepaid Xeon KVM servers from €2.45/month in its 2026 sale, hosted in Frankfurt datacenters (Equinix FRA-07, FRA-05, FRA-08 or Cogent). Servers come with full root access, NVMe storage, a choice of OS images including Windows, and AS203446 SmartMitigate DDoS protection, and are online within 60 seconds of payment. Its in-house control panel covers backups, ISO mounting, a noVNC console, SSH keys, traffic and DDoS logs, and one-click upgrades to more cores, RAM, disk or IPv4 addresses. Everything is prepaid with no contract — servers lock at the end of the term and are deleted after 5 days — and support runs 09:00–22:00, usually replying within an hour. The €2.45/month entry price is a 2026 sale offer, so it may not last beyond the sale.",
+  "resource_type": "service-platform",
+  "topics": [
+    "cloud-infrastructure"
+  ],
+  "use_cases": [
+    "provision-infrastructure"
+  ],
+  "interfaces": [
+    "web"
+  ],
+  "technologies": [],
+  "license": null,
+  "open_source": false,
+  "display_period": "12–19 Nov 2026",
+  "legacy_categories": [
+    "web-app"
+  ],
+  "source": {
+    "channel": "share-tech",
+    "sharer": "thelaggingway"
+  },
+  "shared_on": "2026-11-17",
+  "verification": {
+    "status": "unchecked",
+    "checked_at": null,
+    "final_url": null
+  }
+}

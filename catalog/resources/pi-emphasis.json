@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0",
+  "id": "pi-emphasis",
+  "title": "pi-emphasis",
+  "canonical_url": "https://github.com/johnlindquist/pi-emphasis",
+  "brief": "pi-emphasis is a Pi extension that turns [[Done]], [[Failed]] and [[Needs you]] into colored status pills with icons in assistant replies, so long answers are easy to scan. It also gives headings and lead labels icons and colors bold text, costs nothing to run, and needs only a Nerd Font terminal and Pi 1.5 or newer; MIT-licensed, 196 stars.",
+  "caveat": null,
+  "details": "pi-emphasis is a Pi extension by John Lindquist that makes assistant replies scannable: it turns [[Done]], [[Failed]] and [[Needs you]] into colored pills with icons, gives headings and lead labels icons from their word, and colors bold text, arrows and tree lines. It changes only what is drawn — stored messages, copied text and HTML exports keep the original Markdown — and it calls no model and costs nothing to run. The extension also adds a reply-style section to Pi's system prompt so the agent writes pills in the first place, using the same word tables that color them, adding about 1,500 tokens per run. It needs Pi 1.5 or newer and a terminal that can draw Nerd Font symbols (Ghostty, kitty and WezTerm include them); without those, icons and rounded ends can be turned off. Install with pi install git:github.com/johnlindquist/pi-emphasis. MIT-licensed; checked on macOS only.",
+  "resource_type": "repository",
+  "topics": [
+    "ai-agents",
+    "developer-tools"
+  ],
+  "use_cases": [
+    "manage-agents"
+  ],
+  "interfaces": [
+    "extension"
+  ],
+  "technologies": [],
+  "license": null,
+  "open_source": null,
+  "display_period": "12–19 Nov 2026",
+  "legacy_categories": [
+    "dev-tool",
+    "github"
+  ],
+  "source": {
+    "channel": "share-tech",
+    "sharer": "asx"
+  },
+  "shared_on": "2026-11-17",
+  "verification": {
+    "status": "unchecked",
+    "checked_at": null,
+    "final_url": null
+  }
+}
