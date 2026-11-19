@@ -2682,6 +2682,77 @@
     "details": "Alysis Code is a coding agent for desktop and CLI, built on an open-source engine, that runs on your choice of 16 models — including DeepSeek V4.1 Flash, GLM 5.3, GPT-6 Luna, Claude Haiku 5.5, Kimi K3 and Claude Sonnet 5.5 — either on Alysis credits or free with your own API key or a local model. Every account gets 50 free credits (up to $0.50 of usage) on 4 small, fast models; paid plans add more — Beta 100 credits on 7 models, Alpha 500 credits on 12 models including larger ones plus 50 cloud credits, Pro 1,500 credits on all 16 models plus 200 cloud credits — with cloud computers billed at 25 credits per running hour. Credits renew every 30 days and unused credits expire; requests pause when credits run out unless you switch to your own key or a local model. Note: the pricing page showed plan prices as temporarily unavailable when collected, so the plan figures are unconfirmed."
   },
   {
+    "title": "oss.new",
+    "week": "12–19 Nov 2026",
+    "url": "https://oss.new/",
+    "sharer": "thelaggingway",
+    "date": "18 Nov",
+    "categories": [
+      "ai-tool",
+      "web-app"
+    ],
+    "brief": "oss.new turns any software product into an open-source app: paste the app's URL, it studies what the product does, and builds an open-source version that runs on Cloudflare. You install the result on your own EveryApp Gateway or copy the code to your GitHub.",
+    "id": "oss-new",
+    "warning": "",
+    "details": "oss.new is a tool that clones software products as open-source apps. You paste a link to any app, it studies what the product does, and then builds an open-source version that runs on Cloudflare. The result installs on your own EveryApp Gateway, or you can copy the code to your GitHub and run it yourself. It is aimed at developers who want a self-hosted, open alternative to a closed product without rebuilding it from scratch."
+  },
+  {
+    "title": "Energy-Based Reasoners",
+    "week": "12–19 Nov 2026",
+    "url": "https://arxiv.org/abs/2611.08977",
+    "sharer": "Tom",
+    "date": "18 Nov",
+    "categories": [
+      "article"
+    ],
+    "brief": "Energy-Based Reasoners is a paper from Chen, Gladstone and colleagues that treats looped reasoning as gradient descent on a learned energy function over latent reasoning states, giving the model an explicit sense of progress and a stopping signal. Across four algorithmic reasoning benchmarks it matches or beats prior looped models, hitting 99.9% on Sudoku-Extreme with 345x less inference compute than the next-best model.",
+    "id": "energy-based-reasoners",
+    "warning": "",
+    "details": "Energy-Based Reasoners is a research paper by Chen, Gladstone, Li, Ji and Du (arXiv:2611.08977, submitted 6 November 2026) that rethinks looped reasoning models. Looped models iterate a recurrent block to scale their effective depth, but they have no built-in sense of progress, so they cannot tell when to stop or how to improve. EBRs learn an energy function over latent reasoning states and treat each looped update as gradient descent on that energy, so the energy scores states, its gradient guides refinement, and the score gives a natural stopping signal. Across four algorithmic reasoning benchmarks the method matches or beats prior recurrent models, reaching 99.9 percent accuracy on Sudoku-Extreme with 345 times less inference compute than the next-best model and state-of-the-art coverage of distinct valid solutions. The project site is energy-based-reasoners.github.io and the code is at github.com/wwillchen/ebr."
+  },
+  {
+    "title": "Distortion Waves",
+    "week": "12–19 Nov 2026",
+    "url": "https://libraries.dev/waves",
+    "sharer": "Tom",
+    "date": "18 Nov",
+    "categories": [
+      "dev-tool"
+    ],
+    "brief": "Distortion Waves is a free, open-source, MIT-licensed screen-transition library for React and SwiftUI that carries one view into another on a colourful wave opening from the button, edge or avatar that started it, with edge glows, chromatic aberration, particles and anticipation movement. Install it with npm install distortion-waves (React 18+, WebGL2) or Swift Package Manager (DistortionWavesKit, iOS 17+), with vertical, horizontal and centre wave types and six palettes.",
+    "id": "distortion-waves",
+    "warning": "",
+    "details": "Distortion Waves is a free, MIT-licensed screen-transition library for React and SwiftUI by Jakub Antalik. It carries one view into another on a colourful wave that opens from the element that started it, a button, screen edge or avatar, bending the outgoing view with edge glows, chromatic aberration, blur, particles and an anticipation pull before the new view settles. The React package installs with npm install distortion-waves and needs React 18 and WebGL2; the SwiftUI kit ships as DistortionWavesKit via Swift Package Manager for iOS 17 and up. Three wave types (vertical, horizontal, centre) and six palettes cover common transitions, and the wave can be driven imperatively with play, reverse, reset and scrub controls. It is a distinct library from the same author's published Liquid Gooey, which lives on the same libraries.dev hub."
+  },
+  {
+    "title": "Metaphor",
+    "week": "providers",
+    "url": "https://withmetaphor.com/pricing",
+    "sharer": "ROman",
+    "date": "18 Nov",
+    "categories": [
+      "providers"
+    ],
+    "brief": "Metaphor is a cloud coding agent that runs coding work on its Metacloud with open models included and frontier models from OpenAI and Anthropic on paid plans. The Hacker plan is $4.80/month with 6,000 Metacloud minutes and the Pro plan is $20/month with up to 60,000 minutes, while the free tier is shown as temporarily paused. - Warning: The free tier is shown as temporarily paused on the pricing page, so the free entry point is currently unavailable.",
+    "id": "metaphor",
+    "warning": "",
+    "details": "Metaphor is a cloud coding agent: you start coding tasks in a cloud workspace and the agent works through them while you review each change line by line, edit files in a built-in editor, and run commands in a dedicated terminal. It pitches itself as the most cost-efficient cloud coding agent, claiming to run about 30 percent cheaper than Codex and Claude Code with around 95 percent cache token consumption and a 93.7 percent cache hit rate; those cost figures are vendor-reported and unverified. Pricing is subscription-based on Metacloud minutes: the Hacker plan is $4.80 a month with 6,000 minutes and the Pro plan is $20 a month with up to 60,000 minutes, while the free tier is shown as temporarily paused. A mobile app is coming soon and Linux support is waitlisted."
+  },
+  {
+    "title": "Nous Portal",
+    "week": "providers",
+    "url": "https://portal.nousresearch.com/",
+    "sharer": "one_phantomic",
+    "date": "19 Nov",
+    "categories": [
+      "providers"
+    ],
+    "brief": "Nous Portal is Nous Research's inference portal, serving a large catalogue of frontier and open models — Claude, GPT-6, Gemini, DeepSeek, Qwen, Kimi and more — with published per-token pricing. Accounts buy credits and call the models through one API, with batch pricing listed alongside standard rates.",
+    "id": "nous-portal",
+    "warning": "",
+    "details": "Nous Portal is the inference portal run by Nous Research, giving API access to a large catalogue of frontier and open models through one account. The catalogue spans Anthropic Claude, OpenAI GPT, Google Gemini, DeepSeek, Qwen, Kimi, Mistral, Meta Llama and many smaller labs, each listed with published per-token input and output prices and a batch-pricing tier alongside standard rates. The portal is pay-as-you-go on credits, so it suits developers who want to try or route across many models without opening an account with each provider. The shared post announced Qwen 4 Max free on the portal for five days from 19 November, so that particular offer is time-limited."
+  },
+  {
     "title": "Annnimate",
     "week": "1–8 Oct 2026",
     "url": "https://annnimate.com",

@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "id": "energy-based-reasoners",
+  "title": "Energy-Based Reasoners",
+  "canonical_url": "https://arxiv.org/abs/2611.08977",
+  "brief": "Energy-Based Reasoners is a paper from Chen, Gladstone and colleagues that treats looped reasoning as gradient descent on a learned energy function over latent reasoning states, giving the model an explicit sense of progress and a stopping signal. Across four algorithmic reasoning benchmarks it matches or beats prior looped models, hitting 99.9% on Sudoku-Extreme with 345x less inference compute than the next-best model.",
+  "caveat": null,
+  "details": "Energy-Based Reasoners is a research paper by Chen, Gladstone, Li, Ji and Du (arXiv:2611.08977, submitted 6 November 2026) that rethinks looped reasoning models. Looped models iterate a recurrent block to scale their effective depth, but they have no built-in sense of progress, so they cannot tell when to stop or how to improve. EBRs learn an energy function over latent reasoning states and treat each looped update as gradient descent on that energy, so the energy scores states, its gradient guides refinement, and the score gives a natural stopping signal. Across four algorithmic reasoning benchmarks the method matches or beats prior recurrent models, reaching 99.9 percent accuracy on Sudoku-Extreme with 345 times less inference compute than the next-best model and state-of-the-art coverage of distinct valid solutions. The project site is energy-based-reasoners.github.io and the code is at github.com/wwillchen/ebr.",
+  "resource_type": "article-guide",
+  "topics": [
+    "ai-agents"
+  ],
+  "use_cases": [
+    "learn-technique"
+  ],
+  "interfaces": [
+    "web"
+  ],
+  "technologies": [],
+  "license": null,
+  "open_source": null,
+  "display_period": "12–19 Nov 2026",
+  "legacy_categories": [
+    "article"
+  ],
+  "source": {
+    "channel": "share-tech",
+    "sharer": "Tom"
+  },
+  "shared_on": "2026-11-18",
+  "verification": {
+    "status": "unchecked",
+    "checked_at": null,
+    "final_url": null
+  }
+}

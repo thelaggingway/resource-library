@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0",
+  "id": "oss-new",
+  "title": "oss.new",
+  "canonical_url": "https://oss.new/",
+  "brief": "oss.new turns any software product into an open-source app: paste the app's URL, it studies what the product does, and builds an open-source version that runs on Cloudflare. You install the result on your own EveryApp Gateway or copy the code to your GitHub.",
+  "caveat": null,
+  "details": "oss.new is a tool that clones software products as open-source apps. You paste a link to any app, it studies what the product does, and then builds an open-source version that runs on Cloudflare. The result installs on your own EveryApp Gateway, or you can copy the code to your GitHub and run it yourself. It is aimed at developers who want a self-hosted, open alternative to a closed product without rebuilding it from scratch.",
+  "resource_type": "tool",
+  "topics": [
+    "app-development",
+    "self-hosting"
+  ],
+  "use_cases": [
+    "generate-code"
+  ],
+  "interfaces": [
+    "web"
+  ],
+  "technologies": [],
+  "license": null,
+  "open_source": null,
+  "display_period": "12–19 Nov 2026",
+  "legacy_categories": [
+    "ai-tool",
+    "web-app"
+  ],
+  "source": {
+    "channel": "share-tech",
+    "sharer": "thelaggingway"
+  },
+  "shared_on": "2026-11-18",
+  "verification": {
+    "status": "unchecked",
+    "checked_at": null,
+    "final_url": null
+  }
+}

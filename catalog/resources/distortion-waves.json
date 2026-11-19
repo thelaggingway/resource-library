@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0",
+  "id": "distortion-waves",
+  "title": "Distortion Waves",
+  "canonical_url": "https://libraries.dev/waves",
+  "brief": "Distortion Waves is a free, open-source, MIT-licensed screen-transition library for React and SwiftUI that carries one view into another on a colourful wave opening from the button, edge or avatar that started it, with edge glows, chromatic aberration, particles and anticipation movement. Install it with npm install distortion-waves (React 18+, WebGL2) or Swift Package Manager (DistortionWavesKit, iOS 17+), with vertical, horizontal and centre wave types and six palettes.",
+  "caveat": null,
+  "details": "Distortion Waves is a free, MIT-licensed screen-transition library for React and SwiftUI by Jakub Antalik. It carries one view into another on a colourful wave that opens from the element that started it, a button, screen edge or avatar, bending the outgoing view with edge glows, chromatic aberration, blur, particles and an anticipation pull before the new view settles. The React package installs with npm install distortion-waves and needs React 18 and WebGL2; the SwiftUI kit ships as DistortionWavesKit via Swift Package Manager for iOS 17 and up. Three wave types (vertical, horizontal, centre) and six palettes cover common transitions, and the wave can be driven imperatively with play, reverse, reset and scrub controls. It is a distinct library from the same author's published Liquid Gooey, which lives on the same libraries.dev hub.",
+  "resource_type": "library-framework",
+  "topics": [
+    "frontend",
+    "design"
+  ],
+  "use_cases": [
+    "build-interfaces"
+  ],
+  "interfaces": [
+    "web"
+  ],
+  "technologies": [
+    "react"
+  ],
+  "license": null,
+  "open_source": true,
+  "display_period": "12–19 Nov 2026",
+  "legacy_categories": [
+    "dev-tool"
+  ],
+  "source": {
+    "channel": "share-tech",
+    "sharer": "Tom"
+  },
+  "shared_on": "2026-11-18",
+  "verification": {
+    "status": "unchecked",
+    "checked_at": null,
+    "final_url": null
+  }
+}
