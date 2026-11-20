@@ -7266,6 +7266,132 @@
   },
   {
     "schema_version": "1.0",
+    "id": "boxlite",
+    "title": "BoxLite",
+    "canonical_url": "https://boxlite.ai/",
+    "brief": "BoxLite is a managed cloud for AI agents that runs your app in hardware-isolated microVMs with compute, networking, a domain, a filesystem and persistent volumes, giving each box a public URL to share. You drive it from an SDK or REST API, pay as you go from a prepaid wallet or take a plan from $5/month, and the same runtime is open-source (Apache 2.0) for self-hosting.",
+    "caveat": null,
+    "details": "BoxLite is a managed cloud runtime for AI agents built on hardware-isolated microVMs, each with its own Linux kernel: give your agent compute, networking, a domain, a filesystem and persistent storage, not just a sandbox. Boxes boot in milliseconds, survive restarts with around 10 GiB of disk, and can be published so every service port gets a public URL, with outbound traffic optionally pinned to an allowlist. You control it through an SDK or a REST API (104 endpoints) with an API key, and the same runtime is open-source under Apache 2.0 for self-hosting on your own machines. Pricing is pay-as-you-go from a prepaid wallet, or plans from $5/month (Starter, $20 included quota) to $100/month (Team, $400 included quota); boxes are priced per hour and larger plans raise the caps on box count, size and concurrency.",
+    "resource_type": "service-platform",
+    "topics": [
+      "ai-agents",
+      "cloud-infrastructure",
+      "developer-tools"
+    ],
+    "use_cases": [
+      "manage-agents",
+      "deploy-applications"
+    ],
+    "interfaces": [
+      "api",
+      "web"
+    ],
+    "technologies": [],
+    "license": null,
+    "open_source": true,
+    "display_period": "12–19 Nov 2026",
+    "legacy_categories": [
+      "ai-tool",
+      "dev-tool"
+    ],
+    "source": {
+      "channel": "share-tech",
+      "sharer": "ROman"
+    },
+    "shared_on": "2026-11-19",
+    "verification": {
+      "status": "unchecked",
+      "checked_at": null,
+      "final_url": null
+    }
+  },
+  {
+    "schema_version": "1.0",
+    "id": "redis-iris",
+    "title": "Redis Iris",
+    "canonical_url": "https://redis.io/iris/",
+    "brief": "Redis Iris is Redis's real-time engine for giving AI agents the memory, context and messaging they need, bundling six capabilities — Intent Router, Agent Playbooks, Agent Memory, Context Gateway, Lens and Agent Mesh — into one system. It routes questions by meaning, reuses stable answers, keeps short- and long-term agent memory, exposes context over a single MCP endpoint, and records every agent decision for diagnosis.",
+    "caveat": null,
+    "details": "Redis Iris is Redis's unified, real-time engine for agent context, combining six capabilities in one system: Intent Router matches the meaning behind a question to the right resource so the same intent is never recomputed twice; Agent Playbooks reuses stable answers and repeatable procedures to cut cost and raise accuracy; Agent Memory provides short-term working memory plus persistent context across conversations; Context Gateway exposes every context source through a single MCP endpoint; Lens turns agent behaviour into a queryable record of decisions for debugging and cost control; and Agent Mesh keeps agent streams alive across dropped connections. The pitch is that agents fail without the right context at the right time, and Iris supplies memory, routing and observability as one managed layer on top of Redis. Pricing is not shown on the page, so check Redis's sales or cloud pricing before budgeting.",
+    "resource_type": "service-platform",
+    "topics": [
+      "ai-agents",
+      "developer-tools",
+      "databases"
+    ],
+    "use_cases": [
+      "manage-agents",
+      "monitor-systems"
+    ],
+    "interfaces": [
+      "api",
+      "mcp",
+      "web"
+    ],
+    "technologies": [
+      "mcp-protocol"
+    ],
+    "license": null,
+    "open_source": null,
+    "display_period": "12–19 Nov 2026",
+    "legacy_categories": [
+      "ai-tool",
+      "dev-tool"
+    ],
+    "source": {
+      "channel": "share-tech",
+      "sharer": "ROman"
+    },
+    "shared_on": "2026-11-19",
+    "verification": {
+      "status": "unchecked",
+      "checked_at": null,
+      "final_url": null
+    }
+  },
+  {
+    "schema_version": "1.0",
+    "id": "elephant-goldfish-model",
+    "title": "Elephant-Goldfish Model",
+    "canonical_url": "https://egm.dev/",
+    "brief": "The Elephant-Goldfish Model (EGM) is an open-source plugin for AI assistants that splits plan drafting from plan review: one assistant that knows the full background helps you write the plan, then fresh reviewers who never saw the conversation read only the plan and report what is missing or unclear. It runs in supported AI assistant apps with no coding needed, and the method comes from Dave Rensin's \"Elephants, Goldfish, and the New Golden Age of Software Engineering\".",
+    "caveat": null,
+    "details": "The Elephant-Goldfish Model (EGM) is an open-source plugin for AI assistants that separates drafting a plan from reviewing it: you develop the plan with a drafting assistant that knows your goal, background and the whole conversation, then fresh reviewers who never saw the conversation read only the written plan and report what is missing or unclear. The point is that an author always knows things the plan does not say, and reviewers starting from zero catch those gaps — the worked example shows a study-space plan that never states who staffs the desk, when it is open, or what \"the Friday rule\" is. EGM runs as a plugin in supported AI assistant apps with no coding required, and review support differs between applications; the method comes from Dave Rensin's article \"Elephants, Goldfish, and the New Golden Age of Software Engineering\". The source is on GitHub, linked from the install guide on egm.dev.",
+    "resource_type": "tool",
+    "topics": [
+      "ai-agents",
+      "developer-tools",
+      "productivity"
+    ],
+    "use_cases": [
+      "learn-technique",
+      "automate-workflows"
+    ],
+    "interfaces": [
+      "extension",
+      "web"
+    ],
+    "technologies": [],
+    "license": null,
+    "open_source": true,
+    "display_period": "19–26 Nov 2026",
+    "legacy_categories": [
+      "ai-tool",
+      "dev-tool"
+    ],
+    "source": {
+      "channel": "share-tech",
+      "sharer": "ROman"
+    },
+    "shared_on": "2026-11-20",
+    "verification": {
+      "status": "unchecked",
+      "checked_at": null,
+      "final_url": null
+    }
+  },
+  {
+    "schema_version": "1.0",
     "id": "annnimate",
     "title": "Annnimate",
     "canonical_url": "https://annnimate.com",

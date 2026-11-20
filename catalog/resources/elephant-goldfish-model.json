@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "id": "elephant-goldfish-model",
+  "title": "Elephant-Goldfish Model",
+  "canonical_url": "https://egm.dev/",
+  "brief": "The Elephant-Goldfish Model (EGM) is an open-source plugin for AI assistants that splits plan drafting from plan review: one assistant that knows the full background helps you write the plan, then fresh reviewers who never saw the conversation read only the plan and report what is missing or unclear. It runs in supported AI assistant apps with no coding needed, and the method comes from Dave Rensin's \"Elephants, Goldfish, and the New Golden Age of Software Engineering\".",
+  "caveat": null,
+  "details": "The Elephant-Goldfish Model (EGM) is an open-source plugin for AI assistants that separates drafting a plan from reviewing it: you develop the plan with a drafting assistant that knows your goal, background and the whole conversation, then fresh reviewers who never saw the conversation read only the written plan and report what is missing or unclear. The point is that an author always knows things the plan does not say, and reviewers starting from zero catch those gaps — the worked example shows a study-space plan that never states who staffs the desk, when it is open, or what \"the Friday rule\" is. EGM runs as a plugin in supported AI assistant apps with no coding required, and review support differs between applications; the method comes from Dave Rensin's article \"Elephants, Goldfish, and the New Golden Age of Software Engineering\". The source is on GitHub, linked from the install guide on egm.dev.",
+  "resource_type": "tool",
+  "topics": [
+    "ai-agents",
+    "developer-tools",
+    "productivity"
+  ],
+  "use_cases": [
+    "learn-technique",
+    "automate-workflows"
+  ],
+  "interfaces": [
+    "extension",
+    "web"
+  ],
+  "technologies": [],
+  "license": null,
+  "open_source": true,
+  "display_period": "19–26 Nov 2026",
+  "legacy_categories": [
+    "ai-tool",
+    "dev-tool"
+  ],
+  "source": {
+    "channel": "share-tech",
+    "sharer": "ROman"
+  },
+  "shared_on": "2026-11-20",
+  "verification": {
+    "status": "unchecked",
+    "checked_at": null,
+    "final_url": null
+  }
+}

@@ -1,6 +1,6 @@
 {
-  "migrated": 471,
-  "source_rows": 471,
+  "migrated": 474,
+  "source_rows": 474,
   "order_preserved": true,
   "all_fields_equal": true,
   "rows": [
@@ -3043,6 +3043,54 @@
       "all_equal": true,
       "shared_on": "2026-11-19",
       "date_evidence": "posted '19 Nov' within documented #providers lifetime 2026-07-20..2026-09-25 (raw/providers_2026-07-20_to_2026-09-25.md)"
+    },
+    {
+      "id": "boxlite",
+      "checks": {
+        "id": true,
+        "title": true,
+        "url": true,
+        "brief": true,
+        "warning->caveat": true,
+        "sharer": true,
+        "week->display_period": true,
+        "categories->legacy_categories": true
+      },
+      "all_equal": true,
+      "shared_on": "2026-11-19",
+      "date_evidence": "posted '19 Nov' inside week label '12–19 Nov 2026'"
+    },
+    {
+      "id": "redis-iris",
+      "checks": {
+        "id": true,
+        "title": true,
+        "url": true,
+        "brief": true,
+        "warning->caveat": true,
+        "sharer": true,
+        "week->display_period": true,
+        "categories->legacy_categories": true
+      },
+      "all_equal": true,
+      "shared_on": "2026-11-19",
+      "date_evidence": "posted '19 Nov' inside week label '12–19 Nov 2026'"
+    },
+    {
+      "id": "elephant-goldfish-model",
+      "checks": {
+        "id": true,
+        "title": true,
+        "url": true,
+        "brief": true,
+        "warning->caveat": true,
+        "sharer": true,
+        "week->display_period": true,
+        "categories->legacy_categories": true
+      },
+      "all_equal": true,
+      "shared_on": "2026-11-20",
+      "date_evidence": "posted '20 Nov' inside week label '19–26 Nov 2026'"
     },
     {
       "id": "annnimate",
