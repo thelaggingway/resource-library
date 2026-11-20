@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "id": "redis-iris",
+  "title": "Redis Iris",
+  "canonical_url": "https://redis.io/iris/",
+  "brief": "Redis Iris is Redis's real-time engine for giving AI agents the memory, context and messaging they need, bundling six capabilities — Intent Router, Agent Playbooks, Agent Memory, Context Gateway, Lens and Agent Mesh — into one system. It routes questions by meaning, reuses stable answers, keeps short- and long-term agent memory, exposes context over a single MCP endpoint, and records every agent decision for diagnosis.",
+  "caveat": null,
+  "details": "Redis Iris is Redis's unified, real-time engine for agent context, combining six capabilities in one system: Intent Router matches the meaning behind a question to the right resource so the same intent is never recomputed twice; Agent Playbooks reuses stable answers and repeatable procedures to cut cost and raise accuracy; Agent Memory provides short-term working memory plus persistent context across conversations; Context Gateway exposes every context source through a single MCP endpoint; Lens turns agent behaviour into a queryable record of decisions for debugging and cost control; and Agent Mesh keeps agent streams alive across dropped connections. The pitch is that agents fail without the right context at the right time, and Iris supplies memory, routing and observability as one managed layer on top of Redis. Pricing is not shown on the page, so check Redis's sales or cloud pricing before budgeting.",
+  "resource_type": "service-platform",
+  "topics": [
+    "ai-agents",
+    "developer-tools",
+    "databases"
+  ],
+  "use_cases": [
+    "manage-agents",
+    "monitor-systems"
+  ],
+  "interfaces": [
+    "api",
+    "mcp",
+    "web"
+  ],
+  "technologies": [
+    "mcp-protocol"
+  ],
+  "license": null,
+  "open_source": null,
+  "display_period": "12–19 Nov 2026",
+  "legacy_categories": [
+    "ai-tool",
+    "dev-tool"
+  ],
+  "source": {
+    "channel": "share-tech",
+    "sharer": "ROman"
+  },
+  "shared_on": "2026-11-19",
+  "verification": {
+    "status": "unchecked",
+    "checked_at": null,
+    "final_url": null
+  }
+}

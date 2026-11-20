@@ -1,6 +1,6 @@
 # Inference providers — curated from CheapInfra #providers
 
-146 curated providers, with briefs.
+148 curated providers, with briefs.
 
 ## Isoquant
 - URL: https://isoquant.ai/
@@ -391,6 +391,18 @@
 - Shared by: ROman (18 Nov)
 - Categories: providers
 - Brief: Alysis Code is a coding agent for desktop and CLI that runs on your choice of 16 models — DeepSeek V4.1 Flash, GLM 5.3, GPT-6 Luna, Claude Haiku 5.5 and more — on credit plans, or free with your own API key or a local model. Every account starts with 50 free credits; paid plans run from Beta to Pro with more credits, more models and cloud compute hours. - Warning: The pricing page showed plan prices as temporarily unavailable at collection, so the plan figures are unconfirmed.
+
+## Metaphor
+- URL: https://withmetaphor.com/pricing
+- Shared by: ROman (18 Nov)
+- Categories: providers
+- Brief: Metaphor is a cloud coding agent that runs coding work on its Metacloud with open models included and frontier models from OpenAI and Anthropic on paid plans. The Hacker plan is $4.80/month with 6,000 Metacloud minutes and the Pro plan is $20/month with up to 60,000 minutes, while the free tier is shown as temporarily paused. - Warning: The free tier is shown as temporarily paused on the pricing page, so the free entry point is currently unavailable.
+
+## Nous Portal
+- URL: https://portal.nousresearch.com/
+- Shared by: one_phantomic (19 Nov)
+- Categories: providers
+- Brief: Nous Portal is Nous Research's inference portal, serving a large catalogue of frontier and open models — Claude, GPT-6, Gemini, DeepSeek, Qwen, Kimi and more — with published per-token pricing. Accounts buy credits and call the models through one API, with batch pricing listed alongside standard rates.
 
 ## Prism Inference
 - URL: https://prisminference.com/pricing

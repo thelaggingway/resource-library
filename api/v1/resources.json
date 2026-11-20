@@ -7078,6 +7078,320 @@
   },
   {
     "schema_version": "1.0",
+    "id": "oss-new",
+    "title": "oss.new",
+    "canonical_url": "https://oss.new/",
+    "brief": "oss.new turns any software product into an open-source app: paste the app's URL, it studies what the product does, and builds an open-source version that runs on Cloudflare. You install the result on your own EveryApp Gateway or copy the code to your GitHub.",
+    "caveat": null,
+    "details": "oss.new is a tool that clones software products as open-source apps. You paste a link to any app, it studies what the product does, and then builds an open-source version that runs on Cloudflare. The result installs on your own EveryApp Gateway, or you can copy the code to your GitHub and run it yourself. It is aimed at developers who want a self-hosted, open alternative to a closed product without rebuilding it from scratch.",
+    "resource_type": "tool",
+    "topics": [
+      "app-development",
+      "self-hosting"
+    ],
+    "use_cases": [
+      "generate-code"
+    ],
+    "interfaces": [
+      "web"
+    ],
+    "technologies": [],
+    "license": null,
+    "open_source": null,
+    "display_period": "12–19 Nov 2026",
+    "legacy_categories": [
+      "ai-tool",
+      "web-app"
+    ],
+    "source": {
+      "channel": "share-tech",
+      "sharer": "thelaggingway"
+    },
+    "shared_on": "2026-11-18",
+    "verification": {
+      "status": "unchecked",
+      "checked_at": null,
+      "final_url": null
+    }
+  },
+  {
+    "schema_version": "1.0",
+    "id": "energy-based-reasoners",
+    "title": "Energy-Based Reasoners",
+    "canonical_url": "https://arxiv.org/abs/2611.08977",
+    "brief": "Energy-Based Reasoners is a paper from Chen, Gladstone and colleagues that treats looped reasoning as gradient descent on a learned energy function over latent reasoning states, giving the model an explicit sense of progress and a stopping signal. Across four algorithmic reasoning benchmarks it matches or beats prior looped models, hitting 99.9% on Sudoku-Extreme with 345x less inference compute than the next-best model.",
+    "caveat": null,
+    "details": "Energy-Based Reasoners is a research paper by Chen, Gladstone, Li, Ji and Du (arXiv:2611.08977, submitted 6 November 2026) that rethinks looped reasoning models. Looped models iterate a recurrent block to scale their effective depth, but they have no built-in sense of progress, so they cannot tell when to stop or how to improve. EBRs learn an energy function over latent reasoning states and treat each looped update as gradient descent on that energy, so the energy scores states, its gradient guides refinement, and the score gives a natural stopping signal. Across four algorithmic reasoning benchmarks the method matches or beats prior recurrent models, reaching 99.9 percent accuracy on Sudoku-Extreme with 345 times less inference compute than the next-best model and state-of-the-art coverage of distinct valid solutions. The project site is energy-based-reasoners.github.io and the code is at github.com/wwillchen/ebr.",
+    "resource_type": "article-guide",
+    "topics": [
+      "ai-agents"
+    ],
+    "use_cases": [
+      "learn-technique"
+    ],
+    "interfaces": [
+      "web"
+    ],
+    "technologies": [],
+    "license": null,
+    "open_source": null,
+    "display_period": "12–19 Nov 2026",
+    "legacy_categories": [
+      "article"
+    ],
+    "source": {
+      "channel": "share-tech",
+      "sharer": "Tom"
+    },
+    "shared_on": "2026-11-18",
+    "verification": {
+      "status": "unchecked",
+      "checked_at": null,
+      "final_url": null
+    }
+  },
+  {
+    "schema_version": "1.0",
+    "id": "distortion-waves",
+    "title": "Distortion Waves",
+    "canonical_url": "https://libraries.dev/waves",
+    "brief": "Distortion Waves is a free, open-source, MIT-licensed screen-transition library for React and SwiftUI that carries one view into another on a colourful wave opening from the button, edge or avatar that started it, with edge glows, chromatic aberration, particles and anticipation movement. Install it with npm install distortion-waves (React 18+, WebGL2) or Swift Package Manager (DistortionWavesKit, iOS 17+), with vertical, horizontal and centre wave types and six palettes.",
+    "caveat": null,
+    "details": "Distortion Waves is a free, MIT-licensed screen-transition library for React and SwiftUI by Jakub Antalik. It carries one view into another on a colourful wave that opens from the element that started it, a button, screen edge or avatar, bending the outgoing view with edge glows, chromatic aberration, blur, particles and an anticipation pull before the new view settles. The React package installs with npm install distortion-waves and needs React 18 and WebGL2; the SwiftUI kit ships as DistortionWavesKit via Swift Package Manager for iOS 17 and up. Three wave types (vertical, horizontal, centre) and six palettes cover common transitions, and the wave can be driven imperatively with play, reverse, reset and scrub controls. It is a distinct library from the same author's published Liquid Gooey, which lives on the same libraries.dev hub.",
+    "resource_type": "library-framework",
+    "topics": [
+      "frontend",
+      "design"
+    ],
+    "use_cases": [
+      "build-interfaces"
+    ],
+    "interfaces": [
+      "web"
+    ],
+    "technologies": [
+      "react"
+    ],
+    "license": null,
+    "open_source": true,
+    "display_period": "12–19 Nov 2026",
+    "legacy_categories": [
+      "dev-tool"
+    ],
+    "source": {
+      "channel": "share-tech",
+      "sharer": "Tom"
+    },
+    "shared_on": "2026-11-18",
+    "verification": {
+      "status": "unchecked",
+      "checked_at": null,
+      "final_url": null
+    }
+  },
+  {
+    "schema_version": "1.0",
+    "id": "metaphor",
+    "title": "Metaphor",
+    "canonical_url": "https://withmetaphor.com/pricing",
+    "brief": "Metaphor is a cloud coding agent that runs coding work on its Metacloud with open models included and frontier models from OpenAI and Anthropic on paid plans. The Hacker plan is $4.80/month with 6,000 Metacloud minutes and the Pro plan is $20/month with up to 60,000 minutes, while the free tier is shown as temporarily paused. - Warning: The free tier is shown as temporarily paused on the pricing page, so the free entry point is currently unavailable.",
+    "caveat": null,
+    "details": "Metaphor is a cloud coding agent: you start coding tasks in a cloud workspace and the agent works through them while you review each change line by line, edit files in a built-in editor, and run commands in a dedicated terminal. It pitches itself as the most cost-efficient cloud coding agent, claiming to run about 30 percent cheaper than Codex and Claude Code with around 95 percent cache token consumption and a 93.7 percent cache hit rate; those cost figures are vendor-reported and unverified. Pricing is subscription-based on Metacloud minutes: the Hacker plan is $4.80 a month with 6,000 minutes and the Pro plan is $20 a month with up to 60,000 minutes, while the free tier is shown as temporarily paused. A mobile app is coming soon and Linux support is waitlisted.",
+    "resource_type": "service-platform",
+    "topics": [
+      "ai-agents",
+      "developer-tools"
+    ],
+    "use_cases": [
+      "generate-code",
+      "manage-agents"
+    ],
+    "interfaces": [
+      "web"
+    ],
+    "technologies": [],
+    "license": null,
+    "open_source": null,
+    "display_period": "providers",
+    "legacy_categories": [
+      "providers"
+    ],
+    "source": {
+      "channel": "providers",
+      "sharer": "ROman"
+    },
+    "shared_on": "2026-11-18",
+    "verification": {
+      "status": "unchecked",
+      "checked_at": null,
+      "final_url": null
+    }
+  },
+  {
+    "schema_version": "1.0",
+    "id": "nous-portal",
+    "title": "Nous Portal",
+    "canonical_url": "https://portal.nousresearch.com/",
+    "brief": "Nous Portal is Nous Research's inference portal, serving a large catalogue of frontier and open models — Claude, GPT-6, Gemini, DeepSeek, Qwen, Kimi and more — with published per-token pricing. Accounts buy credits and call the models through one API, with batch pricing listed alongside standard rates.",
+    "caveat": null,
+    "details": "Nous Portal is the inference portal run by Nous Research, giving API access to a large catalogue of frontier and open models through one account. The catalogue spans Anthropic Claude, OpenAI GPT, Google Gemini, DeepSeek, Qwen, Kimi, Mistral, Meta Llama and many smaller labs, each listed with published per-token input and output prices and a batch-pricing tier alongside standard rates. The portal is pay-as-you-go on credits, so it suits developers who want to try or route across many models without opening an account with each provider. The shared post announced Qwen 4 Max free on the portal for five days from 19 November, so that particular offer is time-limited.",
+    "resource_type": "provider",
+    "topics": [
+      "inference"
+    ],
+    "use_cases": [
+      "run-inference"
+    ],
+    "interfaces": [
+      "api",
+      "web"
+    ],
+    "technologies": [],
+    "license": null,
+    "open_source": null,
+    "display_period": "providers",
+    "legacy_categories": [
+      "providers"
+    ],
+    "source": {
+      "channel": "providers",
+      "sharer": "one_phantomic"
+    },
+    "shared_on": "2026-11-19",
+    "verification": {
+      "status": "unchecked",
+      "checked_at": null,
+      "final_url": null
+    }
+  },
+  {
+    "schema_version": "1.0",
+    "id": "boxlite",
+    "title": "BoxLite",
+    "canonical_url": "https://boxlite.ai/",
+    "brief": "BoxLite is a managed cloud for AI agents that runs your app in hardware-isolated microVMs with compute, networking, a domain, a filesystem and persistent volumes, giving each box a public URL to share. You drive it from an SDK or REST API, pay as you go from a prepaid wallet or take a plan from $5/month, and the same runtime is open-source (Apache 2.0) for self-hosting.",
+    "caveat": null,
+    "details": "BoxLite is a managed cloud runtime for AI agents built on hardware-isolated microVMs, each with its own Linux kernel: give your agent compute, networking, a domain, a filesystem and persistent storage, not just a sandbox. Boxes boot in milliseconds, survive restarts with around 10 GiB of disk, and can be published so every service port gets a public URL, with outbound traffic optionally pinned to an allowlist. You control it through an SDK or a REST API (104 endpoints) with an API key, and the same runtime is open-source under Apache 2.0 for self-hosting on your own machines. Pricing is pay-as-you-go from a prepaid wallet, or plans from $5/month (Starter, $20 included quota) to $100/month (Team, $400 included quota); boxes are priced per hour and larger plans raise the caps on box count, size and concurrency.",
+    "resource_type": "service-platform",
+    "topics": [
+      "ai-agents",
+      "cloud-infrastructure",
+      "developer-tools"
+    ],
+    "use_cases": [
+      "manage-agents",
+      "deploy-applications"
+    ],
+    "interfaces": [
+      "api",
+      "web"
+    ],
+    "technologies": [],
+    "license": null,
+    "open_source": true,
+    "display_period": "12–19 Nov 2026",
+    "legacy_categories": [
+      "ai-tool",
+      "dev-tool"
+    ],
+    "source": {
+      "channel": "share-tech",
+      "sharer": "ROman"
+    },
+    "shared_on": "2026-11-19",
+    "verification": {
+      "status": "unchecked",
+      "checked_at": null,
+      "final_url": null
+    }
+  },
+  {
+    "schema_version": "1.0",
+    "id": "redis-iris",
+    "title": "Redis Iris",
+    "canonical_url": "https://redis.io/iris/",
+    "brief": "Redis Iris is Redis's real-time engine for giving AI agents the memory, context and messaging they need, bundling six capabilities — Intent Router, Agent Playbooks, Agent Memory, Context Gateway, Lens and Agent Mesh — into one system. It routes questions by meaning, reuses stable answers, keeps short- and long-term agent memory, exposes context over a single MCP endpoint, and records every agent decision for diagnosis.",
+    "caveat": null,
+    "details": "Redis Iris is Redis's unified, real-time engine for agent context, combining six capabilities in one system: Intent Router matches the meaning behind a question to the right resource so the same intent is never recomputed twice; Agent Playbooks reuses stable answers and repeatable procedures to cut cost and raise accuracy; Agent Memory provides short-term working memory plus persistent context across conversations; Context Gateway exposes every context source through a single MCP endpoint; Lens turns agent behaviour into a queryable record of decisions for debugging and cost control; and Agent Mesh keeps agent streams alive across dropped connections. The pitch is that agents fail without the right context at the right time, and Iris supplies memory, routing and observability as one managed layer on top of Redis. Pricing is not shown on the page, so check Redis's sales or cloud pricing before budgeting.",
+    "resource_type": "service-platform",
+    "topics": [
+      "ai-agents",
+      "developer-tools",
+      "databases"
+    ],
+    "use_cases": [
+      "manage-agents",
+      "monitor-systems"
+    ],
+    "interfaces": [
+      "api",
+      "mcp",
+      "web"
+    ],
+    "technologies": [
+      "mcp-protocol"
+    ],
+    "license": null,
+    "open_source": null,
+    "display_period": "12–19 Nov 2026",
+    "legacy_categories": [
+      "ai-tool",
+      "dev-tool"
+    ],
+    "source": {
+      "channel": "share-tech",
+      "sharer": "ROman"
+    },
+    "shared_on": "2026-11-19",
+    "verification": {
+      "status": "unchecked",
+      "checked_at": null,
+      "final_url": null
+    }
+  },
+  {
+    "schema_version": "1.0",
+    "id": "elephant-goldfish-model",
+    "title": "Elephant-Goldfish Model",
+    "canonical_url": "https://egm.dev/",
+    "brief": "The Elephant-Goldfish Model (EGM) is an open-source plugin for AI assistants that splits plan drafting from plan review: one assistant that knows the full background helps you write the plan, then fresh reviewers who never saw the conversation read only the plan and report what is missing or unclear. It runs in supported AI assistant apps with no coding needed, and the method comes from Dave Rensin's \"Elephants, Goldfish, and the New Golden Age of Software Engineering\".",
+    "caveat": null,
+    "details": "The Elephant-Goldfish Model (EGM) is an open-source plugin for AI assistants that separates drafting a plan from reviewing it: you develop the plan with a drafting assistant that knows your goal, background and the whole conversation, then fresh reviewers who never saw the conversation read only the written plan and report what is missing or unclear. The point is that an author always knows things the plan does not say, and reviewers starting from zero catch those gaps — the worked example shows a study-space plan that never states who staffs the desk, when it is open, or what \"the Friday rule\" is. EGM runs as a plugin in supported AI assistant apps with no coding required, and review support differs between applications; the method comes from Dave Rensin's article \"Elephants, Goldfish, and the New Golden Age of Software Engineering\". The source is on GitHub, linked from the install guide on egm.dev.",
+    "resource_type": "tool",
+    "topics": [
+      "ai-agents",
+      "developer-tools",
+      "productivity"
+    ],
+    "use_cases": [
+      "learn-technique",
+      "automate-workflows"
+    ],
+    "interfaces": [
+      "extension",
+      "web"
+    ],
+    "technologies": [],
+    "license": null,
+    "open_source": true,
+    "display_period": "19–26 Nov 2026",
+    "legacy_categories": [
+      "ai-tool",
+      "dev-tool"
+    ],
+    "source": {
+      "channel": "share-tech",
+      "sharer": "ROman"
+    },
+    "shared_on": "2026-11-20",
+    "verification": {
+      "status": "unchecked",
+      "checked_at": null,
+      "final_url": null
+    }
+  },
+  {
+    "schema_version": "1.0",
     "id": "annnimate",
     "title": "Annnimate",
     "canonical_url": "https://annnimate.com",

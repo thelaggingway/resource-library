@@ -127,14 +127,14 @@
   "filters": {},
   "expect_top1": null,
   "expect_top5": [
-   "beui-motion-components",
    "annnimate",
+   "beui-motion-components",
    "obsidian-ui",
-   "shaders",
-   "amicro"
+   "distortion-waves",
+   "shaders"
   ],
   "expect_none": false,
-  "note": "re-reviewed 2026-10-08 against 354-record catalog; shaders (open-source WebGPU component library for React, MIT) legitimately re-ranked into top-5"
+  "note": "re-reviewed 2026-11-19 against 471-record catalog; distortion-waves (open-source MIT React/SwiftUI transition library, added 19 Nov) legitimately re-ranked into top-5, displacing amicro"
  },
  {
   "query": "coding agent",

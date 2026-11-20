@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0",
+  "id": "nous-portal",
+  "title": "Nous Portal",
+  "canonical_url": "https://portal.nousresearch.com/",
+  "brief": "Nous Portal is Nous Research's inference portal, serving a large catalogue of frontier and open models — Claude, GPT-6, Gemini, DeepSeek, Qwen, Kimi and more — with published per-token pricing. Accounts buy credits and call the models through one API, with batch pricing listed alongside standard rates.",
+  "caveat": null,
+  "details": "Nous Portal is the inference portal run by Nous Research, giving API access to a large catalogue of frontier and open models through one account. The catalogue spans Anthropic Claude, OpenAI GPT, Google Gemini, DeepSeek, Qwen, Kimi, Mistral, Meta Llama and many smaller labs, each listed with published per-token input and output prices and a batch-pricing tier alongside standard rates. The portal is pay-as-you-go on credits, so it suits developers who want to try or route across many models without opening an account with each provider. The shared post announced Qwen 4 Max free on the portal for five days from 19 November, so that particular offer is time-limited.",
+  "resource_type": "provider",
+  "topics": [
+    "inference"
+  ],
+  "use_cases": [
+    "run-inference"
+  ],
+  "interfaces": [
+    "api",
+    "web"
+  ],
+  "technologies": [],
+  "license": null,
+  "open_source": null,
+  "display_period": "providers",
+  "legacy_categories": [
+    "providers"
+  ],
+  "source": {
+    "channel": "providers",
+    "sharer": "one_phantomic"
+  },
+  "shared_on": "2026-11-19",
+  "verification": {
+    "status": "unchecked",
+    "checked_at": null,
+    "final_url": null
+  }
+}

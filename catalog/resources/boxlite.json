@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "id": "boxlite",
+  "title": "BoxLite",
+  "canonical_url": "https://boxlite.ai/",
+  "brief": "BoxLite is a managed cloud for AI agents that runs your app in hardware-isolated microVMs with compute, networking, a domain, a filesystem and persistent volumes, giving each box a public URL to share. You drive it from an SDK or REST API, pay as you go from a prepaid wallet or take a plan from $5/month, and the same runtime is open-source (Apache 2.0) for self-hosting.",
+  "caveat": null,
+  "details": "BoxLite is a managed cloud runtime for AI agents built on hardware-isolated microVMs, each with its own Linux kernel: give your agent compute, networking, a domain, a filesystem and persistent storage, not just a sandbox. Boxes boot in milliseconds, survive restarts with around 10 GiB of disk, and can be published so every service port gets a public URL, with outbound traffic optionally pinned to an allowlist. You control it through an SDK or a REST API (104 endpoints) with an API key, and the same runtime is open-source under Apache 2.0 for self-hosting on your own machines. Pricing is pay-as-you-go from a prepaid wallet, or plans from $5/month (Starter, $20 included quota) to $100/month (Team, $400 included quota); boxes are priced per hour and larger plans raise the caps on box count, size and concurrency.",
+  "resource_type": "service-platform",
+  "topics": [
+    "ai-agents",
+    "cloud-infrastructure",
+    "developer-tools"
+  ],
+  "use_cases": [
+    "manage-agents",
+    "deploy-applications"
+  ],
+  "interfaces": [
+    "api",
+    "web"
+  ],
+  "technologies": [],
+  "license": null,
+  "open_source": true,
+  "display_period": "12–19 Nov 2026",
+  "legacy_categories": [
+    "ai-tool",
+    "dev-tool"
+  ],
+  "source": {
+    "channel": "share-tech",
+    "sharer": "ROman"
+  },
+  "shared_on": "2026-11-19",
+  "verification": {
+    "status": "unchecked",
+    "checked_at": null,
+    "final_url": null
+  }
+}
