@@ -1,0 +1,4 @@
+## Details
+
+### unixnu
+- Details: UniXNU is an open-source UEFI environment for running iOS and macOS on non-Apple ARM64 hardware, modelled on OpenCore: it provides a general UEFI environment and driver-loading system that loads the drivers a device needs and boots the OS through a common UEFI layer. The project supplies shared build tools, ARM64 support, OS profiles and reusable components, while separate SoC repositories provide common platform support and device repositories provide board configuration and hardware integration — the Xiaomi Pad 6S Pro is one of the first ports, with its own UEFI firmware repo. Recent work includes Adreno 740 GPU acceleration for the SM8550 platform, and the docs at unixnu.com cover porting a device and building and booting. The project is young (created October 2026) and the channel discussion notes it is not yet ready for everyday use; it is licensed BSD-2-Clause-Patent.

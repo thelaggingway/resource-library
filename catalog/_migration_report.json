@@ -1,6 +1,6 @@
 {
-  "migrated": 474,
-  "source_rows": 474,
+  "migrated": 475,
+  "source_rows": 475,
   "order_preserved": true,
   "all_fields_equal": true,
   "rows": [
@@ -3078,6 +3078,22 @@
     },
     {
       "id": "elephant-goldfish-model",
+      "checks": {
+        "id": true,
+        "title": true,
+        "url": true,
+        "brief": true,
+        "warning->caveat": true,
+        "sharer": true,
+        "week->display_period": true,
+        "categories->legacy_categories": true
+      },
+      "all_equal": true,
+      "shared_on": "2026-11-20",
+      "date_evidence": "posted '20 Nov' inside week label '19–26 Nov 2026'"
+    },
+    {
+      "id": "unixnu",
       "checks": {
         "id": true,
         "title": true,
