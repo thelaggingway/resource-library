@@ -1,6 +1,6 @@
 {
   "resource_type": {
-    "repository": 122,
+    "repository": 123,
     "provider": 121,
     "article-guide": 67,
     "tool": 61,
@@ -15,14 +15,14 @@
   "topic": {
     "ai-agents": 195,
     "inference": 175,
-    "developer-tools": 112,
+    "developer-tools": 113,
     "frontend": 46,
     "design": 45,
     "cloud-infrastructure": 27,
     "productivity": 21,
     "security": 15,
     "self-hosting": 12,
-    "app-development": 10,
+    "app-development": 11,
     "devops": 8,
     "testing": 7,
     "backend": 6,
@@ -33,7 +33,7 @@
   "use_case": {
     "run-inference": 148,
     "manage-agents": 116,
-    "learn-technique": 86,
+    "learn-technique": 87,
     "build-interfaces": 37,
     "generate-code": 33,
     "automate-workflows": 29,
@@ -41,16 +41,16 @@
     "discover-design-references": 21,
     "test-software": 17,
     "provision-infrastructure": 16,
+    "deploy-applications": 9,
     "host-models": 9,
-    "deploy-applications": 8,
     "monitor-systems": 8,
     "search-code": 8,
     "operate-databases": 3
   },
   "interface": {
-    "web": 206,
+    "web": 207,
     "api": 146,
-    "cli": 64,
+    "cli": 65,
     "desktop": 35,
     "mcp": 17,
     "extension": 12
@@ -83,11 +83,11 @@
     "zed": 0
   },
   "channel": {
-    "share-tech": 326,
+    "share-tech": 327,
     "providers": 148
   },
   "open_source": {
-    "true": 55,
+    "true": 56,
     "false": 23
   }
 }

@@ -2798,6 +2798,21 @@
     "details": "The Elephant-Goldfish Model (EGM) is an open-source plugin for AI assistants that separates drafting a plan from reviewing it: you develop the plan with a drafting assistant that knows your goal, background and the whole conversation, then fresh reviewers who never saw the conversation read only the written plan and report what is missing or unclear. The point is that an author always knows things the plan does not say, and reviewers starting from zero catch those gaps — the worked example shows a study-space plan that never states who staffs the desk, when it is open, or what \"the Friday rule\" is. EGM runs as a plugin in supported AI assistant apps with no coding required, and review support differs between applications; the method comes from Dave Rensin's article \"Elephants, Goldfish, and the New Golden Age of Software Engineering\". The source is on GitHub, linked from the install guide on egm.dev."
   },
   {
+    "title": "UniXNU",
+    "week": "19–26 Nov 2026",
+    "url": "https://github.com/UniXNU/UniXNU",
+    "sharer": "Tom",
+    "date": "20 Nov",
+    "categories": [
+      "dev-tool",
+      "github"
+    ],
+    "brief": "UniXNU is an open-source UEFI environment that boots iOS and macOS on non-Apple ARM64 hardware, in the spirit of OpenCore: it loads the drivers a device needs and boots the OS through a common UEFI layer. It ships shared build tools, ARM64 support, OS profiles and reusable components, with device ports (such as Xiaomi Pad 6S Pro) maintained in separate repos and docs at unixnu.com. - Warning: early-stage project — the repo was created in October 2026 and the channel discussion notes it is not yet ready, with porting described as a real pain.",
+    "id": "unixnu",
+    "warning": "",
+    "details": "UniXNU is an open-source UEFI environment for running iOS and macOS on non-Apple ARM64 hardware, modelled on OpenCore: it provides a general UEFI environment and driver-loading system that loads the drivers a device needs and boots the OS through a common UEFI layer. The project supplies shared build tools, ARM64 support, OS profiles and reusable components, while separate SoC repositories provide common platform support and device repositories provide board configuration and hardware integration — the Xiaomi Pad 6S Pro is one of the first ports, with its own UEFI firmware repo. Recent work includes Adreno 740 GPU acceleration for the SM8550 platform, and the docs at unixnu.com cover porting a device and building and booting. The project is young (created October 2026) and the channel discussion notes it is not yet ready for everyday use; it is licensed BSD-2-Clause-Patent."
+  },
+  {
     "title": "Annnimate",
     "week": "1–8 Oct 2026",
     "url": "https://annnimate.com",
