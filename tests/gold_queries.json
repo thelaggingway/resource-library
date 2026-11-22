@@ -222,12 +222,12 @@
   "expect_top5": [
    "beui-motion-components",
    "annnimate",
+   "a2ui",
    "gpui-kit",
-   "obsidian-ui",
-   "shaders"
+   "obsidian-ui"
   ],
   "expect_none": false,
-  "note": "re-reviewed 2026-10-08 against 354-record catalog; shaders (200+ WebGPU components) legitimately re-ranked into top-5 under frontend+library-framework filters"
+  "note": "re-reviewed 2026-11-22 against 479-record catalog; new a2ui (generative UI framework with a component catalogue) legitimately ranks #3, shifting shaders to #6"
  },
  {
   "query": "inference",
@@ -284,13 +284,13 @@
   "expect_top1": null,
   "expect_top5": [
    "teamai-cli",
+   "alysis-code",
    "arc-ui",
    "bb",
-   "boat",
-   "boxd"
+   "boat"
   ],
   "expect_none": false,
-  "note": "re-reviewed 2026-11-01 against 435-record catalog; Arc UI (interfaces include cli — installable via the shadcn CLI) ranks #2, shifting codex-auth to #6"
+  "note": "re-reviewed 2026-11-22 against 479-record catalog; Alysis Code (coding agent for desktop and CLI) legitimately ranks #2, shifting boxd to #6"
  },
  {
   "query": "browser extension",

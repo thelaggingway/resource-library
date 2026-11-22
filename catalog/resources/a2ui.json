@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0",
+  "id": "a2ui",
+  "title": "a2ui",
+  "canonical_url": "https://github.com/a2ui-project/a2ui",
+  "brief": "a2ui is an open-source generative UI framework for AI agents: agents stream layout data and apps render it with native components instead of screenshots or HTML. It ships renderers for React, Angular, Lit, Flutter, SwiftUI and Jetpack Compose, with a shared component catalogue and a protocol for agent-driven layouts.",
+  "caveat": null,
+  "details": "A2UI is an open-source generative UI framework and protocol for agentic experiences: instead of an agent replying in text alone, it streams structured UI data that native renderers turn into real widgets. The data-not-code approach keeps a strict schema between agent and renderer, so agent-generated interfaces stay within the app's capability boundaries. It ships agent SDKs in several languages, a versioned protocol spec, native renderers for React, Angular, Lit, Flutter, SwiftUI and Jetpack Compose, plus a browser-based A2UI Composer for trying compositions. It fits apps where an agent should build the flow itself — remote rendering is supported by design, and the same agent can drive UI across web and mobile without WebViews or HTML.",
+  "resource_type": "library-framework",
+  "topics": [
+    "ai-agents",
+    "frontend"
+  ],
+  "use_cases": [
+    "build-interfaces"
+  ],
+  "interfaces": [
+    "web"
+  ],
+  "technologies": [],
+  "license": null,
+  "open_source": true,
+  "display_period": "19–26 Nov 2026",
+  "legacy_categories": [
+    "ai-tool",
+    "github"
+  ],
+  "source": {
+    "channel": "share-tech",
+    "sharer": "ROman"
+  },
+  "shared_on": "2026-11-22",
+  "verification": {
+    "status": "unchecked",
+    "checked_at": null,
+    "final_url": null
+  }
+}
