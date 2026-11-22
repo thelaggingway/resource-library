@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0",
+  "id": "building-a-customised-second-brain-for-a-diplomat-in-claude-duet",
+  "title": "Building a customised second brain for a diplomat in Claude Duet",
+  "canonical_url": "https://gist.github.com/VivianBalakrishnan/ea46e8344c07fa150c506b446d90cb91",
+  "brief": "Singapore Foreign Minister Vivian Balakrishnan's recipe for a personal \"second brain\": a NanoClaw agent that ran on a Raspberry Pi, rebuilt as an always-on Claude Duet agent with a curated wiki, one skill and an order of authority — and no servers. The gist holds the full setup, prompts and operating rules for running a private, curated knowledge agent.",
+  "caveat": null,
+  "details": "A full recipe for a curated, source-checked \"second brain\" built on Claude Duet, written by Singapore Foreign Minister Vivian Balakrishnan after running a similar NanoClaw agent on a Raspberry Pi for nine months. The setup gives Claude a private wiki of Markdown pages distilled from the principal's own sources (speeches, statements, treaties), a short primer stating the principal's framing, and a strict order of authority — primer first, wiki second, web third — with every claim checked against its source file and disagreements shown, never hidden. It works by instructions alone: a folder of Markdown files in a private repo, one skill and two small scripts, with no server, vector database or embeddings, and each question runs in its own Duet thread that clones the repo and compiles a brief before answering. The actual knowledge base and sources are private and not included; the gist is the generic method, a worked example (a High Seas Treaty wiki page) and step-by-step setup.",
+  "resource_type": "article-guide",
+  "topics": [
+    "ai-agents",
+    "productivity"
+  ],
+  "use_cases": [
+    "manage-agents",
+    "learn-technique"
+  ],
+  "interfaces": [
+    "web"
+  ],
+  "technologies": [],
+  "license": null,
+  "open_source": null,
+  "display_period": "19–26 Nov 2026",
+  "legacy_categories": [
+    "ai-tool",
+    "github"
+  ],
+  "source": {
+    "channel": "share-tech",
+    "sharer": "thelaggingway"
+  },
+  "shared_on": "2026-11-22",
+  "verification": {
+    "status": "unchecked",
+    "checked_at": null,
+    "final_url": null
+  }
+}

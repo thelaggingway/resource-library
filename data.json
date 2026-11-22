@@ -2813,6 +2813,65 @@
     "details": "UniXNU is an open-source UEFI environment for running iOS and macOS on non-Apple ARM64 hardware, modelled on OpenCore: it provides a general UEFI environment and driver-loading system that loads the drivers a device needs and boots the OS through a common UEFI layer. The project supplies shared build tools, ARM64 support, OS profiles and reusable components, while separate SoC repositories provide common platform support and device repositories provide board configuration and hardware integration — the Xiaomi Pad 6S Pro is one of the first ports, with its own UEFI firmware repo. Recent work includes Adreno 740 GPU acceleration for the SM8550 platform, and the docs at unixnu.com cover porting a device and building and booting. The project is young (created October 2026) and the channel discussion notes it is not yet ready for everyday use; it is licensed BSD-2-Clause-Patent."
   },
   {
+    "title": "a2ui",
+    "week": "19–26 Nov 2026",
+    "url": "https://github.com/a2ui-project/a2ui",
+    "sharer": "ROman",
+    "date": "22 Nov",
+    "categories": [
+      "ai-tool",
+      "github"
+    ],
+    "brief": "a2ui is an open-source generative UI framework for AI agents: agents stream layout data and apps render it with native components instead of screenshots or HTML. It ships renderers for React, Angular, Lit, Flutter, SwiftUI and Jetpack Compose, with a shared component catalogue and a protocol for agent-driven layouts.",
+    "id": "a2ui",
+    "warning": "",
+    "details": "A2UI is an open-source generative UI framework and protocol for agentic experiences: instead of an agent replying in text alone, it streams structured UI data that native renderers turn into real widgets. The data-not-code approach keeps a strict schema between agent and renderer, so agent-generated interfaces stay within the app's capability boundaries. It ships agent SDKs in several languages, a versioned protocol spec, native renderers for React, Angular, Lit, Flutter, SwiftUI and Jetpack Compose, plus a browser-based A2UI Composer for trying compositions. It fits apps where an agent should build the flow itself — remote rendering is supported by design, and the same agent can drive UI across web and mobile without WebViews or HTML."
+  },
+  {
+    "title": "wland",
+    "week": "19–26 Nov 2026",
+    "url": "https://github.com/pithings/wland",
+    "sharer": "simply_roo",
+    "date": "22 Nov",
+    "categories": [
+      "dev-tool",
+      "github"
+    ],
+    "brief": "wland is an open-source Wayland compositor that runs entirely in the browser, written in Zig and compiled to WebAssembly at roughly 65 kB gzipped. It composites Wayland apps at up to 120 FPS with pixel-perfect Retina rendering, so native Linux GUI apps can run inside a web page with no server. - Warning: announced 21 Nov 2026 — very early project, expect rough edges.",
+    "id": "wland",
+    "warning": "It composites Wayland apps at up to 120 FPS with pixel-perfect Retina rendering, so native Linux GUI apps can run inside a web page with no server. - Warning: announced 21 Nov 2026 — very early project, expect rough edges.",
+    "details": "wland is a Wayland compositor compiled to WebAssembly (about 65 kB gzipped) that runs in a browser tab. Unmodified Wayland apps — foot, Nautilus, Chromium, even X11 apps via xwayland-satellite — talk the real wire protocol to a small relay (wlandr) on a Linux host, VM or container, which streams them over WebSocket or vsock to the compositor; typing, menus, clipboard, drag and drop, HiDPI and window controls all work, at up to 120 FPS on a Retina MacBook. A Docker demo image runs Chromium and a file manager in the page, and an npx CLI serves your own machine's apps. Note it is brand-new, announced 21 Nov 2026, so expect rough edges — the README lists known limits."
+  },
+  {
+    "title": "Building a customised second brain for a diplomat in Claude Duet",
+    "week": "19–26 Nov 2026",
+    "url": "https://gist.github.com/VivianBalakrishnan/ea46e8344c07fa150c506b446d90cb91",
+    "sharer": "thelaggingway",
+    "date": "22 Nov",
+    "categories": [
+      "ai-tool",
+      "github"
+    ],
+    "brief": "Singapore Foreign Minister Vivian Balakrishnan's recipe for a personal \"second brain\": a NanoClaw agent that ran on a Raspberry Pi, rebuilt as an always-on Claude Duet agent with a curated wiki, one skill and an order of authority — and no servers. The gist holds the full setup, prompts and operating rules for running a private, curated knowledge agent.",
+    "id": "building-a-customised-second-brain-for-a-diplomat-in-claude-duet",
+    "warning": "",
+    "details": "A full recipe for a curated, source-checked \"second brain\" built on Claude Duet, written by Singapore Foreign Minister Vivian Balakrishnan after running a similar NanoClaw agent on a Raspberry Pi for nine months. The setup gives Claude a private wiki of Markdown pages distilled from the principal's own sources (speeches, statements, treaties), a short primer stating the principal's framing, and a strict order of authority — primer first, wiki second, web third — with every claim checked against its source file and disagreements shown, never hidden. It works by instructions alone: a folder of Markdown files in a private repo, one skill and two small scripts, with no server, vector database or embeddings, and each question runs in its own Duet thread that clones the repo and compiles a brief before answering. The actual knowledge base and sources are private and not included; the gist is the generic method, a worked example (a High Seas Treaty wiki page) and step-by-step setup."
+  },
+  {
+    "title": "Privacy Notice Regarding MiniMax Requests on Novita",
+    "week": "19–26 Nov 2026",
+    "url": "https://novita.ai/blog/minimax-requests-privacy-notice/",
+    "sharer": "npfy",
+    "date": "22 Nov",
+    "categories": [
+      "article"
+    ],
+    "brief": "Novita discloses that a routing configuration issue forwarded some MiniMax requests to MiniMax's official API between 28 May and 11 November 2026, instead of serving them on Novita's own infrastructure. The notice explains what happened, what Novita found, and the next steps for affected users.",
+    "id": "privacy-notice-regarding-minimax-requests-on-novita",
+    "warning": "",
+    "details": "Novita confirms that, after a report from an independent security researcher, it found some MiniMax requests were forwarded to MiniMax's official API instead of being processed on Novita-hosted infrastructure. A routing configuration issue meant an API forwarding path intended for specific customers applied more broadly; the affected models were suspended. Anyone who used MiniMax models through Novita (directly or via OpenRouter) between 28 May and 11 November 2026 should assume request contents may have been accessed or retained by a third party, and rotate any live credentials or secrets included in those requests. Novita says it does not retain customer prompts or outputs or use them for training, and is verifying the affected endpoints and following up with MiniMax about deletion of retained data."
+  },
+  {
     "title": "Annnimate",
     "week": "1–8 Oct 2026",
     "url": "https://annnimate.com",

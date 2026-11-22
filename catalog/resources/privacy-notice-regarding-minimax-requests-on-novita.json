@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0",
+  "id": "privacy-notice-regarding-minimax-requests-on-novita",
+  "title": "Privacy Notice Regarding MiniMax Requests on Novita",
+  "canonical_url": "https://novita.ai/blog/minimax-requests-privacy-notice/",
+  "brief": "Novita discloses that a routing configuration issue forwarded some MiniMax requests to MiniMax's official API between 28 May and 11 November 2026, instead of serving them on Novita's own infrastructure. The notice explains what happened, what Novita found, and the next steps for affected users.",
+  "caveat": null,
+  "details": "Novita confirms that, after a report from an independent security researcher, it found some MiniMax requests were forwarded to MiniMax's official API instead of being processed on Novita-hosted infrastructure. A routing configuration issue meant an API forwarding path intended for specific customers applied more broadly; the affected models were suspended. Anyone who used MiniMax models through Novita (directly or via OpenRouter) between 28 May and 11 November 2026 should assume request contents may have been accessed or retained by a third party, and rotate any live credentials or secrets included in those requests. Novita says it does not retain customer prompts or outputs or use them for training, and is verifying the affected endpoints and following up with MiniMax about deletion of retained data.",
+  "resource_type": "article-guide",
+  "topics": [
+    "security",
+    "inference"
+  ],
+  "use_cases": [
+    "learn-technique"
+  ],
+  "interfaces": [
+    "web"
+  ],
+  "technologies": [],
+  "license": null,
+  "open_source": null,
+  "display_period": "19–26 Nov 2026",
+  "legacy_categories": [
+    "article"
+  ],
+  "source": {
+    "channel": "share-tech",
+    "sharer": "npfy"
+  },
+  "shared_on": "2026-11-22",
+  "verification": {
+    "status": "unchecked",
+    "checked_at": null,
+    "final_url": null
+  }
+}
