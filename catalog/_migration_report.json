@@ -1,6 +1,6 @@
 {
-  "migrated": 480,
-  "source_rows": 480,
+  "migrated": 478,
+  "source_rows": 478,
   "order_preserved": true,
   "all_fields_equal": true,
   "rows": [
@@ -3126,38 +3126,6 @@
     },
     {
       "id": "wland",
-      "checks": {
-        "id": true,
-        "title": true,
-        "url": true,
-        "brief": true,
-        "warning->caveat": true,
-        "sharer": true,
-        "week->display_period": true,
-        "categories->legacy_categories": true
-      },
-      "all_equal": true,
-      "shared_on": "2026-11-22",
-      "date_evidence": "posted '22 Nov' inside week label '19–26 Nov 2026'"
-    },
-    {
-      "id": "building-a-customised-second-brain-for-a-diplomat-in-claude-duet",
-      "checks": {
-        "id": true,
-        "title": true,
-        "url": true,
-        "brief": true,
-        "warning->caveat": true,
-        "sharer": true,
-        "week->display_period": true,
-        "categories->legacy_categories": true
-      },
-      "all_equal": true,
-      "shared_on": "2026-11-22",
-      "date_evidence": "posted '22 Nov' inside week label '19–26 Nov 2026'"
-    },
-    {
-      "id": "privacy-notice-regarding-minimax-requests-on-novita",
       "checks": {
         "id": true,
         "title": true,
