@@ -1,12 +1,12 @@
 {
  "baseline_commit": "scripts/regen.py",
  "generated_sha256": {
-  "CHANGELOG.md": "aba23ea7da7d10a7b316965bfef96d685b194cac7624d521e1b2bdefbefed994",
-  "data.json": "d73358c2574a9b7dd20a6f26480c5eea8588c45187d909baa3e84c535815cc4e",
-  "feed.xml": "2e81d70aaa9f9b2500e474230262e2d9f86fd5f5e5033c05edc31c4cfce06c82",
-  "index.html": "299d9ffabf87db4a28ba5425e11e995c0726a835a902a70ed92415af3c157b45",
-  "llms.txt": "c5dc259a8eed48a352b7cca638df35142d51ee467980366fed9b49c4f764ad9c",
-  "og-image.png": "f4cfad6a9066b35e07a441911d3701692def9f59582760b48d8648f3dd4c3804",
+  "CHANGELOG.md": "a328ee233f18c1103c5f4e24ae3f27992c7e8223ee57bcea4d18063bf364bf07",
+  "data.json": "c28fe63662d2f4cdaa22fdf245a9169cf23999b9ed024f40c0756de88011ea0f",
+  "feed.xml": "23d43a559b70235a6334d7a569cfdbc5d6a673212da9a33e68a65ad31bcae644",
+  "index.html": "1ce0997ca2fbfb408af33ebd3fdd60048d5ba9c3eef5833579e38df950e11cd6",
+  "llms.txt": "4b667a20f118279a78a8315b5795e306ad44aab3b6e3324c63c37d18c9b33b2f",
+  "og-image.png": "2c56d21d0db336208f81e5494ebdbaa3bc8a08fb5584f29d51367174ee28682c",
   "robots.txt": "b2834e28a8a876d4adf4d27806f0ac783dc0f6617aaf32dd42e9f5453a0ac56e",
   "sitemap.xml": "26be8fa7cebf4865d57b615c7110539a8cd697edeef4ad459f5abb438f86b09e",
   "weeks/2026-06-04_to_2026-06-10.md": "f17652a5eb159df59ced4eeb8cc4e1704e99ee37c8202da73c2c78fa8635de15",
@@ -33,7 +33,7 @@
   "weeks/2026-10-29_to_2026-11-05.md": "259c835f2a1d25fdf631b1bcc49f1fe741201db383ce6ad8ed05598bd873708e",
   "weeks/2026-11-05_to_2026-11-12.md": "23597c08ad25e7c54582192f4826a9a976a1978985e468590b10aa9e7329f414",
   "weeks/2026-11-12_to_2026-11-19.md": "483b41305ee3af24ffd335fa9ed5ed702cc399b1f1a92def79707c8717906578",
-  "weeks/2026-11-19_to_2026-11-26.md": "46b18de97fb507f3b78f8dd8a40ae5537e3c896b506443771153f0f76f0b2282",
+  "weeks/2026-11-19_to_2026-11-26.md": "9cc1f43fdfe336795365ddefe68d29fec58d9ab018706ac589ca36331981ad64",
   "weeks/providers.md": "1346f31c7e2603c10a969057dd54762369692122553eccac6e3a3e6077d7388f"
  },
  "inventory": {
@@ -45,13 +45,13 @@
    "providers",
    "web-app"
   ],
-  "https_urls": 479,
+  "https_urls": 480,
   "nonempty_warnings": 102,
   "providers": 148,
-  "share_tech": 331,
-  "total": 479,
-  "unique_ids": 479,
-  "unique_urls": 479
+  "share_tech": 332,
+  "total": 480,
+  "unique_ids": 480,
+  "unique_urls": 480
  },
  "ordered_ids": [
   "railway-changelog-0309-free-vms-without-an-account",
@@ -252,6 +252,7 @@
   "wland",
   "building-a-customised-second-brain-for-a-diplomat-in-claude-duet",
   "privacy-notice-regarding-minimax-requests-on-novita",
+  "openui-live-replies",
   "annnimate",
   "hyperiux",
   "vanta-ui",

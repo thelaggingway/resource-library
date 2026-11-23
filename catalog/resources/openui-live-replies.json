@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0",
+  "id": "openui-live-replies",
+  "title": "OpenUI Live Replies",
+  "canonical_url": "https://getbb.app/marketplace/openui",
+  "brief": "OpenUI Live Replies is a plugin for the bb coding agent that turns agent replies into dashboards, reports, plans and forms you can read at a glance and click, right in the chat. Agents write OpenUI Lang and the plugin renders it with OpenUI's React component library plus about 70 of its own components — gauges, heatmaps, timelines, kanban boards, test and coverage reports, diffs and maps. - Warning: requires BB 0.49 or later; web lookups are on by default and share your IP with OpenStreetMap, Photon, Wikipedia and Wikimedia Commons unless turned off.",
+  "caveat": null,
+  "details": "OpenUI Live Replies is a plugin for the bb coding agent that renders agent replies as interactive UI inside the chat thread. Agents emit OpenUI Lang programs in fenced code blocks and the plugin draws them with OpenUI's React component library plus about 70 of its own components, covering gauges, sparklines, heatmaps and funnels, timelines, calendars, roadmaps and kanban boards, trees, JSON explorers and diffs, test, lint, coverage, CI and benchmark reports, maps and small sandboxed apps. Plans, decisions, choices, quizzes and forms send the user's answer back into the thread as the next message, and components for bb itself show the thread's changed files, commits, pull request and the live status of other threads. It needs BB 0.49 or later, adds about 3,000 tokens of instructions to sessions whose replies are read, and needs no OpenUI Gateway or API key; web lookups are on by default, so Map and ImageSearch fetch from OpenStreetMap, Photon, Wikipedia and Wikimedia Commons unless turned off.",
+  "resource_type": "tool",
+  "topics": [
+    "ai-agents",
+    "frontend"
+  ],
+  "use_cases": [
+    "build-interfaces"
+  ],
+  "interfaces": [
+    "extension"
+  ],
+  "technologies": [
+    "react"
+  ],
+  "license": null,
+  "open_source": false,
+  "display_period": "19–26 Nov 2026",
+  "legacy_categories": [
+    "ai-tool"
+  ],
+  "source": {
+    "channel": "share-tech",
+    "sharer": "ROman"
+  },
+  "shared_on": "2026-11-22",
+  "verification": {
+    "status": "unchecked",
+    "checked_at": null,
+    "final_url": null
+  }
+}
