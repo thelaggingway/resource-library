@@ -2872,6 +2872,20 @@
     "details": "Novita confirms that, after a report from an independent security researcher, it found some MiniMax requests were forwarded to MiniMax's official API instead of being processed on Novita-hosted infrastructure. A routing configuration issue meant an API forwarding path intended for specific customers applied more broadly; the affected models were suspended. Anyone who used MiniMax models through Novita (directly or via OpenRouter) between 28 May and 11 November 2026 should assume request contents may have been accessed or retained by a third party, and rotate any live credentials or secrets included in those requests. Novita says it does not retain customer prompts or outputs or use them for training, and is verifying the affected endpoints and following up with MiniMax about deletion of retained data."
   },
   {
+    "title": "OpenUI Live Replies",
+    "week": "19–26 Nov 2026",
+    "url": "https://getbb.app/marketplace/openui",
+    "sharer": "ROman",
+    "date": "22 Nov",
+    "categories": [
+      "ai-tool"
+    ],
+    "brief": "OpenUI Live Replies is a plugin for the bb coding agent that turns agent replies into dashboards, reports, plans and forms you can read at a glance and click, right in the chat. Agents write OpenUI Lang and the plugin renders it with OpenUI's React component library plus about 70 of its own components — gauges, heatmaps, timelines, kanban boards, test and coverage reports, diffs and maps. - Warning: requires BB 0.49 or later; web lookups are on by default and share your IP with OpenStreetMap, Photon, Wikipedia and Wikimedia Commons unless turned off.",
+    "id": "openui-live-replies",
+    "warning": "",
+    "details": "OpenUI Live Replies is a plugin for the bb coding agent that renders agent replies as interactive UI inside the chat thread. Agents emit OpenUI Lang programs in fenced code blocks and the plugin draws them with OpenUI's React component library plus about 70 of its own components, covering gauges, sparklines, heatmaps and funnels, timelines, calendars, roadmaps and kanban boards, trees, JSON explorers and diffs, test, lint, coverage, CI and benchmark reports, maps and small sandboxed apps. Plans, decisions, choices, quizzes and forms send the user's answer back into the thread as the next message, and components for bb itself show the thread's changed files, commits, pull request and the live status of other threads. It needs BB 0.49 or later, adds about 3,000 tokens of instructions to sessions whose replies are read, and needs no OpenUI Gateway or API key; web lookups are on by default, so Map and ImageSearch fetch from OpenStreetMap, Photon, Wikipedia and Wikimedia Commons unless turned off."
+  },
+  {
     "title": "Annnimate",
     "week": "1–8 Oct 2026",
     "url": "https://annnimate.com",
