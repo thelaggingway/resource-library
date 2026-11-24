@@ -2857,6 +2857,34 @@
     "details": "OpenUI Live Replies is a plugin for the bb coding agent that renders agent replies as interactive UI inside the chat thread. Agents emit OpenUI Lang programs in fenced code blocks and the plugin draws them with OpenUI's React component library plus about 70 of its own components, covering gauges, sparklines, heatmaps and funnels, timelines, calendars, roadmaps and kanban boards, trees, JSON explorers and diffs, test, lint, coverage, CI and benchmark reports, maps and small sandboxed apps. Plans, decisions, choices, quizzes and forms send the user's answer back into the thread as the next message, and components for bb itself show the thread's changed files, commits, pull request and the live status of other threads. It needs BB 0.49 or later, adds about 3,000 tokens of instructions to sessions whose replies are read, and needs no OpenUI Gateway or API key; web lookups are on by default, so Map and ImageSearch fetch from OpenStreetMap, Photon, Wikipedia and Wikimedia Commons unless turned off."
   },
   {
+    "title": "Unaligned",
+    "week": "providers",
+    "url": "https://unaligned.pw/pricing",
+    "sharer": "Thoor",
+    "date": "24 Nov",
+    "categories": [
+      "providers"
+    ],
+    "brief": "Unaligned is a pay-as-you-go inference provider with per-token pricing across 43 models, including uncensored GLM and DeepSeek variants alongside frontier models. There is no subscription or monthly fee — top up in crypto from $5 and call any model from the browser chat or API. - Warning: crypto-only top-ups; model names and prices are vendor-listed and unverified.",
+    "id": "unaligned",
+    "warning": "There is no subscription or monthly fee — top up in crypto from $5 and call any model from the browser chat or API. - Warning: crypto-only top-ups; model names and prices are vendor-listed and unverified.",
+    "details": "Unaligned is a pay-as-you-go inference provider that sells per-token access to 43 models with no subscription, seats or monthly fee: create an account, top up in crypto from $5 (with 5% added to the first top-up), then use the models from a browser chat or with an API key. Its pricing page lists uncensored GLM-5.3 and DeepSeek V4.1 variants alongside frontier models, with the cheapest model at $0.05 per million input tokens and most models priced between $0.05 and $2.50 per million input tokens. It is built for developers who want uncensored open-weight models without a monthly commitment, but top-ups are crypto-only and the model names and prices are vendor-listed and unverified."
+  },
+  {
+    "title": "Google AI Student",
+    "week": "providers",
+    "url": "https://one.google.com/ai-student",
+    "sharer": "Alp",
+    "date": "23 Nov",
+    "categories": [
+      "providers"
+    ],
+    "brief": "Google's student offer page for one year of Google AI Plus at no cost for eligible university students, with 2× Gemini usage limits, 400 GB of storage and Gemini Omni, plus study notebooks and a student hub. Eligibility is verified through SheerID and the offer must be redeemed by 31 December 2026. - Warning: requires a payment method at sign-up; the plan auto-charges ₹399/month after the free year unless cancelled, and the post-trial price is vendor-stated and not independently verified.",
+    "id": "google-ai-student",
+    "warning": "Eligibility is verified through SheerID and the offer must be redeemed by 31 December 2026. - Warning: requires a payment method at sign-up; the plan auto-charges ₹399/month after the free year unless cancelled, and the post-trial price is vendor-stated and not independently verified.",
+    "details": "Google AI Student is Google's offer page for one year of Google AI Plus at no cost for eligible university students aged 18 and over, verified through SheerID on a personal Google account. The plan includes 2x higher Gemini usage limits, 400 GB of cloud storage, Gemini Omni for video and image generation, and study tools including a dedicated student hub, study notebooks and interactive visualisations. The offer must be redeemed by 31 December 2026 and requires a payment method at sign-up; after the free year the plan auto-charges ₹399 per month unless cancelled, so it is best treated as a 12-month trial. (Coverage note: written from Google's student pages and press coverage — the live page requires Google sign-in and was not directly fetchable.)"
+  },
+  {
     "title": "Annnimate",
     "week": "1–8 Oct 2026",
     "url": "https://annnimate.com",

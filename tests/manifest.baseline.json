@@ -1,12 +1,12 @@
 {
  "baseline_commit": "scripts/regen.py",
  "generated_sha256": {
-  "CHANGELOG.md": "0f31932c7358185e2b251d1ee6e83c3b0a731691c9b5df424ae216c25edcc32d",
-  "data.json": "4e8997dc780643fe76d23755446aff1bee091d55943b91dac0d64b297f0b1f5c",
-  "feed.xml": "6c51e14f88b9f59cd6de525f3a3ba283fa5c9375cd0fcf02cf0949c5a44a9a59",
-  "index.html": "3be719bb4c62f366833c89c52b8a7077c4eebbd76a8f588009336a36938be488",
-  "llms.txt": "62f5316dd9262c692f17ba17985951aab46107bc137f93770d0118229ac777e2",
-  "og-image.png": "4583e3310342d6cf895a3e7795e0f91ab65edfb8b23537a7d7e620c1328fed9a",
+  "CHANGELOG.md": "41e4dff1d44bccb9a7d0c9d30bc82832d374383a8a89b0c0525e75b84dc80a85",
+  "data.json": "9f0a604b1d546b7691e809ad57389c1a792b67f3928c3b2e2f77fc9265cf9b9b",
+  "feed.xml": "4dd74945a77fc696c9e467c07cdea0d0968525037fe5822adfcfbc5d533fc941",
+  "index.html": "b1c010865f6963b010e225ba934aca0c7d27c7acd08a006d664db00883da3e10",
+  "llms.txt": "4b667a20f118279a78a8315b5795e306ad44aab3b6e3324c63c37d18c9b33b2f",
+  "og-image.png": "2c56d21d0db336208f81e5494ebdbaa3bc8a08fb5584f29d51367174ee28682c",
   "robots.txt": "b2834e28a8a876d4adf4d27806f0ac783dc0f6617aaf32dd42e9f5453a0ac56e",
   "sitemap.xml": "26be8fa7cebf4865d57b615c7110539a8cd697edeef4ad459f5abb438f86b09e",
   "weeks/2026-06-04_to_2026-06-10.md": "f17652a5eb159df59ced4eeb8cc4e1704e99ee37c8202da73c2c78fa8635de15",
@@ -34,7 +34,7 @@
   "weeks/2026-11-05_to_2026-11-12.md": "23597c08ad25e7c54582192f4826a9a976a1978985e468590b10aa9e7329f414",
   "weeks/2026-11-12_to_2026-11-19.md": "483b41305ee3af24ffd335fa9ed5ed702cc399b1f1a92def79707c8717906578",
   "weeks/2026-11-19_to_2026-11-26.md": "02049bd6d72e07b9a3355fba7f8d5e057bde2d3a2bae3c63d1b78b75e1e29c9b",
-  "weeks/providers.md": "1346f31c7e2603c10a969057dd54762369692122553eccac6e3a3e6077d7388f"
+  "weeks/providers.md": "0277a5d42385e990690439659cd2cecbc2dd8fc9c65634fffec4dc2fda527fdc"
  },
  "inventory": {
   "categories": [
@@ -45,13 +45,13 @@
    "providers",
    "web-app"
   ],
-  "https_urls": 478,
-  "nonempty_warnings": 102,
-  "providers": 148,
+  "https_urls": 480,
+  "nonempty_warnings": 104,
+  "providers": 150,
   "share_tech": 330,
-  "total": 478,
-  "unique_ids": 478,
-  "unique_urls": 478
+  "total": 480,
+  "unique_ids": 480,
+  "unique_urls": 480
  },
  "ordered_ids": [
   "railway-changelog-0309-free-vms-without-an-account",
@@ -251,6 +251,8 @@
   "a2ui",
   "wland",
   "openui-live-replies",
+  "unaligned",
+  "google-ai-student",
   "annnimate",
   "hyperiux",
   "vanta-ui",
