@@ -2885,6 +2885,35 @@
     "details": "Google AI Student is Google's offer page for one year of Google AI Plus at no cost for eligible university students aged 18 and over, verified through SheerID on a personal Google account. The plan includes 2x higher Gemini usage limits, 400 GB of cloud storage, Gemini Omni for video and image generation, and study tools including a dedicated student hub, study notebooks and interactive visualisations. The offer must be redeemed by 31 December 2026 and requires a payment method at sign-up; after the free year the plan auto-charges ₹399 per month unless cancelled, so it is best treated as a 12-month trial. (Coverage note: written from Google's student pages and press coverage — the live page requires Google sign-in and was not directly fetchable.)"
   },
   {
+    "title": "Gemini Frontend Design",
+    "week": "19–26 Nov 2026",
+    "url": "https://github.com/google-gemini/demolab",
+    "sharer": "Alp",
+    "date": "25 Nov",
+    "categories": [
+      "ai-tool",
+      "github"
+    ],
+    "brief": "An agent skill from Google's Gemini team that teaches coding agents to build fast, clean landing pages with Gemini 4 Neon, built around five anti-slop rules — full-bleed display type, at most two font families, subject-matched colour palettes, custom Nano Banana visuals, and no pill badges, eyebrow kickers or nested cards. Install it with `npx skills add https://github.com/google-gemini/demolab --skill gemini-frontend-design` and it works with any agent that supports the open Agent Skills format, including Claude Code, Cursor and Gemini CLI. - Warning: experimental skill in a Google demo lab repo, not a stable release; the repo contents may change.",
+    "id": "gemini-frontend-design",
+    "warning": "",
+    "details": "DemoLab is Google Gemini team's library of creative, frontend and experimental agent skills, and gemini-frontend-design is its first skill: a SKILL.md that steers a coding agent to design polished websites and web apps with a clear visual point of view, a first screen matched to the page's purpose, and typography, proportion, color, imagery and motion doing the work instead of decorative chrome. It was drafted to get the best out of Gemini 4 models for frontend design, and the team's evaluations found users preferred designs made with the skill 67 percent of the time over no skill and 75 percent of the time over popular third-party frontend design skills. The skill's five rules are a full-bleed hero, at most two font families with three body sizes, a subject-matched palette that avoids default beige and purple, custom Nano Banana visuals with clean contrast, and no pill badges, eyebrow kickers or nested cards. Install it with npx skills add google-gemini/demolab --skill gemini-frontend-design; it works with any agent that supports the open Agent Skills format, and the skill is Apache-2.0 licensed."
+  },
+  {
+    "title": "BlackBox Arena — DeepSeek V4.1 Flash provider comparison",
+    "week": "providers",
+    "url": "https://blackboxarena.ai/compare/deepseek-v4-1-flash-providers/",
+    "sharer": "scarywood75",
+    "date": "24 Nov",
+    "categories": [
+      "providers"
+    ],
+    "brief": "BB Arena runs every DeepSeek V4.1 Flash API provider through the same 10 black-box security labs, 40 attempts each, and publishes solve rate, timeouts, speed, tokens and cost per solve side by side — its own self-hosted setup tops the board at 55%, ahead of Morph, Parasail and DeepSeek's own API. CoralBricks Fast and Standard both solve 40%, but Fast costs $2.06 per solve against Standard's $0.76, so the table is the quickest way to check whether a cheap host is actually serving the same model. - Warning: results come from BB Arena's own harness and are a snapshot that changes as providers re-run; prices are as listed on the board, not independently verified.",
+    "id": "blackbox-arena-deepseek-v4-1-flash-provider-comparison",
+    "warning": "CoralBricks Fast and Standard both solve 40%, but Fast costs $2.06 per solve against Standard's $0.76, so the table is the quickest way to check whether a cheap host is actually serving the same model. - Warning: results come from BB Arena's own harness and are a snapshot that changes as providers re-run; prices are as listed on the board, not independently verified.",
+    "details": "BB Arena is a black-box benchmarking project that runs AI models through 100 web and API security labs with a four-rung proof ladder, and this page applies that harness to every API provider serving DeepSeek V4.1 Flash. Each provider gets the same 10 labs, 40 attempts, a 25-minute limit per attempt and max reasoning, and the board publishes solve rate, rungs reached, timeout share, speed, throughput, latency, cache behaviour, tokens, total cost and cost per solve side by side. BB Arena's own self-hosted setup (4x GB200) tops the board at 55 percent solved, ahead of Morph via OpenRouter at 50 percent and Parasail and DeepSeek's own API at 45 percent. CoralBricks Fast and Standard both solve 40 percent, but Fast costs 2.06 dollars per solve against Standard's 0.76, which is exactly the kind of gap the board exists to expose: providers that claim to serve the same model do not deliver the same result. The numbers are BB Arena's own harness results, a snapshot that changes as providers are re-run, so treat prices and rankings as current-as-listed rather than independently verified."
+  },
+  {
     "title": "Annnimate",
     "week": "1–8 Oct 2026",
     "url": "https://annnimate.com",

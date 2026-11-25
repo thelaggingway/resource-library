@@ -75,10 +75,10 @@
   "expect_top1": "deepseek-clock",
   "expect_top5": [
    "deepseek-clock",
-   "deepseek"
+   "blackbox-arena-deepseek-v4-1-flash-provider-comparison"
   ],
   "expect_none": false,
-  "note": "reviewed 2026-09-29 against 285-record catalog"
+  "note": "re-reviewed 2026-11-25 against 482-record catalog; new BlackBox Arena DeepSeek V4.1 Flash provider comparison legitimately ranks #3, pushing DeepSeek (provider) to #6 in a four-way tie at 22.21; top-1 DeepSeek clock unchanged"
  },
  {
   "query": "inference providers",
@@ -89,10 +89,10 @@
    "artificial-analysis-deepseek-v4-1-flash-providers",
    "artificial-analysis-glm-5-3-flash-providers",
    "prime-intellect-inference",
-   "pi-coralbricks-provider"
+   "blackbox-arena-deepseek-v4-1-flash-provider-comparison"
   ],
   "expect_none": false,
-  "note": "re-reviewed 2026-11-11 against 456-record catalog; abliterated-model-provider-directory (a directory of inference providers) now ranks #1, pushing artificial-analysis-mimo-v2-6-pro-providers to #6 — the new #1 is the most on-point result for this query"
+  "note": "re-reviewed 2026-11-25 against 482-record catalog; new BlackBox Arena DeepSeek V4.1 Flash provider comparison legitimately ranks #5, pushing pi-coralbricks-provider (a pi plugin) to #6"
  },
  {
   "query": "LLM gateway",
@@ -117,10 +117,10 @@
    "woxi-vs-mathematica-comparison",
    "boat",
    "artificial-analysis-mimo-v2-6-pro-providers",
-   "antseedstats"
+   "blackbox-arena-deepseek-v4-1-flash-provider-comparison"
   ],
   "expect_none": false,
-  "note": "re-reviewed 2026-10-28 against 419-record catalog; new AntSeedStats (live seller price-comparison table for AntSeed) legitimately ranks #5, shifting openai-api-pricing (single-provider pricing page) to #6"
+  "note": "re-reviewed 2026-11-25 against 482-record catalog; new BlackBox Arena board (cost per solve per provider) legitimately ranks #3, pushing AntSeedStats to #6"
  },
  {
   "query": "open source react components",
@@ -337,10 +337,10 @@
    "pi-better-skills",
    "security-audit-skill",
    "skills-emilkowalski",
-   "linus-torvalds-skill"
+   "gemini-frontend-design"
   ],
   "expect_none": false,
-  "note": "re-reviewed 2026-10-14 against 376-record catalog after the stem double-count fix (a word and its stem variants now score once). singular '-skill' agent skills (security-audit-skill, linus-torvalds-skill) no longer lose to plural titles; ui-skills drops to #6"
+  "note": "re-reviewed 2026-11-25 against 482-record catalog; new Gemini Frontend Design agent skill legitimately ranks #3, pushing linus-torvalds-skill to #6"
  },
  {
   "query": "next.js template",

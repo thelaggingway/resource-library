@@ -1,6 +1,6 @@
 # Inference providers — curated from CheapInfra #providers
 
-150 curated providers, with briefs.
+151 curated providers, with briefs.
 
 ## Isoquant
 - URL: https://isoquant.ai/
@@ -415,6 +415,12 @@
 - Shared by: Alp (23 Nov)
 - Categories: providers
 - Brief: Google's student offer page for one year of Google AI Plus at no cost for eligible university students, with 2× Gemini usage limits, 400 GB of storage and Gemini Omni, plus study notebooks and a student hub. Eligibility is verified through SheerID and the offer must be redeemed by 31 December 2026. - Warning: requires a payment method at sign-up; the plan auto-charges ₹399/month after the free year unless cancelled, and the post-trial price is vendor-stated and not independently verified.
+
+## BlackBox Arena — DeepSeek V4.1 Flash provider comparison
+- URL: https://blackboxarena.ai/compare/deepseek-v4-1-flash-providers/
+- Shared by: scarywood75 (24 Nov)
+- Categories: providers
+- Brief: BB Arena runs every DeepSeek V4.1 Flash API provider through the same 10 black-box security labs, 40 attempts each, and publishes solve rate, timeouts, speed, tokens and cost per solve side by side — its own self-hosted setup tops the board at 55%, ahead of Morph, Parasail and DeepSeek's own API. CoralBricks Fast and Standard both solve 40%, but Fast costs $2.06 per solve against Standard's $0.76, so the table is the quickest way to check whether a cheap host is actually serving the same model. - Warning: results come from BB Arena's own harness and are a snapshot that changes as providers re-run; prices are as listed on the board, not independently verified.
 
 ## Prism Inference
 - URL: https://prisminference.com/pricing
