@@ -19,12 +19,13 @@
   "technologies": [],
   "license": null,
   "open_source": null,
-  "display_period": "providers",
+  "display_period": "23–29 Jul 2026",
   "legacy_categories": [
-    "providers"
+    "ai-tool",
+    "web-app"
   ],
   "source": {
-    "channel": "providers",
+    "channel": "share-tech",
     "sharer": "thelaggingway"
   },
   "shared_on": "2026-07-27",

@@ -6,7 +6,7 @@
   "brief": "An hourly-updated benchmark site testing whether Codex Fast mode delivers on its promise of 2× speed for 2.5× the usage — a running provider comparison of Fast mode against standard. Bare link share (\"lol\"); figures are the site's own measurements.",
   "caveat": null,
   "details": "A single-purpose benchmark site that re-tests OpenAI Codex's Fast mode every hour, measuring throughput (tokens per second) and latency (time to first token) in paired normal-vs-fast runs to check whether Fast mode delivers its promised 2x speed for 2.5x the usage. Powered by \"omp bench\" (omp.sh). (Coverage note: written from the Discord embed and the site's own framing — the live page's benchmark results are JS-rendered and were not directly fetchable.)",
-  "resource_type": "service-platform",
+  "resource_type": "tool",
   "topics": [
     "inference"
   ],
@@ -19,12 +19,13 @@
   "technologies": [],
   "license": null,
   "open_source": false,
-  "display_period": "providers",
+  "display_period": "8–15 Oct 2026",
   "legacy_categories": [
-    "providers"
+    "ai-tool",
+    "web-app"
   ],
   "source": {
-    "channel": "providers",
+    "channel": "share-tech",
     "sharer": "baanish"
   },
   "shared_on": "2026-10-10",

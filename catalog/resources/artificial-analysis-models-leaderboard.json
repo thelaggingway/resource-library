@@ -19,12 +19,13 @@
   "technologies": [],
   "license": null,
   "open_source": false,
-  "display_period": "providers",
+  "display_period": "15–22 Oct 2026",
   "legacy_categories": [
-    "providers"
+    "ai-tool",
+    "web-app"
   ],
   "source": {
-    "channel": "providers",
+    "channel": "share-tech",
     "sharer": "tom App (bot)"
   },
   "shared_on": "2026-10-16",

@@ -23,13 +23,13 @@
   ],
   "license": null,
   "open_source": null,
-  "display_period": "providers",
+  "display_period": "8–15 Oct 2026",
   "legacy_categories": [
-    "github",
-    "providers"
+    "ai-tool",
+    "github"
   ],
   "source": {
-    "channel": "providers",
+    "channel": "share-tech",
     "sharer": "RAPTOR_6"
   },
   "shared_on": "2026-10-09",

@@ -1,6 +1,6 @@
 # Inference providers — curated from CheapInfra #providers
 
-149 curated providers, with briefs.
+123 curated providers, with briefs.
 
 ## Isoquant
 - URL: https://isoquant.ai/
@@ -8,23 +8,11 @@
 - Categories: providers
 - Brief: A new PAYGO inference provider launching with GLM-5.3-Flash at $0.07/$0.20 per 1M input/output tokens with automatic prompt caching; drop-in OpenAI-compatible API, no top-up fees. Its published benchmarks claim the lowest latency and highest throughput versus Together, CoreWeave, Baseten, Fireworks, and Z.ai. Pricing and benchmark figures are vendor-reported and not independently verified.
 
-## PrimaLabs: MiMo-V2.6-Pro speed benchmark
-- URL: https://www.primalabs.ai/blog/mimo-v2-6-pro-faster-output
-- Shared by: Felix (1 Oct)
-- Categories: providers
-- Brief: PrimaLabs benchmarks MiMo-V2.6-Pro on its serverless platform at 407 output tokens/sec (vs Xiaomi's 45 at 10k input tokens), priced at $0.43 in / $0.87 out per million tokens with $0.0036 cache. Speed and pricing figures come from PrimaLabs' post (measured by Artificial Analysis, 24 Sep 2026) and are not independently verified.
-
 ## Bitdeer AI Cloud model pricing
 - URL: https://www.bitdeer.ai/en/pricing/ai-models
 - Shared by: Felix (1 Oct)
 - Categories: providers
 - Brief: Bitdeer AI Cloud's inference pricing page for hosted open-source and enterprise AI models, shared citing GLM-5.3-Flash at $0.075 in / $0.25 out per million tokens ($0.015 cached input) with ~200 tokens/sec. Pricing and throughput figures come from the vendor and are not independently verified.
-
-## Artificial Analysis: GLM-5.3 Flash providers
-- URL: https://artificialanalysis.ai/models/glm-5-3-flash/providers
-- Shared by: Felix (1 Oct)
-- Categories: providers
-- Brief: Artificial Analysis' provider comparison page for GLM-5.3-Flash: which inference providers serve it, at what price and speed. Handy when shopping for the cheapest or fastest GLM-5.3-Flash endpoint.
 
 ## Aoru
 - URL: https://aoru.ai/pricing
@@ -44,12 +32,6 @@
 - Categories: providers
 - Brief: Flat-rate coding-inference provider with predictable 30-day plans — Coder $0.99, Starter $4.99, Pro $19.99, Hacker $100, up to Small Business $490 — each a prepaid credit allowance against per-token metered pricing, plus an off-peak JSONL batch path at 50% off PAYG. thelaggingway shared it "still to be evaluated", so treat all of this as unevaluated marketing until checked. Conversations are not used for training unless you opt into their Research Program.
 
-## Artificial Analysis: MiMo-V2.6-Pro providers
-- URL: https://artificialanalysis.ai/models/mimo-v2-6-pro/providers
-- Shared by: nixerman (3 Oct)
-- Categories: providers
-- Brief: Artificial Analysis's provider benchmarking page for Xiaomi's MiMo-V2.6-Pro — compares API providers (Xiaomi, DeepInfra, PrimaLabs, Novita per the link embed) on latency (time to first token), output speed and price. A third-party comparison in the same per-model series as the published GLM-5.3-Flash page; treat the figures as benchmark snapshots, not live prices.
-
 ## Avian — pricing
 - URL: https://avian.io/pricing/
 - Shared by: scarywood75 (5 Oct)
@@ -62,30 +44,6 @@
 - Categories: providers
 - Brief: PrimaLabs' homepage — a dedicated inference stack for open models; nixerman reports "very fast and cheap Mimo-V2.6-Pro (and deepseek-v4-flash fyi)" and calls it "really the best provider". Performance claims are the sharer's, not verified; distinct from the published PrimaLabs blog benchmark and Artificial Analysis entries.
 
-## Kendell: Verifiable Inference
-- URL: https://kendell.dev/blog/verifiableinference/
-- Shared by: harrisony (4 Oct)
-- Categories: providers, article
-- Brief: Kendell's blog post on verifiable inference, shared link-only. Technical claims are vendor-reported.
-
-## Kendell: "crofai is false"
-- URL: https://kendell.dev/blog/crofaifalse/
-- Shared by: harrisony (4 Oct)
-- Categories: providers, article
-- Brief: A Kendell blog post arguing CrofAI is an OpenRouter wrapper ("I am hella late but omg 🍿", per harrisony). The wrapper claim is the author's allegation, not independently verified.
-
-## SemiAnalysis: Anthropic Subscriptions Offer 5x+ More Value Than OpenAI
-- URL: https://newsletter.semianalysis.com/p/anthropic-subscriptions-offer-5x
-- Shared by: baanish (6 Oct)
-- Categories: providers, article
-- Brief: SemiAnalysis newsletter piece "limit testing every AI subscription plan from Anthropic, OpenAI, Meta, SpaceXSI, MiniMax, Moonshot" and concluding Anthropic subscriptions offer 5x+ more value than OpenAI's. A third-party provider comparison; treat the figures as a benchmark snapshot.
-
-## Tibo's 28-day challenge | Codex Resets
-- URL: https://codex-resets.com/tibo-28
-- Shared by: ajthemacboy (5 Oct)
-- Categories: providers, web-app
-- Brief: Codex Resets' tracker page for Tibo's 28-day challenge — "an improvement or a reset, every day", following the announcements one at a time. Complements the Tibo announcement tweet shared the same night; challenge-progress claims are as reported on the page.
-
 ## Kourier
 - URL: https://kourier.sh/
 - Shared by: simply_roo (6 Oct)
@@ -97,24 +55,6 @@
 - Shared by: Felix (6 Oct)
 - Categories: providers
 - Brief: Tiered Kimi K3 inference (Base/Fast/Ultra) billed per million tokens, serving full-precision open weights on every tier; the Ultra tier claims 250–1000 tokens/sec per user. OpenAI-compatible endpoints with prompt caching on by default; speed figures are vendor-reported.
-
-## Artificial Analysis: DeepSeek V4.1 Flash providers
-- URL: https://artificialanalysis.ai/models/deepseek-v4-1-flash/providers
-- Shared by: Felix (6 Oct)
-- Categories: providers
-- Brief: Artificial Analysis' live provider comparison for DeepSeek V4.1 Flash across 21 API providers — pricing, output speed, latency and cache behaviour side by side, with LithosAI's Ultra Chat tier currently fastest and DeepInfra cheapest. A benchmark snapshot; figures shift as providers are re-tested. (Shared URL carried a `?pricing-comparisons=` view parameter; recorded without it, matching the existing AA entries.)
-
-## OpenDesign
-- URL: https://open-design.ai/pricing/
-- Shared by: 𒄷𒈦🍐ꀷꌅꑀꈜꌚ ꋖꊿ ꀷꂑꑀ (tag 桃桃物语) (7 Oct)
-- Categories: providers
-- Brief: A zero-config design agent whose subscription bundles model credits — plans from $8 to $120/month include an OpenDesign API key that calls both Design Plan models and a roster of hosted models (DeepSeek V4/V4.1 Flash, Kimi K2.7 Code, GPT-6 Luna, MiMo V2.6 Pro/Flash, GLM-5.3 Flash) with a per-model usage table. Useful as a provider listing for those models. Pricing figures are vendor-reported.
-
-## Claude: Monthly API credits for Max and Team plans
-- URL: https://support.claude.com/en/articles/17154008-monthly-api-credits-for-max-and-team-plans
-- Shared by: baanish (7 Oct)
-- Categories: providers, article
-- Brief: Extracted from @claudedevs' 7 Oct announcement tweet (tweets are never dropped for being announcements): Anthropic's help article on the monthly Claude Platform API credits rolling out to Max and Team subscribers — $100/month on Max 5x, $200 on Max 20x, up to $500 pooled on Team, claimed into a linked Console org. Covers any Claude model including the Agent SDK, but not interactive Claude Code usage. Eligibility details may shift as the rollout completes.
 
 ## OpenRouter: Claude Haiku 5.5
 - URL: https://openrouter.ai/anthropic/claude-haiku-5.5
@@ -140,18 +80,6 @@
 - Categories: providers
 - Brief: Neuralwatt Cloud's model page for Xiaomi's MiMo-V2.6-Pro (1M context, sparse MoE) — $0.87/$1.74 per million in/out tokens, a 35%-off Flex tier, live latency/throughput stats, per-request energy figures, and OpenAI-compatible API examples. Model-specific page under the already-published Neuralwatt provider entry. Pricing and performance figures are live and will shift.
 
-## plexus
-- URL: https://github.com/mcowger/plexus
-- Shared by: RAPTOR_6 (9 Oct)
-- Categories: github, providers
-- Brief: A unified API gateway for multiple AI providers (OpenAI, Anthropic, Gemini, etc.) — switch models and providers behind one API. RAPTOR_6 reports it supports OAuth for Claude Pro or Max accounts; that claim is the sharer's, unverified.
-
-## pi-anthropic-auth
-- URL: https://github.com/gotgenes/pi-anthropic-auth
-- Shared by: Aspiring UBI Recipient (9 Oct)
-- Categories: github, dev-tool
-- Brief: A Pi extension package adding Anthropic OAuth compatibility, so Pi can run on Claude OAuth credentials. The sharer calls it "very safe"; that assessment is their opinion, not a security audit.
-
 ## Augure AI
 - URL: https://augureai.ca/pricing
 - Shared by: scarywood75 (9 Oct)
@@ -163,12 +91,6 @@
 - Shared by: nixerman (8 Oct)
 - Categories: providers
 - Brief: StepFun's Step-5-Preview model page — 1M-token context, $1/$2.70 per million in/out tokens, a sparse-MoE flagship (27B active / 600B total) positioned for agentic work. nixerman flags the pricing as steep for this tier; pricing is live and will shift.
-
-## Does Fast Mode Do Anything?
-- URL: https://doesfastdoanything.com/
-- Shared by: baanish (10 Oct)
-- Categories: providers
-- Brief: An hourly-updated benchmark site testing whether Codex Fast mode delivers on its promise of 2× speed for 2.5× the usage — a running provider comparison of Fast mode against standard. Bare link share ("lol"); figures are the site's own measurements.
 
 ## SubQ
 - URL: https://subq.ai/
@@ -194,12 +116,6 @@
 - Categories: providers
 - Brief: An inference provider for open models behind one OpenAI-compatible endpoint — currently serving DeepSeek V4.1 Flash at 200+ tokens per second, with input priced at $0.06 per M tokens (advertised as 50% off the typical $0.12). Pay-as-you-go with no seats or minimums, autoscaling from a single request to millions, and chat request bodies never written to disk.
 
-## Models.dev — OpenCode provider page
-- URL: https://models.dev/providers/opencode/
-- Shared by: scarywood75 (14 Oct)
-- Categories: providers
-- Brief: A directory of the 124 models available through OpenCode's inference endpoint (opencode.ai/inference/v1), with per-model pricing, context windows, and capability flags plus the @ai-sdk/openai-compatible SDK package. Useful for comparing what OpenCode serves and what each model costs there.
-
 ## Flovia
 - URL: https://flovia.dev
 - Shared by: baanish (15 Oct)
@@ -217,12 +133,6 @@
 - Shared by: asx (15 Oct)
 - Categories: providers
 - Brief: Xiaomi's official Token Plan pricing docs for its MiMo models (mimo-v2.6-pro/flash plus ASR/TTS): individual plans run $6–$100/month and team plans are per-seat, with token-to-credit conversion tables and an off-peak (00:00–08:00 Beijing) discount. Useful for pricing MiMo inference inside coding tools like OpenCode or Claude Code.
-
-## Artificial Analysis: Models leaderboard
-- URL: https://artificialanalysis.ai/leaderboards/models
-- Shared by: tom App (bot) (16 Oct)
-- Categories: providers
-- Brief: Artificial Analysis's flagship LLM leaderboard comparing 250+ models across intelligence, price, output speed, latency, and context window, with per-model provider links. Shared alongside an agent-benchmark cost/score rundown (e.g. MiMo-V2.6-Pro at $0.13/task as "top open weights") — the natural starting point for model and provider selection.
 
 ## XPLabs (Experiential)
 - URL: https://platform.xplabs.ai
@@ -266,24 +176,6 @@
 - Categories: providers
 - Brief: Piramyd Cloud is a flat-rate unified model API for coding agents: one monthly price buys unlimited tokens across 59 frontier models (Claude, GPT, Gemini, DeepSeek, Kimi and more) through OpenAI- and Anthropic-compatible endpoints, set up via npx piramyd without touching existing agent configs. Plans run $30/month (Solo, about 2 agents) to $90/month (Scale, about 10 agents), with throughput capped by requests per minute rather than tokens.
 
-## DeepSeek Platform API vs OpenCode Go — 4-round comparison
-- URL: https://x.com/nothingto12/status/2113847685664940481
-- Shared by: ROman (24 Oct)
-- Categories: providers
-- Brief: Naz's four-round head-to-head (same prompt, same DSH harness, DeepSeek-v4.1-Flash-1017) finds DeepSeek's official API ahead on output quality every round, faster, and never timing out, while OpenCode Go timed out repeatedly — yet concludes OpenCode Go's $10-for-$80 value may still be worth it for most users and for personal-assistant use. Per-round results are shown in an attached comparison image rather than a linked page.
-
-## DeepSeek Benchmarks — DeepSeek API vs OpenCode Go vs CommandCode GOAT
-- URL: https://nazzysar.github.io/deepseek-benchmarks/
-- Shared by: ROman (25 Oct)
-- Categories: providers
-- Brief: Naz's demo archive for a three-way comparison of the same challenge across DeepSeek Platform, OpenCode Go and CommandCode GOAT: pick a round and step into each contender's original demo result. It extends the earlier DeepSeek-vs-OpenCode Go head-to-head with a third contender and a browsable archive of the demos.
-
-## AntSeedStats
-- URL: https://antseedstats.com/models
-- Shared by: 0xSaiya (27 Oct)
-- Categories: providers
-- Brief: AntSeedStats is third-party analytics for AntSeed, the peer-to-peer AI-inference marketplace on Base, listing every model sold on the marketplace with seller counts and input/output prices per million tokens. The models table compares live seller offers side by side, including a savings figure against direct prices, with tracked usage totals.
-
 ## Ollama
 - URL: https://ollama.com/pricing
 - Shared by: plainskill (28 Oct)
@@ -313,12 +205,6 @@
 - Shared by: Aspiring UBI Recipient (31 Oct)
 - Categories: providers
 - Brief: luoluoAI is a multi-model API gateway offering GPT, Claude, and Grok through one OpenAI-compatible endpoint, with familiar SDKs, a console for keys, balance, and usage, and pay-as-you-go top-ups via Stripe. It advertises up to 90% off list prices on its model plaza.
-
-## Abliterated Model Provider Directory
-- URL: https://abliteratusdirectory.pages.dev/
-- Shared by: Felix (3 Nov)
-- Categories: providers
-- Brief: A directory indexing 19 API providers serving abliterated and uncensored frontier models, with prices, rails, KYC requirements, and cyber scores for each. Useful as a comparison starting point for uncensored-model access.
 
 ## Autoloops
 - URL: https://autoloops.ai/
@@ -356,12 +242,6 @@
 - Categories: providers
 - Brief: OpenGateway is a unified LLM gateway — one OpenAI-compatible endpoint for models from OpenAI, Anthropic, Google, DeepSeek, Z.ai, Moonshot AI, and more, with automatic retries, failover chains, live request inspection, and team keys with prepaid credits and spend caps. Shared via its model pages for DeepSeek V4.1 Flash Eco and Ultrafast, two serving routes of the already-listed DeepSeek V4.1 Flash.
 
-## Agent 37
-- URL: https://www.agent37.com/
-- Shared by: ROman (11 Nov)
-- Categories: providers
-- Brief: Agent 37 is a Y Combinator-backed cloud sandbox for AI agents, claiming 94% lower cost than most sandbox providers with per-minute billing and a $5 starter credit. Host a ready-made harness (Claude Code, Codex, OpenCode, Hermes, OpenClaw) or bring your own, with per-customer isolation via gVisor, persistent disk, auto-sleep, and SOC 2 Type I.
-
 ## Deploy
 - URL: https://deploy.com/
 - Shared by: ROman (12 Nov)
@@ -391,12 +271,6 @@
 - Shared by: ROman (18 Nov)
 - Categories: providers
 - Brief: Alysis Code is a coding agent for desktop and CLI that runs on your choice of 16 models — DeepSeek V4.1 Flash, GLM 5.3, GPT-6 Luna, Claude Haiku 5.5 and more — on credit plans, or free with your own API key or a local model. Every account starts with 50 free credits; paid plans run from Beta to Pro with more credits, more models and cloud compute hours.
-
-## Metaphor
-- URL: https://withmetaphor.com/pricing
-- Shared by: ROman (18 Nov)
-- Categories: providers
-- Brief: Metaphor is a cloud coding agent that runs coding work on its Metacloud with open models included and frontier models from OpenAI and Anthropic on paid plans. The Hacker plan is $4.80/month with 6,000 Metacloud minutes and the Pro plan is $20/month with up to 60,000 minutes, while the free tier is shown as temporarily paused.
 
 ## Nous Portal
 - URL: https://portal.nousresearch.com/
@@ -482,12 +356,6 @@
 - Categories: providers
 - Brief: Inference provider at crof.ai; public evidence is thin (snippet-based). Third-party substitution allegations seen during research are unverified and not repeated here.
 
-## Real API Pricing
-- URL: https://github.com/FeiZhuLulu/real-api-pricing
-- Shared by: JohnDotOwl (11 Sep)
-- Categories: providers
-- Brief: GitHub repo behind the real-api-pricing comparison of actual inference API prices. Its web app is already in this library's web-apps section; this is the distinct source repo.
-
 ## OpenCode Go
 - URL: https://opencode.ai/go
 - Shared by: UT (10 Sep)
@@ -499,12 +367,6 @@
 - Shared by: uur (10 Sep)
 - Categories: providers
 - Brief: A unified AI gateway routing to DeepSeek, Kimi, GLM, and 300+ models through one endpoint, with smart routing by cost, speed, quality, or availability, built-in failover, and usage analytics; it also sells reserved GPU-lane capacity from $0.20/hr for dedicated inference and is currently offering 100% bonus credits on recharges up to $1,000. A forwarded announcement noted DeepSeek-V4.1-Flash going live on the platform. The homepage publishes no per-token price list, and the bonus-credit promo terms are vendor-published.
-
-## DeepSeek clock
-- URL: https://deepakness.com/deepseek/
-- Shared by: Alp (10 Sep)
-- Categories: providers
-- Brief: Personal utility page showing DeepSeek's live peak/off-peak status in local time with both models' prices either way. Rates match the official docs.
 
 ## Token Harbor
 - URL: https://tokenharbor.ai/pricing
@@ -686,12 +548,6 @@
 - Categories: providers
 - Brief: Inference provider; its DeepSeek V4 Flash $0.13/M input price was corroborated. A "1.8¢/M blended" figure seen in chatter is not a list price.
 
-## Freebuff
-- URL: https://freebuff.com/
-- Shared by: Rykuuun (14 Aug)
-- Categories: providers
-- Brief: Free, ad-supported coding agent (CLI, desktop, web, cloud, chat) powered by open models like DeepSeek V4 Pro/Flash and MiniMax M3. Explicit no-training stance — it doesn't share data with third parties that would train on it.
-
 ## GripHubRouter
 - URL: https://griphubrouter.com/
 - Shared by: Febryan (14 Aug)
@@ -800,12 +656,6 @@
 - Categories: providers
 - Brief: Flat-rate unlimited time-block subscriptions — Core pool from $22/mo per 8-hour daily block, Frontier $71/mo, Flagship $199/mo. Prompts and completions are processed in memory and discarded, never used for training.
 
-## PrivacyWatch
-- URL: https://privacywatch.wyrdwerk.com/
-- Shared by: thelaggingway (31 Jul)
-- Categories: providers
-- Brief: Open-source comparison of 86+ provider families (97 surfaces) on training, retention, zero-retention and data location, quoting each provider's own ToS and privacy docs. Maintained by the same crew as this library.
-
 ## OpenAI API pricing
 - URL: https://platform.openai.com/docs/pricing
 - Shared by: simply soy (31 Jul)
@@ -865,12 +715,6 @@
 - Shared by: Alp (27 Jul)
 - Categories: providers
 - Brief: Charm's coding-optimized inference for its Crush agent community: a free tier with 100 Hypercredits per month, a $20/month subscription with 250 Hypercredits refreshing daily, and prepaid bundles ($5–$20) that never expire — one Hypercredit currently maps to 5¢ of token spend. It ships with team governance features (master/sub keys, per-model and per-user usage reports) and advertises zero data retention with GDPR compliance. The zero-data-retention and GDPR claims are vendor-stated and not independently audited or verified.
-
-## TokenWatch
-- URL: https://tokenwatch.wyrdwerk.com/
-- Shared by: thelaggingway (27 Jul)
-- Categories: providers
-- Brief: Live price comparison across inference providers, maintained by the same crew as this library. The sharer noted a Hyper subscription yields $12.50 of inference a day.
 
 ## Zyloo
 - URL: https://zyloo.io/subscription

@@ -6,7 +6,7 @@
   "brief": "GPU cloud with serverless inference APIs and dedicated endpoints; lists H100 at $2/GPU-hour and H200 at $2.60/GPU-hour.",
   "caveat": null,
   "details": null,
-  "resource_type": "service-platform",
+  "resource_type": "provider",
   "topics": [
     "cloud-infrastructure",
     "inference"

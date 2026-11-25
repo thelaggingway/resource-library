@@ -19,12 +19,13 @@
   "technologies": [],
   "license": null,
   "open_source": null,
-  "display_period": "providers",
+  "display_period": "10–17 Sep 2026",
   "legacy_categories": [
-    "providers"
+    "ai-tool",
+    "web-app"
   ],
   "source": {
-    "channel": "providers",
+    "channel": "share-tech",
     "sharer": "Alp"
   },
   "shared_on": "2026-09-10",

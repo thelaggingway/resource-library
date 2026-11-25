@@ -1,13 +1,13 @@
 {
   "resource_type": {
-    "repository": 125,
-    "provider": 122,
-    "article-guide": 67,
-    "tool": 63,
-    "library-framework": 38,
-    "directory-gallery": 30,
-    "service-platform": 29,
-    "documentation": 5,
+    "repository": 126,
+    "provider": 123,
+    "article-guide": 69,
+    "tool": 65,
+    "library-framework": 39,
+    "directory-gallery": 33,
+    "service-platform": 22,
+    "documentation": 2,
     "dataset": 1,
     "template-starter": 1,
     "other": 0
@@ -83,8 +83,8 @@
     "zed": 0
   },
   "channel": {
-    "share-tech": 332,
-    "providers": 149
+    "share-tech": 358,
+    "providers": 123
   },
   "open_source": {
     "true": 58,
