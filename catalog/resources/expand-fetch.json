@@ -3,8 +3,8 @@
   "id": "expand-fetch",
   "title": "Expand Fetch",
   "canonical_url": "https://expand.ai/blog/announcing-expand-fetch",
-  "brief": "An API for agents to read the web without losing detail: two in-house models (Iris for structure-preserving Markdown, X-Ray for hidden JSON) plus Wayback Machine snapshots and query-scoped Highlights, all in one fetch call. Built for research agents that misread pages — $1 per 1,000 fetches, usable today. - Warning: Benchmark and adoption claims (MDBench, \"engineers at OpenAI and Amazon\") are vendor-reported.",
-  "caveat": null,
+  "brief": "An API for agents to read the web without losing detail: two in-house models (Iris for structure-preserving Markdown, X-Ray for hidden JSON) plus Wayback Machine snapshots and query-scoped Highlights, all in one fetch call. Built for research agents that misread pages — $1 per 1,000 fetches, usable today.",
+  "caveat": "Benchmark and adoption claims (MDBench, \"engineers at OpenAI and Amazon\") are vendor-reported.",
   "details": "Expand Fetch is a web-fetching API built for AI agents, from the applied research lab Expand. It combines two in-house models — Iris, which converts rendered pages into structure-preserving Markdown (keeping tables, icons like check marks, and column positions that naive converters drop), and X-Ray, which extracts useful hidden JSON a page loads (prices, ratings, coordinates) while filtering out analytics and config — with full-page Wayback Machine snapshots for citable provenance and Highlights, a query-scoped mode that returns only the passages answering a question (claimed 95%+ token savings). Pages render in a real browser with JavaScript, residential proxies, and bot protection handled. Pricing is $1 per 1,000 fetches with enterprise volume discounts; Crawl extends Fetch across whole sites and WebSync streams detected changes. Caveats: the MDBench benchmark (1,094 questions) is kept private and vendor-built; adoption claims such as \"engineers at OpenAI and Amazon Science\" are unverified.",
   "resource_type": "service-platform",
   "topics": [

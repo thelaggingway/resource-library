@@ -53,6 +53,7 @@ message `tests/test_schemas.py` asserts on). Everything else is stdlib.
 |------|------|
 | `notes/*.md` | **Source of truth.** Hand-written curated research notes, one file per collection batch: `week-*.md` (weekly backfill), `daily-<date>.md` (daily runs), `manual-<date>-*.md` (user-requested adds), `providers.md` (#providers backfill). Edit these to change site content. |
 | `notes/details-*.md` | Details sidecars: long-form breakdowns keyed by record id, merged into `details` at build time. Not collection batches (no `## Week:` sections). |
+| `docs/curation-policy.md` | **Canonical curation rulebook.** Keep/drop rules (including promo/wrapper resolution), channel vs. classification separation, URL normalization, classification matrix, and PR review hygiene. **Read before curating.** |
 | `raw/*.md` | Append-only provenance: every link-bearing message found per collection run, unfiltered. **Never edit or delete.** |
 | `scripts/regen.py` | One-shot rebuild of everything derived: `build.py` → `migrate.py` (classification exported from the catalog, plus `--classification new.json` for new ids) → `api_build.py` → `validate_catalog.py` → refresh `tests/manifest.baseline.json`. **Hand-written.** |
 | `scripts/sync_main.py` | Merges `main` into the current branch, resolves generated-file conflicts by rebuilding (never hand-merging), verifies the id set, commits. Run by `.github/workflows/sync-prs.yml`. **Hand-written.** |
@@ -98,6 +99,7 @@ Each file is one collection batch. Sections assign entries to weeks:
 - Posted by: username, 14 Aug 12:00 IST
 - Category: ai-tool, github
 - Brief: Two sentences, tops. What it is and why it's useful.
+- Warning: Optional caveat, unverified vendor claim, or experimental status.
 ```
 
 `notes/providers.md` uses a single `## Providers` section for the original
@@ -130,25 +132,21 @@ claims as unverified. Ids with no fetchable page are simply omitted.
 
 ## Filter policy
 
-**Keep:** AI tools, general tools, useful websites/webpages, GitHub repositories, and (from #providers) inference providers and provider comparisons — things a developer would actually use.
-**Drop:** hype-only posts, exact duplicates, content with no usable resource (videos, memes), links with no context that can't be classified. **Models and model weights are dropped** (Yash's 2026-11-14 rule): Hugging Face model repos, GGUF/FP8/MLX or other quantized/converted builds, fine-tunes, open-weights announcements, and model launch or docs pages for a single model (e.g. a vendor's "Qwen4-Max-Preview" page). Still keep inference providers (including a provider's pricing page for a model), tools, apps, benchmarks/leaderboards, datasets, and articles *about* models. **Announcement tweets are never dropped for being announcements** — extract every outbound link inside the tweet and evaluate each link individually as a resource (Yash's 2026-10-04 rule); attribute each added resource to the tweet's Discord sharer.
-**Briefs:** ~2 sentences. Descriptions come from message text and embed previews — links are *not* opened during collection. Flag unverified claims from announcement posts as unverified.
+> **Mandatory:** Before curating, normalizing, or classifying any link, you **MUST** read and strictly follow [docs/curation-policy.md](docs/curation-policy.md). Where any summary below is brief, `docs/curation-policy.md` is authoritative.
 
-## Category taxonomy (fixed set)
+**Keep:** Developer tools, AI tools, useful websites/webpages, GitHub repositories, and actual inference/API providers — classified strictly by **what the resource is**, never by which Discord channel it was posted in.
+**Drop:** Hype-only posts, exact duplicates, videos/memes/GIFs, login-walled or geo-gated pages with no public info, conversational/non-reusable shares, time-bound vendor notices, promos/student deals (unless the underlying tool/provider is new and qualifies at its clean evergreen URL), subpages of already-published resources, and **models and model weights** (2026-11-14 rule). **Announcement tweets are never dropped just for being announcements** — extract every outbound link and evaluate each individually (2026-10-04 rule); see `docs/curation-policy.md` §1 for the full checklist and wrapper rules.
+**Briefs & Warnings:** ~2 sentences in `- Brief:`, with caveats/unverified claims placed in a dedicated `- Warning:` bullet.
+
+## Category taxonomy
+
+Current active site categories:
 
 `ai-tool` · `dev-tool` · `github` · `web-app` · `article` · `providers`
 
-Use one or two per resource. `providers` is for inference providers and
-provider-comparison/analysis resources (the #providers channel). Do not invent
-new categories without discussion — the site's filter chips and colors are
-keyed to this set.
+Use one or two per resource. `providers` (and `## Providers` / `resource_type: provider`) is reserved **exclusively** for actual inference/API providers — not provider-comparison benchmarks, leaderboards, or articles shared in `#providers`. New taxonomy values belong in `catalog/taxonomy/*.json`; new site-level categories are also allowed when genuinely justified for a recurring class of resources, following `docs/curation-policy.md` §4C.
 
-API facets are additive, never a replacement: `catalog/taxonomy/` holds separate
-controlled vocabularies (resource-types, topics, use-cases, interfaces,
-technologies, synonyms), so a resource can be a GitHub repo *and* an AI tool
-*and* a dev tool without touching the six legacy labels. New classification
-vocabulary goes in `catalog/taxonomy/*.json`; the six categories above stay
-frozen.
+API facets (`catalog/taxonomy/`) complement the site categories with controlled vocabularies (`resource-types`, `topics`, `use-cases`, `interfaces`, `technologies`, `synonyms`); see `docs/curation-policy.md` §4B for the classification decision matrix.
 
 ## The boundary-date rule (important)
 
@@ -159,6 +157,10 @@ Discord's `after:`/`before:` search filters **exclude** the boundary dates. A se
 
 ## Daily runs
 
+Before running a daily sweep, **read and strictly follow `docs/curation-policy.md`**
+for keep/drop, URL normalization, section placement (`## Providers` vs `## Week:`),
+classification, and PR review-table requirements.
+
 Since 2026-09-26 a scheduled run collects both channels incrementally at
 08:00 IST: `in:#share-tech has:link after:<D-2>` and
 `in:#providers has:link after:<D-2>` (`after:` excludes its date, so this
@@ -166,7 +168,8 @@ re-covers yesterday by design; dedupe against published entries handles
 repeats). Each run writes `raw/daily-<YYYY-MM-DD>.md` and
 `notes/daily-<YYYY-MM-DD>.md` (a header noting sweep counts and newest
 message covered, `## Week:` / `## Fold into week:` / `## Providers` sections,
-and `## Dropped (and why)`), and runs the full pipeline below.
+and `## Dropped (and why)`), and runs the full pipeline below. Include the
+required resource summary table from `docs/curation-policy.md` §5 in the PR body.
 
 **One rolling daily PR (since 2026-10-12).** Parallel per-day PRs kept
 conflicting and deduped only against the published site, so daily runs share

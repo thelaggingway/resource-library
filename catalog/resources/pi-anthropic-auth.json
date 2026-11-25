@@ -4,7 +4,7 @@
   "title": "pi-anthropic-auth",
   "canonical_url": "https://github.com/gotgenes/pi-anthropic-auth",
   "brief": "A Pi extension package adding Anthropic OAuth compatibility, so Pi can run on Claude OAuth credentials. The sharer calls it \"very safe\"; that assessment is their opinion, not a security audit.",
-  "caveat": null,
+  "caveat": "Routes Anthropic OAuth credentials through a community extension — check Anthropic's current policy on OAuth-token use in third-party tools.",
   "details": "pi-anthropic-auth is a Pi extension package that adds Anthropic OAuth compatibility, letting the Pi coding agent run on Anthropic OAuth credentials. The repo carries an MIT license with about 354 stars and 31 forks. The sharer describes it as \"very safe\", but that is one user's opinion, not a security audit — routing OAuth tokens through community extensions is subject to Anthropic's usage policy, so verify the current terms before use.",
   "resource_type": "repository",
   "topics": [

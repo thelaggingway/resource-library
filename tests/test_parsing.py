@@ -86,6 +86,26 @@ class TestParseNotes(unittest.TestCase):
         # entries without URL are skipped
         self.assertTrue(all(r.get("url") for r in recs))
 
+    def test_explicit_warning_field(self):
+        import tempfile
+        md = (
+            "## Week: 1–7 Jan 2026\n\n"
+            "### Warned Tool\n"
+            "- URL: https://example.com/tool\n"
+            "- Posted by: tester1, 3 Jan 12:00 IST\n"
+            "- Category: ai-tool\n"
+            "- Brief: First sentence. Second sentence.\n"
+            "- Warning: first line caveat\n"
+            "  continued caveat.\n"
+        )
+        with tempfile.TemporaryDirectory() as td:
+            p = Path(td) / "sample.md"
+            p.write_text(md, encoding="utf-8")
+            recs = build.parse_notes(p)
+        self.assertEqual(len(recs), 1)
+        self.assertEqual(recs[0]["brief"], "First sentence. Second sentence.")
+        self.assertEqual(recs[0]["_explicit_warn"], "first line caveat continued caveat.")
+
 
 if __name__ == "__main__":
     unittest.main()

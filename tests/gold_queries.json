@@ -85,14 +85,14 @@
   "filters": {},
   "expect_top1": null,
   "expect_top5": [
-   "abliterated-model-provider-directory",
+   "artificial-analysis-mimo-v2-6-pro-providers",
    "artificial-analysis-deepseek-v4-1-flash-providers",
    "artificial-analysis-glm-5-3-flash-providers",
    "prime-intellect-inference",
    "pi-coralbricks-provider"
   ],
   "expect_none": false,
-  "note": "re-reviewed 2026-11-11 against 456-record catalog; abliterated-model-provider-directory (a directory of inference providers) now ranks #1, pushing artificial-analysis-mimo-v2-6-pro-providers to #6 — the new #1 is the most on-point result for this query"
+  "note": "re-reviewed 2026-11-25 against 481-record catalog after fixing - Warning: parsing in build.py; moving caveat text out of brief removed inflated 'provider' tokens from abliterated-model-provider-directory, so artificial-analysis-mimo-v2-6-pro-providers legitimately enters top 5"
  },
  {
   "query": "LLM gateway",
@@ -117,10 +117,10 @@
    "woxi-vs-mathematica-comparison",
    "boat",
    "artificial-analysis-mimo-v2-6-pro-providers",
-   "antseedstats"
+   "botperch"
   ],
   "expect_none": false,
-  "note": "re-reviewed 2026-10-28 against 419-record catalog; new AntSeedStats (live seller price-comparison table for AntSeed) legitimately ranks #5, shifting openai-api-pricing (single-provider pricing page) to #6"
+  "note": "re-reviewed 2026-11-25 against 481-record catalog after fixing - Warning: parsing in build.py; moving caveat text out of brief removed inflated 'prices' tokens from antseedstats, so botperch (29-provider hosting and model cost guide) legitimately enters top 5"
  },
  {
   "query": "open source react components",
@@ -240,10 +240,10 @@
    "open-inference",
    "pareto-inference",
    "prism-inference",
-   "engy"
+   "inco"
   ],
   "expect_none": false,
-  "note": "re-reviewed 2026-11-01 against 435-record catalog; Prime Intellect Inference and new Open Inference (both genuine inference providers) now lead, shifting inco out of the top 5"
+  "note": "re-reviewed 2026-11-25 against 481-record catalog after fixing - Warning: parsing in build.py; moving caveat text out of brief removed 'verified inference' caveat text from engy's brief, so inco legitimately enters top 5"
  },
  {
   "query": "tutorial",
