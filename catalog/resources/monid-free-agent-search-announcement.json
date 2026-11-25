@@ -1,12 +1,12 @@
 {
   "schema_version": "1.0",
   "id": "monid-free-agent-search-announcement",
-  "title": "Monid free agent search (announcement)",
-  "canonical_url": "https://x.com/MonidHQ/status/2100705843453079718",
-  "brief": "Announcement of a free agent search/fetch API — \"killed Exa, Tavily and Brave\", $0 with no quotas, from Tiny_Fish and MonidHQ. The pricing claims are the poster's and unverified; this link is the announcement, not documentation.",
-  "caveat": "The pricing claims are the poster's and unverified; this link is the announcement, not documentation.",
+  "title": "Monid",
+  "canonical_url": "https://monid.ai/",
+  "brief": "Monid (\"OpenRouter for agent tools\") offers an agent search and fetch API alongside unified tool access, pitched by TinyFish and MonidHQ as a zero-quota-fee alternative to Exa, Tavily, and Brave.",
+  "caveat": "\"$0 with no quotas\" and comparison claims against Exa, Tavily, and Brave are vendor-reported and unverified.",
   "details": "An X announcement from MonidHQ (shared by Rykuuun) for a free agent search/fetch API from TinyFish and Monid, framed by the poster as a \"$0 with no quotas\" alternative to Exa, Tavily, and Brave — those pricing claims are the poster's, not verified. Context: Monid is an \"OpenRouter for agent tools\" platform where agents discover, inspect, and run 1,800+ APIs through one connection (MCP server, skill, CLI, or HTTP API); TinyFish is its zero-cost live-web search and multi-URL fetch provider (browser-rendered, never cached, deterministic). A companion npm plugin (hermes-monid-websearch) routes a Hermes agent's web_search/web_extract calls through it. X.com is not directly fetchable from this environment, so treat the announcement's claims as unverified; the link is the announcement, not documentation.",
-  "resource_type": "article-guide",
+  "resource_type": "service-platform",
   "topics": [
     "ai-agents"
   ],
@@ -14,6 +14,7 @@
     "learn-technique"
   ],
   "interfaces": [
+    "api",
     "web"
   ],
   "technologies": [],
@@ -21,7 +22,8 @@
   "open_source": null,
   "display_period": "17–24 Sep 2026",
   "legacy_categories": [
-    "ai-tool"
+    "ai-tool",
+    "dev-tool"
   ],
   "source": {
     "channel": "share-tech",

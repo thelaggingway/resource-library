@@ -89,10 +89,10 @@
    "artificial-analysis-deepseek-v4-1-flash-providers",
    "artificial-analysis-glm-5-3-flash-providers",
    "prime-intellect-inference",
-   "pi-coralbricks-provider"
+   "fast-inference"
   ],
   "expect_none": false,
-  "note": "re-reviewed 2026-11-25 against 481-record catalog after fixing - Warning: parsing in build.py; moving caveat text out of brief removed inflated 'provider' tokens from abliterated-model-provider-directory, so artificial-analysis-mimo-v2-6-pro-providers legitimately enters top 5"
+  "note": "re-reviewed 2026-11-25 against 475-record catalog after PR B cleanup; fast-inference (genuine inference provider) legitimately enters #5, pushing pi-coralbricks-provider (an npm plugin) to #6"
  },
  {
   "query": "LLM gateway",
@@ -113,14 +113,14 @@
   "filters": {},
   "expect_top1": null,
   "expect_top5": [
-   "deepseek-platform-api-vs-opencode-go-4-round-comparison",
    "woxi-vs-mathematica-comparison",
    "boat",
    "artificial-analysis-mimo-v2-6-pro-providers",
-   "botperch"
+   "botperch",
+   "openai-api-pricing"
   ],
   "expect_none": false,
-  "note": "re-reviewed 2026-11-25 against 481-record catalog after fixing - Warning: parsing in build.py; moving caveat text out of brief removed inflated 'prices' tokens from antseedstats, so botperch (29-provider hosting and model cost guide) legitimately enters top 5"
+  "note": "re-reviewed 2026-11-25 against 475-record catalog after PR B cleanup; deepseek-platform-api-vs-opencode-go-4-round-comparison (image-only X post) was dropped, and openai-api-pricing enters top 5"
  },
  {
   "query": "open source react components",

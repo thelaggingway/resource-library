@@ -1,12 +1,12 @@
 {
   "schema_version": "1.0",
   "id": "pi-arm64-exec-announcement",
-  "title": "pi-arm64-exec (announcement)",
-  "canonical_url": "https://x.com/aliceisplaying/status/2097387613086683232",
-  "brief": "A pi extension giving the agent exactly one tool — doing file read/edit work in arm64 assembly — to stop Astra shelling out to python3, ruby and perl for file ops. Announcement; the actual link was promised in a follow-up tweet.",
-  "caveat": null,
+  "title": "pi-arm64-exec",
+  "canonical_url": "https://github.com/aliceisjustplaying/pi-arm64-exec",
+  "brief": "A Pi extension that restricts the agent to a single `arm64_exec` tool — compiling and running native Apple Silicon ARM64 assembly via `xcrun clang` — to stop Astra shelling out to python3, ruby, and perl for file ops.",
+  "caveat": "runs compiled ARM64 assembly natively on macOS with libc access and no sandbox.",
   "details": "An X announcement of pi-arm64-exec, a Pi extension that gives the agent exactly one tool — doing file read/edit work in arm64 assembly — to stop the Astra model shelling out to python3, ruby, and perl for file operations. The idea: give the agent a single fast native tool for file ops instead of letting it reach for interpreted languages. The link is the announcement; the actual repo link was promised in a follow-up tweet, so treat this as a pointer rather than a usable resource. (x.com is not directly fetchable from this environment; the breakdown reflects the announcement's subject as curated.)",
-  "resource_type": "article-guide",
+  "resource_type": "repository",
   "topics": [
     "ai-agents",
     "developer-tools"
@@ -23,7 +23,7 @@
   "display_period": "3–10 Sep 2026",
   "legacy_categories": [
     "dev-tool",
-    "ai-tool"
+    "github"
   ],
   "source": {
     "channel": "share-tech",

@@ -1,25 +1,30 @@
 {
   "schema_version": "1.0",
   "id": "arrow-2-announcement",
-  "title": "Arrow 2 (announcement)",
-  "canonical_url": "https://x.com/QuiverAI/status/2100295136261349802",
-  "brief": "QuiverAI's Arrow 2 — their latest models for generating precise, editable vector graphics. Announcement only; a notable data point in AI vector-graphics generation.",
-  "caveat": "Announcement only; a notable data point in AI vector-graphics generation.",
+  "title": "QuiverAI (Arrow 2)",
+  "canonical_url": "https://quiver.ai/",
+  "brief": "QuiverAI's platform and API powering Arrow 2 for generating and editing clean, layered SVG vector graphics and animations from text prompts or reference images, with web canvas, SDK, and MCP integrations.",
+  "caveat": null,
   "details": "An X announcement from QuiverAI for Arrow 2 — their latest models for generating precise, editable vector graphics, a notable data point in AI vector-graphics generation where editability (not just raster output) is the hard part. The link is the announcement, not documentation or a model card. (x.com is not directly fetchable from this environment; the breakdown reflects the announcement's subject as curated.)",
-  "resource_type": "article-guide",
+  "resource_type": "service-platform",
   "topics": [
     "design"
   ],
   "use_cases": [
     "learn-technique"
   ],
-  "interfaces": [],
+  "interfaces": [
+    "web",
+    "api",
+    "mcp"
+  ],
   "technologies": [],
   "license": null,
   "open_source": null,
   "display_period": "17–24 Sep 2026",
   "legacy_categories": [
-    "ai-tool"
+    "ai-tool",
+    "web-app"
   ],
   "source": {
     "channel": "share-tech",
