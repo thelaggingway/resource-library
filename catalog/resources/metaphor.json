@@ -3,8 +3,8 @@
   "id": "metaphor",
   "title": "Metaphor",
   "canonical_url": "https://withmetaphor.com/pricing",
-  "brief": "Metaphor is a cloud coding agent that runs coding work on its Metacloud with open models included and frontier models from OpenAI and Anthropic on paid plans. The Hacker plan is $4.80/month with 6,000 Metacloud minutes and the Pro plan is $20/month with up to 60,000 minutes, while the free tier is shown as temporarily paused. - Warning: The free tier is shown as temporarily paused on the pricing page, so the free entry point is currently unavailable.",
-  "caveat": null,
+  "brief": "Metaphor is a cloud coding agent that runs coding work on its Metacloud with open models included and frontier models from OpenAI and Anthropic on paid plans. The Hacker plan is $4.80/month with 6,000 Metacloud minutes and the Pro plan is $20/month with up to 60,000 minutes, while the free tier is shown as temporarily paused.",
+  "caveat": "The free tier is shown as temporarily paused on the pricing page, so the free entry point is currently unavailable.",
   "details": "Metaphor is a cloud coding agent: you start coding tasks in a cloud workspace and the agent works through them while you review each change line by line, edit files in a built-in editor, and run commands in a dedicated terminal. It pitches itself as the most cost-efficient cloud coding agent, claiming to run about 30 percent cheaper than Codex and Claude Code with around 95 percent cache token consumption and a 93.7 percent cache hit rate; those cost figures are vendor-reported and unverified. Pricing is subscription-based on Metacloud minutes: the Hacker plan is $4.80 a month with 6,000 minutes and the Pro plan is $20 a month with up to 60,000 minutes, while the free tier is shown as temporarily paused. A mobile app is coming soon and Linux support is waitlisted.",
   "resource_type": "service-platform",
   "topics": [

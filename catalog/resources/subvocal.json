@@ -3,8 +3,8 @@
   "id": "subvocal",
   "title": "Subvocal",
   "canonical_url": "https://subvocal.company",
-  "brief": "Subvocal is a pair of smart glasses from The Subvocal Company that turns silently mouthed speech into text at the speed of voice, so you can type without a keyboard or speaking aloud. The YC Fall 2026 startup says its prototypes reach over 200 words per minute and is taking US reservations for a Q1 2027 ship date. - Warning: the 200-words-per-minute figure is the company's own prototype claim and has not been independently verified; early-bird price is $499 with a refundable $199 deposit, the rest due later.",
-  "caveat": null,
+  "brief": "Subvocal is a pair of smart glasses from The Subvocal Company that turns silently mouthed speech into text at the speed of voice, so you can type without a keyboard or speaking aloud. The YC Fall 2026 startup says its prototypes reach over 200 words per minute and is taking US reservations for a Q1 2027 ship date.",
+  "caveat": "the 200-words-per-minute figure is the company's own prototype claim and has not been independently verified; early-bird price is $499 with a refundable $199 deposit, the rest due later.",
   "details": "Subvocal is a pair of smart glasses from The Subvocal Company that decodes deliberate silent mouthing into text at a claimed 200+ words per minute, letting you type, message, take notes or talk to AI assistants without speaking aloud or touching a keyboard. It uses muscle-sensing hardware rather than cameras or lip reading, needs no webcam, and is designed as a general input method that works in the apps you already use — ChatGPT, Claude, Cursor, Slack, email and documents — including dictating to coding agents next to coworkers. The YC Fall 2026 startup raised $1.3M from Y Combinator and Afore Capital, is taking US reservations at a $499 early-bird price with a refundable $199 deposit, and expects shipping to begin in Q1 2027. The 200+ WPM figure is the company's own prototype claim and has not been independently verified, and first-time setup involves a short personal calibration.",
   "resource_type": "tool",
   "topics": [

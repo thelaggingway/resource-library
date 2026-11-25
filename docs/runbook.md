@@ -191,9 +191,10 @@ rollback always moves functions and catalog together.
    read, so the record is typed as what the user gets, not the
    announced product. If the library later prefers product-typing,
    ~8 records need retagging (listed in the Phase 3 review notes).
-3. **Model weights are `dataset`.** Hugging Face weight artifacts type
-   as `dataset` ("model weights" is in that type's definition), not
-   `tool`. Consistent across all 5 weight records.
+3. **Model weights (superseded 2026-11-14).** Historically, 5 Hugging
+   Face weight entries were typed as `dataset`. Since 2026-11-14 (and per
+   `docs/curation-policy.md`), models and model weights are dropped; the
+   historical records remain only until the retroactive catalog cleanup.
 4. **`open_source: true` requires the literal string** "open-source" /
    "open source" in the brief. "MIT-licensed", "Apache 2.0", and "open
    weights" stay `null` — license is never inferred.

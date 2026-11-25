@@ -3,8 +3,8 @@
   "id": "wland",
   "title": "wland",
   "canonical_url": "https://github.com/pithings/wland",
-  "brief": "wland is an open-source Wayland compositor that runs entirely in the browser, written in Zig and compiled to WebAssembly at roughly 65 kB gzipped. It composites Wayland apps at up to 120 FPS with pixel-perfect Retina rendering, so native Linux GUI apps can run inside a web page with no server. - Warning: announced 21 Nov 2026 — very early project, expect rough edges.",
-  "caveat": "It composites Wayland apps at up to 120 FPS with pixel-perfect Retina rendering, so native Linux GUI apps can run inside a web page with no server. - Warning: announced 21 Nov 2026 — very early project, expect rough edges.",
+  "brief": "wland is an open-source Wayland compositor that runs entirely in the browser, written in Zig and compiled to WebAssembly at roughly 65 kB gzipped. It composites Wayland apps at up to 120 FPS with pixel-perfect Retina rendering, so native Linux GUI apps can run inside a web page with no server.",
+  "caveat": "announced 21 Nov 2026 — very early project, expect rough edges.",
   "details": "wland is a Wayland compositor compiled to WebAssembly (about 65 kB gzipped) that runs in a browser tab. Unmodified Wayland apps — foot, Nautilus, Chromium, even X11 apps via xwayland-satellite — talk the real wire protocol to a small relay (wlandr) on a Linux host, VM or container, which streams them over WebSocket or vsock to the compositor; typing, menus, clipboard, drag and drop, HiDPI and window controls all work, at up to 120 FPS on a Retina MacBook. A Docker demo image runs Chromium and a file manager in the page, and an npx CLI serves your own machine's apps. Note it is brand-new, announced 21 Nov 2026, so expect rough edges — the README lists known limits.",
   "resource_type": "repository",
   "topics": [

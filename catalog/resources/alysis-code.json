@@ -3,8 +3,8 @@
   "id": "alysis-code",
   "title": "Alysis Code",
   "canonical_url": "https://alysiscode.com/pricing",
-  "brief": "Alysis Code is a coding agent for desktop and CLI that runs on your choice of 16 models — DeepSeek V4.1 Flash, GLM 5.3, GPT-6 Luna, Claude Haiku 5.5 and more — on credit plans, or free with your own API key or a local model. Every account starts with 50 free credits; paid plans run from Beta to Pro with more credits, more models and cloud compute hours. - Warning: The pricing page showed plan prices as temporarily unavailable at collection, so the plan figures are unconfirmed.",
-  "caveat": null,
+  "brief": "Alysis Code is a coding agent for desktop and CLI that runs on your choice of 16 models — DeepSeek V4.1 Flash, GLM 5.3, GPT-6 Luna, Claude Haiku 5.5 and more — on credit plans, or free with your own API key or a local model. Every account starts with 50 free credits; paid plans run from Beta to Pro with more credits, more models and cloud compute hours.",
+  "caveat": "The pricing page showed plan prices as temporarily unavailable at collection, so the plan figures are unconfirmed.",
   "details": "Alysis Code is a coding agent for desktop and CLI, built on an open-source engine, that runs on your choice of 16 models — including DeepSeek V4.1 Flash, GLM 5.3, GPT-6 Luna, Claude Haiku 5.5, Kimi K3 and Claude Sonnet 5.5 — either on Alysis credits or free with your own API key or a local model. Every account gets 50 free credits (up to $0.50 of usage) on 4 small, fast models; paid plans add more — Beta 100 credits on 7 models, Alpha 500 credits on 12 models including larger ones plus 50 cloud credits, Pro 1,500 credits on all 16 models plus 200 cloud credits — with cloud computers billed at 25 credits per running hour. Credits renew every 30 days and unused credits expire; requests pause when credits run out unless you switch to your own key or a local model. Note: the pricing page showed plan prices as temporarily unavailable when collected, so the plan figures are unconfirmed.",
   "resource_type": "provider",
   "topics": [

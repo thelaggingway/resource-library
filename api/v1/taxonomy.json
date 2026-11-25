@@ -68,7 +68,7 @@
           "inference-provider",
           "api-provider"
         ],
-        "definition": "An inference or API provider, or a comparison of providers.",
+        "definition": "An inference or API provider where developers can run models or access model APIs.",
         "label": "Provider",
         "status": "active"
       },

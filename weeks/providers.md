@@ -174,25 +174,25 @@
 - URL: https://subq.ai/
 - Shared by: ajthemacboy (12 Oct)
 - Categories: providers
-- Brief: Inference API from Subquadratic for "SubQ Snap", a multimodal long-context decision model (up to 384K context) aimed at agentic workflows — routing, ranking, classifying, yes/no calls — at a fraction of frontier cost, with free 100M tokens for the first 10,000 users. Built on a proprietary Subquadratic Sparse Attention architecture rather than transformers. - Warning: Data retention is indefinite by default; zero-data-retention is available only via email request (per their docs, surfaced by Alp). Community members also noted the homepage no longer features the company's earlier LLM (Tom: "it's qwen") — the offering appears to have pivoted, so verify what's actually on offer. Benchmark and pricing claims are vendor-reported.
+- Brief: Inference API from Subquadratic for "SubQ Snap", a multimodal long-context decision model (up to 384K context) aimed at agentic workflows — routing, ranking, classifying, yes/no calls — at a fraction of frontier cost, with free 100M tokens for the first 10,000 users. Built on a proprietary Subquadratic Sparse Attention architecture rather than transformers.
 
 ## Prime Intellect Inference
 - URL: https://www.primeintellect.ai/
 - Shared by: scarywood75 (14 Oct)
 - Categories: providers
-- Brief: Prime Intellect's serverless inference offering — hosted models run on their own infrastructure plus an Inference Gateway to third-party models, all behind one OpenAI-compatible API. Per the channel their routing "isn't half bad"; the company is the same team behind the Prime Agent RL framework already in the library. - Warning: The shared link was a login-walled dashboard deep link; the public homepage above documents the inference offering. Pricing claims are vendor-reported.
+- Brief: Prime Intellect's serverless inference offering — hosted models run on their own infrastructure plus an Inference Gateway to third-party models, all behind one OpenAI-compatible API. Per the channel their routing "isn't half bad"; the company is the same team behind the Prime Agent RL framework already in the library.
 
 ## Experiential Labs
 - URL: https://www.experientiallabs.ai/pricing
 - Shared by: one_phantomic (14 Oct)
 - Categories: providers
-- Brief: An inference gateway routing every provider through one OpenAI-compatible endpoint at 0% token markup — credits are the single billing unit, with budgets, model allowlists, and per-token attribution built in. Pro at $20/mo advertises "unlimited" DeepSeek V4.1 Flash, GPT-6 Luna, Claude Haiku 5.5, and Jev — but only for the plan's first 2,000 credits each month, then list price. - Warning: The "unlimited" wording was challenged in-channel ("I smell bull"); pricing and discount claims are vendor-reported.
+- Brief: An inference gateway routing every provider through one OpenAI-compatible endpoint at 0% token markup — credits are the single billing unit, with budgets, model allowlists, and per-token attribution built in. Pro at $20/mo advertises "unlimited" DeepSeek V4.1 Flash, GPT-6 Luna, Claude Haiku 5.5, and Jev — but only for the plan's first 2,000 credits each month, then list price.
 
 ## OpenScale
 - URL: https://app.openscale.so/
 - Shared by: thelaggingway (15 Oct)
 - Categories: providers
-- Brief: An inference provider for open models behind one OpenAI-compatible endpoint — currently serving DeepSeek V4.1 Flash at 200+ tokens per second, with input priced at $0.06 per M tokens (advertised as 50% off the typical $0.12). Pay-as-you-go with no seats or minimums, autoscaling from a single request to millions, and chat request bodies never written to disk. - Warning: Pricing and "cheapest & fastest" claims are vendor-reported; only DeepSeek models were on offer at share time.
+- Brief: An inference provider for open models behind one OpenAI-compatible endpoint — currently serving DeepSeek V4.1 Flash at 200+ tokens per second, with input priced at $0.06 per M tokens (advertised as 50% off the typical $0.12). Pay-as-you-go with no seats or minimums, autoscaling from a single request to millions, and chat request bodies never written to disk.
 
 ## Models.dev — OpenCode provider page
 - URL: https://models.dev/providers/opencode/
@@ -204,19 +204,19 @@
 - URL: https://flovia.dev
 - Shared by: baanish (15 Oct)
 - Categories: providers
-- Brief: "Costco for your API spend": a group-buying pool that aggregates demand from individuals and startups, buys top-tier API plans in bulk, and covers the cost so members use premium APIs (including AI inference) without enterprise-sized commitments. Early access via waitlist with your X account. - Warning: Early-access waitlist; "free" means within per-API credit and usage limits; savings claims are vendor-reported.
+- Brief: "Costco for your API spend": a group-buying pool that aggregates demand from individuals and startups, buys top-tier API plans in bulk, and covers the cost so members use premium APIs (including AI inference) without enterprise-sized commitments. Early access via waitlist with your X account.
 
 ## Vercel Token Pass
 - URL: https://vercel.com/changelog/introducing-token-pass
 - Shared by: baanish (16 Oct)
 - Categories: providers
-- Brief: Vercel's $30/month Token Pass subscription (early access for Pro teams) gives $80 in monthly inference credit for GLM 5.3 and Kimi K3 through the Vercel AI Gateway, with zero data retention on by default. Useful for running coding agents like fx, Command Code, or Pi on a shared team token budget — credit doesn't roll over and there are no overage charges. - Warning: Pricing, model lineup, and early-access terms are vendor-reported; verify current terms before budgeting.
+- Brief: Vercel's $30/month Token Pass subscription (early access for Pro teams) gives $80 in monthly inference credit for GLM 5.3 and Kimi K3 through the Vercel AI Gateway, with zero data retention on by default. Useful for running coding agents like fx, Command Code, or Pi on a shared team token budget — credit doesn't roll over and there are no overage charges.
 
 ## Xiaomi MiMo Token Plan
 - URL: https://mimo.mi.com/docs/en-US/price/token-plan
 - Shared by: asx (15 Oct)
 - Categories: providers
-- Brief: Xiaomi's official Token Plan pricing docs for its MiMo models (mimo-v2.6-pro/flash plus ASR/TTS): individual plans run $6–$100/month and team plans are per-seat, with token-to-credit conversion tables and an off-peak (00:00–08:00 Beijing) discount. Useful for pricing MiMo inference inside coding tools like OpenCode or Claude Code. - Warning: Pricing and conversion rates are vendor-reported; mimo-v2.5 models are retired 21 Oct 2026 per the same page.
+- Brief: Xiaomi's official Token Plan pricing docs for its MiMo models (mimo-v2.6-pro/flash plus ASR/TTS): individual plans run $6–$100/month and team plans are per-seat, with token-to-credit conversion tables and an off-peak (00:00–08:00 Beijing) discount. Useful for pricing MiMo inference inside coding tools like OpenCode or Claude Code.
 
 ## Artificial Analysis: Models leaderboard
 - URL: https://artificialanalysis.ai/leaderboards/models
@@ -228,97 +228,97 @@
 - URL: https://platform.xplabs.ai
 - Shared by: nixerman (17 Oct)
 - Categories: providers
-- Brief: XPLabs (Experiential) is a small inference provider with published per-token prices for models including DeepSeek V4.1 Flash, GLM 5.3, Kimi K3, and Claude/GPT-6 variants. The share announced a free uncensored DeepSeek V4.1 Flash tier (~41M TPM shared, ~403 TPS peak) — worth a look for free or discounted access to recent open-weight models. - Warning: the free tier was announced by an individual as "free until someone stops me" — an ephemeral offer with no service guarantee; pricing and availability are vendor claims, unverified.
+- Brief: XPLabs (Experiential) is a small inference provider with published per-token prices for models including DeepSeek V4.1 Flash, GLM 5.3, Kimi K3, and Claude/GPT-6 variants. The share announced a free uncensored DeepSeek V4.1 Flash tier (~41M TPM shared, ~403 TPS peak) — worth a look for free or discounted access to recent open-weight models.
 
 ## Engy
 - URL: https://engy.ai/
 - Shared by: Felix (18 Oct)
 - Categories: providers
-- Brief: Engy is a "verified inference" provider serving frontier open-weight models — DeepSeek V4.1 Flash, GLM 5.3/5.2, Kimi K3, Qwen3.x, MiniMax-H3 — over an OpenAI-compatible API, advertising cryptographic proof of correct inference and zero data retention. Its pricing table undercuts official API prices by up to 90% on a 3:1 input/output blend. - Warning: pricing, discount percentages, and the "verified inference" claim are vendor-published and unverified.
+- Brief: Engy is a "verified inference" provider serving frontier open-weight models — DeepSeek V4.1 Flash, GLM 5.3/5.2, Kimi K3, Qwen3.x, MiniMax-H3 — over an OpenAI-compatible API, advertising cryptographic proof of correct inference and zero data retention. Its pricing table undercuts official API prices by up to 90% on a 3:1 input/output blend.
 
 ## Refuseless
 - URL: https://refuseless.com/pricing
 - Shared by: ROman (19 Oct)
 - Categories: providers
-- Brief: Refuseless is an inference provider serving "abliterated" models — GLM 5.3 Abliterated, GLM 5.3 Flash Abliterated, Qwen3.8 Flash Next Abliterated, and DeepSeek V4.1 Flash Abliterated (refusal behavior removed from the weights) — plus the vendor-original non-abliterated DeepSeek V4.1 Flash, over an OpenAI-compatible /v1/chat/completions API with per-token USD pricing (cards and crypto accepted for top-ups). - Warning: pricing is vendor-published and unverified; "abliterated" (refusal-removed) models are uncensored by design — evaluate accordingly.
+- Brief: Refuseless is an inference provider serving "abliterated" models — GLM 5.3 Abliterated, GLM 5.3 Flash Abliterated, Qwen3.8 Flash Next Abliterated, and DeepSeek V4.1 Flash Abliterated (refusal behavior removed from the weights) — plus the vendor-original non-abliterated DeepSeek V4.1 Flash, over an OpenAI-compatible /v1/chat/completions API with per-token USD pricing (cards and crypto accepted for top-ups).
 
 ## BlackBox AI
 - URL: https://www.blackbox.ai/models/blackboxai/deepseek/deepseek-v4.1-flash-fast
 - Shared by: Felix (19 Oct)
 - Categories: providers
-- Brief: BlackBox AI's secure-inference platform serves DeepSeek V4.1 Flash Fast — a higher-throughput variant for coding, reasoning, and agentic workloads — at $0.60 input / $2.40 output per 1M tokens with a 1M context window, advertising zero data retention, a model router, and dedicated deployments. - Warning: pricing, throughput, and zero-data-retention claims are vendor-published, unverified.
+- Brief: BlackBox AI's secure-inference platform serves DeepSeek V4.1 Flash Fast — a higher-throughput variant for coding, reasoning, and agentic workloads — at $0.60 input / $2.40 output per 1M tokens with a 1M context window, advertising zero data retention, a model router, and dedicated deployments.
 
 ## Baseten
 - URL: https://www.baseten.co/library/deepseek-v41-flash-fast/
 - Shared by: Felix (19 Oct)
 - Categories: providers
-- Brief: Baseten's model API serves DeepSeek V4.1 Flash Fast — a speed-optimized DeepSeek MoE (552B-parameter backbone, 8B/16B active per token) with a 1M context window and multimodal input — at $0.60 input / $2.40 output per 1M tokens, callable through an OpenAI-compatible client, with OpenAI commitment credits usable on open models. - Warning: pricing and performance claims are vendor-published, unverified.
+- Brief: Baseten's model API serves DeepSeek V4.1 Flash Fast — a speed-optimized DeepSeek MoE (552B-parameter backbone, 8B/16B active per token) with a 1M context window and multimodal input — at $0.60 input / $2.40 output per 1M tokens, callable through an OpenAI-compatible client, with OpenAI commitment credits usable on open models.
 
 ## Wally
 - URL: https://www.runwally.com/
 - Shared by: nixerman (23 Oct)
 - Categories: providers
-- Brief: Wally is RunAnywhere's cloud inference product: an OpenAI-compatible API serving frontier open models (GLM-5.3 Flash, DeepSeek V4.1 Flash, MiMo V2.6 Pro), with cloud and local as explicit choices and zero data retention on prompt/completion bodies. Pricing lives in the console behind sign-in. - Warning: nixerman's "faster than primalabs" performance claim is unverified; pricing requires console sign-in.
+- Brief: Wally is RunAnywhere's cloud inference product: an OpenAI-compatible API serving frontier open models (GLM-5.3 Flash, DeepSeek V4.1 Flash, MiMo V2.6 Pro), with cloud and local as explicit choices and zero data retention on prompt/completion bodies. Pricing lives in the console behind sign-in.
 
 ## Piramyd Cloud
 - URL: https://piramyd.cloud/
 - Shared by: Aspiring UBI Recipient (25 Oct)
 - Categories: providers
-- Brief: Piramyd Cloud is a flat-rate unified model API for coding agents: one monthly price buys unlimited tokens across 59 frontier models (Claude, GPT, Gemini, DeepSeek, Kimi and more) through OpenAI- and Anthropic-compatible endpoints, set up via npx piramyd without touching existing agent configs. Plans run $30/month (Solo, about 2 agents) to $90/month (Scale, about 10 agents), with throughput capped by requests per minute rather than tokens. - Warning: "unlimited" is the vendor's marketing — the binding limit is requests per minute, and the 3-day Solo trial requires a card; no independent verification of sustained throughput.
+- Brief: Piramyd Cloud is a flat-rate unified model API for coding agents: one monthly price buys unlimited tokens across 59 frontier models (Claude, GPT, Gemini, DeepSeek, Kimi and more) through OpenAI- and Anthropic-compatible endpoints, set up via npx piramyd without touching existing agent configs. Plans run $30/month (Solo, about 2 agents) to $90/month (Scale, about 10 agents), with throughput capped by requests per minute rather than tokens.
 
 ## DeepSeek Platform API vs OpenCode Go — 4-round comparison
 - URL: https://x.com/nothingto12/status/2113847685664940481
 - Shared by: ROman (24 Oct)
 - Categories: providers
-- Brief: Naz's four-round head-to-head (same prompt, same DSH harness, DeepSeek-v4.1-Flash-1017) finds DeepSeek's official API ahead on output quality every round, faster, and never timing out, while OpenCode Go timed out repeatedly — yet concludes OpenCode Go's $10-for-$80 value may still be worth it for most users and for personal-assistant use. Per-round results are shown in an attached comparison image rather than a linked page. - Warning: subjective single-user verdict on non-deterministic runs; quality judgments are not reproducible and the author notes results may differ between people.
+- Brief: Naz's four-round head-to-head (same prompt, same DSH harness, DeepSeek-v4.1-Flash-1017) finds DeepSeek's official API ahead on output quality every round, faster, and never timing out, while OpenCode Go timed out repeatedly — yet concludes OpenCode Go's $10-for-$80 value may still be worth it for most users and for personal-assistant use. Per-round results are shown in an attached comparison image rather than a linked page.
 
 ## DeepSeek Benchmarks — DeepSeek API vs OpenCode Go vs CommandCode GOAT
 - URL: https://nazzysar.github.io/deepseek-benchmarks/
 - Shared by: ROman (25 Oct)
 - Categories: providers
-- Brief: Naz's demo archive for a three-way comparison of the same challenge across DeepSeek Platform, OpenCode Go and CommandCode GOAT: pick a round and step into each contender's original demo result. It extends the earlier DeepSeek-vs-OpenCode Go head-to-head with a third contender and a browsable archive of the demos. - Warning: single-user, non-deterministic demo runs; results are the author's own and are not reproducible benchmarks.
+- Brief: Naz's demo archive for a three-way comparison of the same challenge across DeepSeek Platform, OpenCode Go and CommandCode GOAT: pick a round and step into each contender's original demo result. It extends the earlier DeepSeek-vs-OpenCode Go head-to-head with a third contender and a browsable archive of the demos.
 
 ## AntSeedStats
 - URL: https://antseedstats.com/models
 - Shared by: 0xSaiya (27 Oct)
 - Categories: providers
-- Brief: AntSeedStats is third-party analytics for AntSeed, the peer-to-peer AI-inference marketplace on Base, listing every model sold on the marketplace with seller counts and input/output prices per million tokens. The models table compares live seller offers side by side, including a savings figure against direct prices, with tracked usage totals. - Warning: prices and savings are advertised catalog figures from the site's DHT crawl, not verified per-purchase usage; the page itself notes the catalog is advertised, not per-purchase usage.
+- Brief: AntSeedStats is third-party analytics for AntSeed, the peer-to-peer AI-inference marketplace on Base, listing every model sold on the marketplace with seller counts and input/output prices per million tokens. The models table compares live seller offers side by side, including a savings figure against direct prices, with tracked usage totals.
 
 ## Ollama
 - URL: https://ollama.com/pricing
 - Shared by: plainskill (28 Oct)
 - Categories: providers
-- Brief: Ollama's pricing page compares its cloud plans for running open models without local hardware: pay-as-you-go per-token billing, plus Pro, Max, Team and Enterprise tiers with monthly usage credits, concurrency limits and model access controls. Running models on the user's own hardware stays unlimited, and the table lists per-million-token input, cached-input and output prices for each cloud model. - Warning: prices and credit amounts are the site's own figures at collection time; verify current pricing before comparing providers.
+- Brief: Ollama's pricing page compares its cloud plans for running open models without local hardware: pay-as-you-go per-token billing, plus Pro, Max, Team and Enterprise tiers with monthly usage credits, concurrency limits and model access controls. Running models on the user's own hardware stays unlimited, and the table lists per-million-token input, cached-input and output prices for each cloud model.
 
 ## APIKEY.FAN
 - URL: https://apikey.fun/pricing
 - Shared by: t (29 Oct)
 - Categories: providers
-- Brief: APIKEY.FAN is a third-party AI gateway selling access to Claude, ChatGPT, Gemini, Grok, Zhipu, Kimi, DeepSeek and more at a fraction of official prices — Claude at 15% of official rates on the pricing page, via shared group multipliers — with a client that connects Codex in one click. It presents itself as enterprise-quota routing behind standard endpoints, so existing SDKs and tools point at it with only an endpoint and key change, and balances never expire. - Warning: unofficial third-party reseller — the discount and "zero ban risk" claims are the site's own and unverified, and the sharer asked whether anyone had heard of it, so there is no in-channel endorsement. Resold access can breach the underlying providers' terms; verify legitimacy before sending it work or payment details.
+- Brief: APIKEY.FAN is a third-party AI gateway selling access to Claude, ChatGPT, Gemini, Grok, Zhipu, Kimi, DeepSeek and more at a fraction of official prices — Claude at 15% of official rates on the pricing page, via shared group multipliers — with a client that connects Codex in one click. It presents itself as enterprise-quota routing behind standard endpoints, so existing SDKs and tools point at it with only an endpoint and key change, and balances never expire.
 
 ## Open Inference
 - URL: https://www.openinference.ai/
 - Shared by: Felix (1 Nov)
 - Categories: providers
-- Brief: Open Inference reshapes open models to run fast on any accelerator, reworking how attention is organized, how context is selected, and how weights are stored, instead of only optimizing for GPUs. Its models are listed on OpenRouter, and the team says it shares the engineering as it goes. - Warning: early community reports are mixed — one_phantomic in the thread said "These guys aren't great from what I hear" and linked a Reddit thread about erratic output from its models; those reports are unverified, and the site itself lists no pricing.
+- Brief: Open Inference reshapes open models to run fast on any accelerator, reworking how attention is organized, how context is selected, and how weights are stored, instead of only optimizing for GPUs. Its models are listed on OpenRouter, and the team says it shares the engineering as it goes.
 
 ## CodeFast
 - URL: https://www.codefast.app/
 - Shared by: one_phantomic (1 Nov)
 - Categories: providers
-- Brief: CodeFast is a Turkish AI API platform selling packaged access to Claude, GPT, Gemini, Grok, GLM, Kimi, and open-source models from a single panel, with balance tracking, API keys, usage limits, and card or crypto payment. It also covers image and video generation models and Codex, Claude Code, and OpenCode-style coding tools. - Warning: a third-party reseller, not a first-party provider — the sharer's "allegedly unlimited DeepSeek for stupid cheap" claim is unverified, and the site is in Turkish.
+- Brief: CodeFast is a Turkish AI API platform selling packaged access to Claude, GPT, Gemini, Grok, GLM, Kimi, and open-source models from a single panel, with balance tracking, API keys, usage limits, and card or crypto payment. It also covers image and video generation models and Codex, Claude Code, and OpenCode-style coding tools.
 
 ## luoluoAI
 - URL: https://luoluocoder.com/
 - Shared by: Aspiring UBI Recipient (31 Oct)
 - Categories: providers
-- Brief: luoluoAI is a multi-model API gateway offering GPT, Claude, and Grok through one OpenAI-compatible endpoint, with familiar SDKs, a console for keys, balance, and usage, and pay-as-you-go top-ups via Stripe. It advertises up to 90% off list prices on its model plaza. - Warning: the discount figures are the vendor's own and unverified; plainskill in the thread called the pricing "crap", so community reception is mixed.
+- Brief: luoluoAI is a multi-model API gateway offering GPT, Claude, and Grok through one OpenAI-compatible endpoint, with familiar SDKs, a console for keys, balance, and usage, and pay-as-you-go top-ups via Stripe. It advertises up to 90% off list prices on its model plaza.
 
 ## Abliterated Model Provider Directory
 - URL: https://abliteratusdirectory.pages.dev/
 - Shared by: Felix (3 Nov)
 - Categories: providers
-- Brief: A directory indexing 19 API providers serving abliterated and uncensored frontier models, with prices, rails, KYC requirements, and cyber scores for each. Useful as a comparison starting point for uncensored-model access. - Warning: the sharer warns some of these providers will certainly be suspect — verify any provider here yourself before sending it data or money.
+- Brief: A directory indexing 19 API providers serving abliterated and uncensored frontier models, with prices, rails, KYC requirements, and cyber scores for each. Useful as a comparison starting point for uncensored-model access.
 
 ## Autoloops
 - URL: https://autoloops.ai/
@@ -360,43 +360,43 @@
 - URL: https://www.agent37.com/
 - Shared by: ROman (11 Nov)
 - Categories: providers
-- Brief: Agent 37 is a Y Combinator-backed cloud sandbox for AI agents, claiming 94% lower cost than most sandbox providers with per-minute billing and a $5 starter credit. Host a ready-made harness (Claude Code, Codex, OpenCode, Hermes, OpenClaw) or bring your own, with per-customer isolation via gVisor, persistent disk, auto-sleep, and SOC 2 Type I. - Warning: the 94% cost claim and benchmark rankings are vendor-reported (benchmarks cite ComputeSDK and HPC Sandbox Benchmarks).
+- Brief: Agent 37 is a Y Combinator-backed cloud sandbox for AI agents, claiming 94% lower cost than most sandbox providers with per-minute billing and a $5 starter credit. Host a ready-made harness (Claude Code, Codex, OpenCode, Hermes, OpenClaw) or bring your own, with per-customer isolation via gVisor, persistent disk, auto-sleep, and SOC 2 Type I.
 
 ## Deploy
 - URL: https://deploy.com/
 - Shared by: ROman (12 Nov)
 - Categories: providers
-- Brief: Deploy is an inference provider serving open-source and proprietary models — DeepSeek V4.1 Flash 1017 at $0.10 in / $0.35 out per million tokens, Z.ai GLM-5.3-Flash, its own DeployVLM, plus moderation and detection models — on pay-as-you-go usage billing. Shared via its signup page; the homepage states no free tier. - Warning: per-token prices are from the vendor's homepage and unverified.
+- Brief: Deploy is an inference provider serving open-source and proprietary models — DeepSeek V4.1 Flash 1017 at $0.10 in / $0.35 out per million tokens, Z.ai GLM-5.3-Flash, its own DeployVLM, plus moderation and detection models — on pay-as-you-go usage billing. Shared via its signup page; the homepage states no free tier.
 
 ## DeepRelay
 - URL: https://deeprelay.ai/
 - Shared by: ROman (12 Nov)
 - Categories: providers
-- Brief: DeepRelay is an inference relay putting 48 open models — DeepSeek, GLM, Kimi, Qwen, plus image and video models — behind one OpenAI-compatible API key, with a flat $0.99/month Base plan (500M input / 50M output tokens) and pay-as-you-go rates past the allowance. It also publishes weights-verification results, running Model Equality Testing against independent deployments of the same weights. - Warning: plan prices and token allowances are vendor-reported; high-factor models draw the allowance down faster than 1:1.
+- Brief: DeepRelay is an inference relay putting 48 open models — DeepSeek, GLM, Kimi, Qwen, plus image and video models — behind one OpenAI-compatible API key, with a flat $0.99/month Base plan (500M input / 50M output tokens) and pay-as-you-go rates past the allowance. It also publishes weights-verification results, running Model Equality Testing against independent deployments of the same weights.
 
 ## SiberAI
 - URL: https://siberai.net/
 - Shared by: simply_roo (14 Nov)
 - Categories: providers
-- Brief: SiberAI is a security-focused inference provider serving DeepSeek V4.1 Uncensored and its own Cyber v3-tuned model through an OpenAI-compatible API, with a downloadable agent for code review, vulnerability research, and debugging. It charges per token ($0.018/1M input, $1.32/1M output) with no KYC and no card required. - Warning: vendor markets uncensored models with "no rules, no content logs"; per-token rates are vendor-reported.
+- Brief: SiberAI is a security-focused inference provider serving DeepSeek V4.1 Uncensored and its own Cyber v3-tuned model through an OpenAI-compatible API, with a downloadable agent for code review, vulnerability research, and debugging. It charges per token ($0.018/1M input, $1.32/1M output) with no KYC and no card required.
 
 ## Silk Compute
 - URL: https://silkcompute.com/models
 - Shared by: Thoor (15 Nov)
 - Categories: providers
-- Brief: Silk Compute is an inference provider serving abliterated (refusal-removed) open-weight models — Kimi K3.1 Pro, DeepSeek V4.1 Flash 1017, GLM-5.3, GLM-5.3 Flash, and Hy4 — through OpenAI- and Anthropic-compatible APIs with 1M-token context windows and per-token pricing. It targets security research, red teaming, and coding agents that get refused elsewhere, with zero data retention, prepaid credits from $5, and per-key budgets for teams. - Warning: Vendor markets uncensored models with no content filters or moderation; per-token rates are vendor-reported, and a channel reply noted the abliterated DeepSeek pricing is steep.
+- Brief: Silk Compute is an inference provider serving abliterated (refusal-removed) open-weight models — Kimi K3.1 Pro, DeepSeek V4.1 Flash 1017, GLM-5.3, GLM-5.3 Flash, and Hy4 — through OpenAI- and Anthropic-compatible APIs with 1M-token context windows and per-token pricing. It targets security research, red teaming, and coding agents that get refused elsewhere, with zero data retention, prepaid credits from $5, and per-key budgets for teams.
 
 ## Alysis Code
 - URL: https://alysiscode.com/pricing
 - Shared by: ROman (18 Nov)
 - Categories: providers
-- Brief: Alysis Code is a coding agent for desktop and CLI that runs on your choice of 16 models — DeepSeek V4.1 Flash, GLM 5.3, GPT-6 Luna, Claude Haiku 5.5 and more — on credit plans, or free with your own API key or a local model. Every account starts with 50 free credits; paid plans run from Beta to Pro with more credits, more models and cloud compute hours. - Warning: The pricing page showed plan prices as temporarily unavailable at collection, so the plan figures are unconfirmed.
+- Brief: Alysis Code is a coding agent for desktop and CLI that runs on your choice of 16 models — DeepSeek V4.1 Flash, GLM 5.3, GPT-6 Luna, Claude Haiku 5.5 and more — on credit plans, or free with your own API key or a local model. Every account starts with 50 free credits; paid plans run from Beta to Pro with more credits, more models and cloud compute hours.
 
 ## Metaphor
 - URL: https://withmetaphor.com/pricing
 - Shared by: ROman (18 Nov)
 - Categories: providers
-- Brief: Metaphor is a cloud coding agent that runs coding work on its Metacloud with open models included and frontier models from OpenAI and Anthropic on paid plans. The Hacker plan is $4.80/month with 6,000 Metacloud minutes and the Pro plan is $20/month with up to 60,000 minutes, while the free tier is shown as temporarily paused. - Warning: The free tier is shown as temporarily paused on the pricing page, so the free entry point is currently unavailable.
+- Brief: Metaphor is a cloud coding agent that runs coding work on its Metacloud with open models included and frontier models from OpenAI and Anthropic on paid plans. The Hacker plan is $4.80/month with 6,000 Metacloud minutes and the Pro plan is $20/month with up to 60,000 minutes, while the free tier is shown as temporarily paused.
 
 ## Nous Portal
 - URL: https://portal.nousresearch.com/
@@ -408,7 +408,7 @@
 - URL: https://unaligned.pw/pricing
 - Shared by: Thoor (24 Nov)
 - Categories: providers
-- Brief: Unaligned is a pay-as-you-go inference provider with per-token pricing across 43 models, including uncensored GLM and DeepSeek variants alongside frontier models. There is no subscription or monthly fee — top up in crypto from $5 and call any model from the browser chat or API. - Warning: crypto-only top-ups; model names and prices are vendor-listed and unverified.
+- Brief: Unaligned is a pay-as-you-go inference provider with per-token pricing across 43 models, including uncensored GLM and DeepSeek variants alongside frontier models. There is no subscription or monthly fee — top up in crypto from $5 and call any model from the browser chat or API.
 
 ## Prism Inference
 - URL: https://prisminference.com/pricing

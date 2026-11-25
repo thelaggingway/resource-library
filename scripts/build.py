@@ -84,7 +84,7 @@ def parse_notes(path):
             title = re.sub(r"^\d+\.\s*", "", line[4:]).strip()
             entry = {"title": title, "week": current_week}
             i += 1
-            field, brief_parts = None, []
+            field, brief_parts, warn_parts = None, [], []
             while i < len(lines) and not lines[i].startswith("#"):
                 l = lines[i].rstrip()
                 if l.startswith("- URL:"):
@@ -100,12 +100,17 @@ def parse_notes(path):
                     field = None
                 elif l.startswith("- Brief:"):
                     brief_parts = [l[len("- Brief:"):].strip()]; field = "brief"
+                elif l.startswith("- Warning:"):
+                    warn_parts = [l[len("- Warning:"):].strip()]; field = "warning"
                 elif field == "brief" and l.strip():
                     brief_parts.append(l.strip())
+                elif field == "warning" and l.strip():
+                    warn_parts.append(l.strip())
                 elif not l.strip():
                     field = None
                 i += 1
             entry["brief"] = " ".join(brief_parts).strip()
+            entry["_explicit_warn"] = " ".join(warn_parts).strip()
             entry["_batch"] = path.name
             if entry.get("url"):
                 resources.append(entry)
@@ -316,7 +321,10 @@ def main():
 
     seen = set()
     for r in all_res:
-        r["_desc"], r["_warn"] = split_warning(r["brief"])
+        if r.get("_explicit_warn"):
+            r["_desc"], r["_warn"] = r["brief"], r["_explicit_warn"]
+        else:
+            r["_desc"], r["_warn"] = split_warning(r["brief"])
     # Permalink ids: dated-week entries claim slugs first so previously
     # published #r-<id> anchors keep pointing at the same card; the providers
     # section (added later) takes the -2 suffixed variants on collision.
