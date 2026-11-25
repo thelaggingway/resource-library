@@ -66,11 +66,9 @@ def test_details_length_within_limit(catalog_records):
     assert too_long == [], f"details > 2000 chars: {too_long}"
 
 
-def test_forward_provider_consistency(catalog_records):
+def test_provider_consistency(catalog_records):
     bad = []
     for r in catalog_records:
-        if r["shared_on"] < FORWARD_POLICY_START:
-            continue
         is_prov_period = r["display_period"] == "providers"
         has_prov_cat = "providers" in r["legacy_categories"]
         is_prov_type = r["resource_type"] == "provider"

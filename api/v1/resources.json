@@ -735,7 +735,7 @@
     "brief": "An npm package (v1.0.19, by monotykamary — also behind pi-tool-repair and pi-mockdeck in this library) that registers CoralBricks as a provider extension for the pi coding agent: GLM 5.3, GLM 5.3 Flash, and DeepSeek V4.1 Flash through the Coral Inference API. It was shared in a support thread asking whether it uses completions or responses endpoints — check the repo README for the current endpoint behavior.",
     "caveat": null,
     "details": "pi-coralbricks-provider is a provider extension for pi (the agentic coding framework) that routes model calls through the Coral Inference API, giving pi access to GLM 5.2/5.3, Kimi K3, and GPT-OSS 120B. Published on npm by monotykamary (Tom) under MIT, it plugs into pi's extension system so agent runs can use CoralBricks-served models as drop-in providers. The npm page itself blocks automated fetching, so this summary is drawn from the registry metadata and the package description rather than the rendered page. Useful if you run pi agents and want those models behind one inference endpoint.",
-    "resource_type": "provider",
+    "resource_type": "library-framework",
     "topics": [
       "ai-agents",
       "inference"
@@ -841,6 +841,79 @@
   },
   {
     "schema_version": "1.0",
+    "id": "artificial-analysis-glm-5-3-flash-providers",
+    "title": "Artificial Analysis: GLM-5.3 Flash providers",
+    "canonical_url": "https://artificialanalysis.ai/models/glm-5-3-flash/providers",
+    "brief": "Artificial Analysis' provider comparison page for GLM-5.3-Flash: which inference providers serve it, at what price and speed. Handy when shopping for the cheapest or fastest GLM-5.3-Flash endpoint.",
+    "caveat": null,
+    "details": null,
+    "resource_type": "article-guide",
+    "topics": [
+      "inference"
+    ],
+    "use_cases": [
+      "learn-technique"
+    ],
+    "interfaces": [
+      "web"
+    ],
+    "technologies": [],
+    "license": null,
+    "open_source": null,
+    "display_period": "1–8 Oct 2026",
+    "legacy_categories": [
+      "ai-tool",
+      "web-app"
+    ],
+    "source": {
+      "channel": "share-tech",
+      "sharer": "Felix"
+    },
+    "shared_on": "2026-10-01",
+    "verification": {
+      "status": "unchecked",
+      "checked_at": null,
+      "final_url": null
+    }
+  },
+  {
+    "schema_version": "1.0",
+    "id": "primalabs-mimo-v2-6-pro-speed-benchmark",
+    "title": "PrimaLabs: MiMo-V2.6-Pro speed benchmark",
+    "canonical_url": "https://www.primalabs.ai/blog/mimo-v2-6-pro-faster-output",
+    "brief": "PrimaLabs benchmarks MiMo-V2.6-Pro on its serverless platform at 407 output tokens/sec (vs Xiaomi's 45 at 10k input tokens), priced at $0.43 in / $0.87 out per million tokens with $0.0036 cache. Speed and pricing figures come from PrimaLabs' post (measured by Artificial Analysis, 24 Sep 2026) and are not independently verified.",
+    "caveat": "Speed and pricing figures come from PrimaLabs' post (measured by Artificial Analysis, 24 Sep 2026) and are not independently verified.",
+    "details": null,
+    "resource_type": "article-guide",
+    "topics": [
+      "inference"
+    ],
+    "use_cases": [
+      "learn-technique"
+    ],
+    "interfaces": [
+      "web"
+    ],
+    "technologies": [],
+    "license": null,
+    "open_source": null,
+    "display_period": "1–8 Oct 2026",
+    "legacy_categories": [
+      "article"
+    ],
+    "source": {
+      "channel": "share-tech",
+      "sharer": "Felix"
+    },
+    "shared_on": "2026-10-01",
+    "verification": {
+      "status": "unchecked",
+      "checked_at": null,
+      "final_url": null
+    }
+  },
+  {
+    "schema_version": "1.0",
     "id": "hpc-sandbox-benchmarks",
     "title": "hpc-sandbox-benchmarks",
     "canonical_url": "https://github.com/starslingdev/hpc-sandbox-benchmarks",
@@ -878,90 +951,18 @@
   },
   {
     "schema_version": "1.0",
-    "id": "primalabs-mimo-v2-6-pro-speed-benchmark",
-    "title": "PrimaLabs: MiMo-V2.6-Pro speed benchmark",
-    "canonical_url": "https://www.primalabs.ai/blog/mimo-v2-6-pro-faster-output",
-    "brief": "PrimaLabs benchmarks MiMo-V2.6-Pro on its serverless platform at 407 output tokens/sec (vs Xiaomi's 45 at 10k input tokens), priced at $0.43 in / $0.87 out per million tokens with $0.0036 cache. Speed and pricing figures come from PrimaLabs' post (measured by Artificial Analysis, 24 Sep 2026) and are not independently verified.",
-    "caveat": "Speed and pricing figures come from PrimaLabs' post (measured by Artificial Analysis, 24 Sep 2026) and are not independently verified.",
-    "details": null,
-    "resource_type": "article-guide",
-    "topics": [
-      "inference"
-    ],
-    "use_cases": [
-      "learn-technique"
-    ],
-    "interfaces": [
-      "web"
-    ],
-    "technologies": [],
-    "license": null,
-    "open_source": null,
-    "display_period": "providers",
-    "legacy_categories": [
-      "providers"
-    ],
-    "source": {
-      "channel": "providers",
-      "sharer": "Felix"
-    },
-    "shared_on": "2026-10-01",
-    "verification": {
-      "status": "unchecked",
-      "checked_at": null,
-      "final_url": null
-    }
-  },
-  {
-    "schema_version": "1.0",
     "id": "bitdeer-ai-cloud-model-pricing",
     "title": "Bitdeer AI Cloud model pricing",
     "canonical_url": "https://www.bitdeer.ai/en/pricing/ai-models",
     "brief": "Bitdeer AI Cloud's inference pricing page for hosted open-source and enterprise AI models, shared citing GLM-5.3-Flash at $0.075 in / $0.25 out per million tokens ($0.015 cached input) with ~200 tokens/sec. Pricing and throughput figures come from the vendor and are not independently verified.",
     "caveat": "Pricing and throughput figures come from the vendor and are not independently verified.",
     "details": null,
-    "resource_type": "documentation",
+    "resource_type": "provider",
     "topics": [
       "inference"
     ],
     "use_cases": [
       "run-inference"
-    ],
-    "interfaces": [
-      "web"
-    ],
-    "technologies": [],
-    "license": null,
-    "open_source": null,
-    "display_period": "providers",
-    "legacy_categories": [
-      "providers"
-    ],
-    "source": {
-      "channel": "providers",
-      "sharer": "Felix"
-    },
-    "shared_on": "2026-10-01",
-    "verification": {
-      "status": "unchecked",
-      "checked_at": null,
-      "final_url": null
-    }
-  },
-  {
-    "schema_version": "1.0",
-    "id": "artificial-analysis-glm-5-3-flash-providers",
-    "title": "Artificial Analysis: GLM-5.3 Flash providers",
-    "canonical_url": "https://artificialanalysis.ai/models/glm-5-3-flash/providers",
-    "brief": "Artificial Analysis' provider comparison page for GLM-5.3-Flash: which inference providers serve it, at what price and speed. Handy when shopping for the cheapest or fastest GLM-5.3-Flash endpoint.",
-    "caveat": null,
-    "details": null,
-    "resource_type": "article-guide",
-    "topics": [
-      "inference"
-    ],
-    "use_cases": [
-      "learn-technique"
     ],
     "interfaces": [
       "web"
@@ -1033,7 +1034,7 @@
     "brief": "An agent-readable comparison of sandbox, VM and runtime pricing for AI agents — 366 providers priced through one engine with every figure quoted from the source pricing page, published as llms.txt, JSON files and a Node pricing engine. Built by boat.dev, one of the providers it ranks; the rankings are not independently verified, so take them with a grain of salt.",
     "caveat": "Built by boat.dev, one of the providers it ranks; the rankings are not independently verified, so take them with a grain of salt.",
     "details": "Battleships is an agent-readable price comparison of sandbox, VM, and runtime providers for AI agents — 361 providers priced through one engine, with every figure quoted from the provider's own pricing page. Everything is published as plain files (llms.txt, per-provider JSON/Markdown with quoted evidence, and a Node pricing engine) so a coding agent can run the comparison for you. The methodology is strict: agents read pricing pages in a real browser, every answer links and quotes its source verbatim, unpublished prices are never read as free, and the same rules apply to boat.dev — the company that built it. What it can't check: whether features actually work end to end, reliability and uptime, sales and support quality, or company health. Data and code are open and contributions are welcome.",
-    "resource_type": "provider",
+    "resource_type": "directory-gallery",
     "topics": [
       "inference",
       "ai-agents"
@@ -1501,12 +1502,13 @@
     "technologies": [],
     "license": null,
     "open_source": null,
-    "display_period": "providers",
+    "display_period": "1–8 Oct 2026",
     "legacy_categories": [
-      "providers"
+      "ai-tool",
+      "web-app"
     ],
     "source": {
-      "channel": "providers",
+      "channel": "share-tech",
       "sharer": "nixerman"
     },
     "shared_on": "2026-10-03",
@@ -1746,6 +1748,148 @@
   },
   {
     "schema_version": "1.0",
+    "id": "kendell-crofai-is-false",
+    "title": "Kendell: \"crofai is false\"",
+    "canonical_url": "https://kendell.dev/blog/crofaifalse/",
+    "brief": "A Kendell blog post arguing CrofAI is an OpenRouter wrapper (\"I am hella late but omg 🍿\", per harrisony). The wrapper claim is the author's allegation, not independently verified.",
+    "caveat": "The wrapper claim is the author's allegation, not independently verified.",
+    "details": "Kendell's investigative blog post (13 Sep 2026) alleging that CrofAI, which presents itself as an independent inference provider, is actually an OpenRouter wrapper that silently routes requests to cheaper or weaker models than requested. The author claims CrofAI accepts the openrouter:advisor tool and documents per-model routing — for example several flagship model names routed to DeepSeek V4 Flash 0731 or GLM 5.3 Flash — explaining its low prices, with proof presented as true at time of writing. These are the author's allegations based on his own testing, not independently verified.",
+    "resource_type": "article-guide",
+    "topics": [
+      "inference"
+    ],
+    "use_cases": [
+      "learn-technique"
+    ],
+    "interfaces": [
+      "web"
+    ],
+    "technologies": [],
+    "license": null,
+    "open_source": null,
+    "display_period": "1–8 Oct 2026",
+    "legacy_categories": [
+      "article"
+    ],
+    "source": {
+      "channel": "share-tech",
+      "sharer": "harrisony"
+    },
+    "shared_on": "2026-10-04",
+    "verification": {
+      "status": "unchecked",
+      "checked_at": null,
+      "final_url": null
+    }
+  },
+  {
+    "schema_version": "1.0",
+    "id": "kendell-verifiable-inference",
+    "title": "Kendell: Verifiable Inference",
+    "canonical_url": "https://kendell.dev/blog/verifiableinference/",
+    "brief": "Kendell's blog post on verifiable inference, shared link-only. Technical claims are vendor-reported.",
+    "caveat": null,
+    "details": "Kendell's blog essay (18 Sep 2026) arguing that everything we need is already here for verifiable inference: forcing suspect responses through legitimate inference produces quick agreement or disagreement, and forcing a random selection of untrusted responses through legitimate inference solves verifiable inference. It builds the case through information theory, using DeepSeek V4.1 Flash token distributions to explain surprisal, entropy and perplexity in plain terms. The argument is the author's; treat it as an explainer, not a deployed system.",
+    "resource_type": "article-guide",
+    "topics": [
+      "inference"
+    ],
+    "use_cases": [
+      "learn-technique"
+    ],
+    "interfaces": [],
+    "technologies": [],
+    "license": null,
+    "open_source": null,
+    "display_period": "1–8 Oct 2026",
+    "legacy_categories": [
+      "article"
+    ],
+    "source": {
+      "channel": "share-tech",
+      "sharer": "harrisony"
+    },
+    "shared_on": "2026-10-04",
+    "verification": {
+      "status": "unchecked",
+      "checked_at": null,
+      "final_url": null
+    }
+  },
+  {
+    "schema_version": "1.0",
+    "id": "semianalysis-anthropic-subscriptions-offer-5x-more-value-than-openai",
+    "title": "SemiAnalysis: Anthropic Subscriptions Offer 5x+ More Value Than OpenAI",
+    "canonical_url": "https://newsletter.semianalysis.com/p/anthropic-subscriptions-offer-5x",
+    "brief": "SemiAnalysis newsletter piece \"limit testing every AI subscription plan from Anthropic, OpenAI, Meta, SpaceXSI, MiniMax, Moonshot\" and concluding Anthropic subscriptions offer 5x+ more value than OpenAI's. A third-party provider comparison; treat the figures as a benchmark snapshot.",
+    "caveat": null,
+    "details": "SemiAnalysis (Andrew Megalaa, Max Kan, Dylan Patel, 5 Oct 2026) limit-tests subscription plans from Anthropic, OpenAI, Meta, SpaceXAI, MiniMax, Moonshot, Z.ai, Cursor and Cognition, concluding Anthropic's subscriptions offer 5x or more value than OpenAI's. The piece argues subscriptions are heavily subsidized customer-acquisition tools, noting OpenAI's generous resets drove Codex adoption and forced Anthropic to repeatedly walk back planned subscription nerfs. It is a paid article; figures come from SemiAnalysis's tokenomics model and should be treated as their analysis, not live pricing.",
+    "resource_type": "article-guide",
+    "topics": [
+      "inference"
+    ],
+    "use_cases": [
+      "learn-technique"
+    ],
+    "interfaces": [
+      "web"
+    ],
+    "technologies": [],
+    "license": null,
+    "open_source": null,
+    "display_period": "1–8 Oct 2026",
+    "legacy_categories": [
+      "article"
+    ],
+    "source": {
+      "channel": "share-tech",
+      "sharer": "baanish"
+    },
+    "shared_on": "2026-10-06",
+    "verification": {
+      "status": "unchecked",
+      "checked_at": null,
+      "final_url": null
+    }
+  },
+  {
+    "schema_version": "1.0",
+    "id": "tibo-s-28-day-challenge-codex-resets",
+    "title": "Tibo's 28-day challenge | Codex Resets",
+    "canonical_url": "https://codex-resets.com/tibo-28",
+    "brief": "Codex Resets' tracker page for Tibo's 28-day challenge — \"an improvement or a reset, every day\", following the announcements one at a time. Complements the Tibo announcement tweet shared the same night; challenge-progress claims are as reported on the page.",
+    "caveat": null,
+    "details": "Codex Resets' tracker page for Tibo's 28-day challenge: each day for 28 days he will either ship one clear improvement relevant to codex and work users, or ship a full reset. Day 1 (5 Oct) was an improvement — roughly 50% faster default speed across GPT-6 Astra and GPT-6.1 Sol for subscription products and partners using Sign in With ChatGPT, rolling out within two hours with no user action needed. The page runs a daily log through 1 Nov; challenge-progress claims are as reported on the page.",
+    "resource_type": "article-guide",
+    "topics": [
+      "inference"
+    ],
+    "use_cases": [
+      "learn-technique"
+    ],
+    "interfaces": [
+      "web"
+    ],
+    "technologies": [],
+    "license": null,
+    "open_source": null,
+    "display_period": "1–8 Oct 2026",
+    "legacy_categories": [
+      "web-app"
+    ],
+    "source": {
+      "channel": "share-tech",
+      "sharer": "ajthemacboy"
+    },
+    "shared_on": "2026-10-05",
+    "verification": {
+      "status": "unchecked",
+      "checked_at": null,
+      "final_url": null
+    }
+  },
+  {
+    "schema_version": "1.0",
     "id": "avian-pricing",
     "title": "Avian — pricing",
     "canonical_url": "https://avian.io/pricing/",
@@ -1810,152 +1954,6 @@
     "source": {
       "channel": "providers",
       "sharer": "nixerman"
-    },
-    "shared_on": "2026-10-05",
-    "verification": {
-      "status": "unchecked",
-      "checked_at": null,
-      "final_url": null
-    }
-  },
-  {
-    "schema_version": "1.0",
-    "id": "kendell-verifiable-inference",
-    "title": "Kendell: Verifiable Inference",
-    "canonical_url": "https://kendell.dev/blog/verifiableinference/",
-    "brief": "Kendell's blog post on verifiable inference, shared link-only. Technical claims are vendor-reported.",
-    "caveat": null,
-    "details": "Kendell's blog essay (18 Sep 2026) arguing that everything we need is already here for verifiable inference: forcing suspect responses through legitimate inference produces quick agreement or disagreement, and forcing a random selection of untrusted responses through legitimate inference solves verifiable inference. It builds the case through information theory, using DeepSeek V4.1 Flash token distributions to explain surprisal, entropy and perplexity in plain terms. The argument is the author's; treat it as an explainer, not a deployed system.",
-    "resource_type": "article-guide",
-    "topics": [
-      "inference"
-    ],
-    "use_cases": [
-      "learn-technique"
-    ],
-    "interfaces": [],
-    "technologies": [],
-    "license": null,
-    "open_source": null,
-    "display_period": "providers",
-    "legacy_categories": [
-      "providers",
-      "article"
-    ],
-    "source": {
-      "channel": "providers",
-      "sharer": "harrisony"
-    },
-    "shared_on": "2026-10-04",
-    "verification": {
-      "status": "unchecked",
-      "checked_at": null,
-      "final_url": null
-    }
-  },
-  {
-    "schema_version": "1.0",
-    "id": "kendell-crofai-is-false",
-    "title": "Kendell: \"crofai is false\"",
-    "canonical_url": "https://kendell.dev/blog/crofaifalse/",
-    "brief": "A Kendell blog post arguing CrofAI is an OpenRouter wrapper (\"I am hella late but omg 🍿\", per harrisony). The wrapper claim is the author's allegation, not independently verified.",
-    "caveat": "The wrapper claim is the author's allegation, not independently verified.",
-    "details": "Kendell's investigative blog post (13 Sep 2026) alleging that CrofAI, which presents itself as an independent inference provider, is actually an OpenRouter wrapper that silently routes requests to cheaper or weaker models than requested. The author claims CrofAI accepts the openrouter:advisor tool and documents per-model routing — for example several flagship model names routed to DeepSeek V4 Flash 0731 or GLM 5.3 Flash — explaining its low prices, with proof presented as true at time of writing. These are the author's allegations based on his own testing, not independently verified.",
-    "resource_type": "article-guide",
-    "topics": [
-      "inference"
-    ],
-    "use_cases": [
-      "learn-technique"
-    ],
-    "interfaces": [
-      "web"
-    ],
-    "technologies": [],
-    "license": null,
-    "open_source": null,
-    "display_period": "providers",
-    "legacy_categories": [
-      "providers",
-      "article"
-    ],
-    "source": {
-      "channel": "providers",
-      "sharer": "harrisony"
-    },
-    "shared_on": "2026-10-04",
-    "verification": {
-      "status": "unchecked",
-      "checked_at": null,
-      "final_url": null
-    }
-  },
-  {
-    "schema_version": "1.0",
-    "id": "semianalysis-anthropic-subscriptions-offer-5x-more-value-than-openai",
-    "title": "SemiAnalysis: Anthropic Subscriptions Offer 5x+ More Value Than OpenAI",
-    "canonical_url": "https://newsletter.semianalysis.com/p/anthropic-subscriptions-offer-5x",
-    "brief": "SemiAnalysis newsletter piece \"limit testing every AI subscription plan from Anthropic, OpenAI, Meta, SpaceXSI, MiniMax, Moonshot\" and concluding Anthropic subscriptions offer 5x+ more value than OpenAI's. A third-party provider comparison; treat the figures as a benchmark snapshot.",
-    "caveat": null,
-    "details": "SemiAnalysis (Andrew Megalaa, Max Kan, Dylan Patel, 5 Oct 2026) limit-tests subscription plans from Anthropic, OpenAI, Meta, SpaceXAI, MiniMax, Moonshot, Z.ai, Cursor and Cognition, concluding Anthropic's subscriptions offer 5x or more value than OpenAI's. The piece argues subscriptions are heavily subsidized customer-acquisition tools, noting OpenAI's generous resets drove Codex adoption and forced Anthropic to repeatedly walk back planned subscription nerfs. It is a paid article; figures come from SemiAnalysis's tokenomics model and should be treated as their analysis, not live pricing.",
-    "resource_type": "article-guide",
-    "topics": [
-      "inference"
-    ],
-    "use_cases": [
-      "learn-technique"
-    ],
-    "interfaces": [
-      "web"
-    ],
-    "technologies": [],
-    "license": null,
-    "open_source": null,
-    "display_period": "providers",
-    "legacy_categories": [
-      "providers",
-      "article"
-    ],
-    "source": {
-      "channel": "providers",
-      "sharer": "baanish"
-    },
-    "shared_on": "2026-10-06",
-    "verification": {
-      "status": "unchecked",
-      "checked_at": null,
-      "final_url": null
-    }
-  },
-  {
-    "schema_version": "1.0",
-    "id": "tibo-s-28-day-challenge-codex-resets",
-    "title": "Tibo's 28-day challenge | Codex Resets",
-    "canonical_url": "https://codex-resets.com/tibo-28",
-    "brief": "Codex Resets' tracker page for Tibo's 28-day challenge — \"an improvement or a reset, every day\", following the announcements one at a time. Complements the Tibo announcement tweet shared the same night; challenge-progress claims are as reported on the page.",
-    "caveat": null,
-    "details": "Codex Resets' tracker page for Tibo's 28-day challenge: each day for 28 days he will either ship one clear improvement relevant to codex and work users, or ship a full reset. Day 1 (5 Oct) was an improvement — roughly 50% faster default speed across GPT-6 Astra and GPT-6.1 Sol for subscription products and partners using Sign in With ChatGPT, rolling out within two hours with no user action needed. The page runs a daily log through 1 Nov; challenge-progress claims are as reported on the page.",
-    "resource_type": "article-guide",
-    "topics": [
-      "inference"
-    ],
-    "use_cases": [
-      "learn-technique"
-    ],
-    "interfaces": [
-      "web"
-    ],
-    "technologies": [],
-    "license": null,
-    "open_source": null,
-    "display_period": "providers",
-    "legacy_categories": [
-      "providers",
-      "web-app"
-    ],
-    "source": {
-      "channel": "providers",
-      "sharer": "ajthemacboy"
     },
     "shared_on": "2026-10-05",
     "verification": {
@@ -2048,6 +2046,43 @@
   },
   {
     "schema_version": "1.0",
+    "id": "artificial-analysis-deepseek-v4-1-flash-providers",
+    "title": "Artificial Analysis: DeepSeek V4.1 Flash providers",
+    "canonical_url": "https://artificialanalysis.ai/models/deepseek-v4-1-flash/providers",
+    "brief": "Artificial Analysis' live provider comparison for DeepSeek V4.1 Flash across 21 API providers — pricing, output speed, latency and cache behaviour side by side, with LithosAI's Ultra Chat tier currently fastest and DeepInfra cheapest. A benchmark snapshot; figures shift as providers are re-tested. (Shared URL carried a `?pricing-comparisons=` view parameter; recorded without it, matching the existing AA entries.)",
+    "caveat": null,
+    "details": "Artificial Analysis' live comparison of API providers serving DeepSeek V4.1 Flash, currently tracking 21 providers across pricing, output speed, latency, and cache behaviour. LithosAI's Ultra Chat tier is presently the fastest by output speed while DeepInfra is the cheapest by blended price. Figures are benchmark snapshots that shift as Artificial Analysis re-tests providers; use the page for relative comparison rather than as a price quote.",
+    "resource_type": "article-guide",
+    "topics": [
+      "inference"
+    ],
+    "use_cases": [
+      "learn-technique"
+    ],
+    "interfaces": [
+      "web"
+    ],
+    "technologies": [],
+    "license": null,
+    "open_source": null,
+    "display_period": "1–8 Oct 2026",
+    "legacy_categories": [
+      "ai-tool",
+      "web-app"
+    ],
+    "source": {
+      "channel": "share-tech",
+      "sharer": "Felix"
+    },
+    "shared_on": "2026-10-06",
+    "verification": {
+      "status": "unchecked",
+      "checked_at": null,
+      "final_url": null
+    }
+  },
+  {
+    "schema_version": "1.0",
     "id": "kourier",
     "title": "Kourier",
     "canonical_url": "https://kourier.sh/",
@@ -2100,42 +2135,6 @@
     ],
     "interfaces": [
       "api",
-      "web"
-    ],
-    "technologies": [],
-    "license": null,
-    "open_source": null,
-    "display_period": "providers",
-    "legacy_categories": [
-      "providers"
-    ],
-    "source": {
-      "channel": "providers",
-      "sharer": "Felix"
-    },
-    "shared_on": "2026-10-06",
-    "verification": {
-      "status": "unchecked",
-      "checked_at": null,
-      "final_url": null
-    }
-  },
-  {
-    "schema_version": "1.0",
-    "id": "artificial-analysis-deepseek-v4-1-flash-providers",
-    "title": "Artificial Analysis: DeepSeek V4.1 Flash providers",
-    "canonical_url": "https://artificialanalysis.ai/models/deepseek-v4-1-flash/providers",
-    "brief": "Artificial Analysis' live provider comparison for DeepSeek V4.1 Flash across 21 API providers — pricing, output speed, latency and cache behaviour side by side, with LithosAI's Ultra Chat tier currently fastest and DeepInfra cheapest. A benchmark snapshot; figures shift as providers are re-tested. (Shared URL carried a `?pricing-comparisons=` view parameter; recorded without it, matching the existing AA entries.)",
-    "caveat": null,
-    "details": "Artificial Analysis' live comparison of API providers serving DeepSeek V4.1 Flash, currently tracking 21 providers across pricing, output speed, latency, and cache behaviour. LithosAI's Ultra Chat tier is presently the fastest by output speed while DeepInfra is the cheapest by blended price. Figures are benchmark snapshots that shift as Artificial Analysis re-tests providers; use the page for relative comparison rather than as a price quote.",
-    "resource_type": "article-guide",
-    "topics": [
-      "inference"
-    ],
-    "use_cases": [
-      "learn-technique"
-    ],
-    "interfaces": [
       "web"
     ],
     "technologies": [],
@@ -2366,44 +2365,6 @@
   },
   {
     "schema_version": "1.0",
-    "id": "opendesign",
-    "title": "OpenDesign",
-    "canonical_url": "https://open-design.ai/pricing/",
-    "brief": "A zero-config design agent whose subscription bundles model credits — plans from $8 to $120/month include an OpenDesign API key that calls both Design Plan models and a roster of hosted models (DeepSeek V4/V4.1 Flash, Kimi K2.7 Code, GPT-6 Luna, MiMo V2.6 Pro/Flash, GLM-5.3 Flash) with a per-model usage table. Useful as a provider listing for those models. Pricing figures are vendor-reported.",
-    "caveat": "OpenDesign is primarily a design agent product — the model API is one feature, not the whole product.",
-    "details": "OpenDesign is a zero-config design agent sold as a subscription from $8 to $120/month, and its plans bundle model credits with an API key. The API can call both Design Plan models and a roster of hosted models — DeepSeek V4 and V4.1 Flash, Kimi K2.7 Code, GPT-6 Luna, MiMo V2.6 Pro and Flash, GLM-5.3 Flash — with a published per-model usage table and 162+ skill workflows plus 152+ design systems. Caveat: this is primarily a design product; the model API is one feature, and BYOK provider keys are supported on every plan. Pricing figures are vendor-reported.",
-    "resource_type": "service-platform",
-    "topics": [
-      "design",
-      "inference"
-    ],
-    "use_cases": [
-      "run-inference"
-    ],
-    "interfaces": [
-      "api",
-      "web"
-    ],
-    "technologies": [],
-    "license": null,
-    "open_source": null,
-    "display_period": "providers",
-    "legacy_categories": [
-      "providers"
-    ],
-    "source": {
-      "channel": "providers",
-      "sharer": "𒄷𒈦🍐ꀷꌅꑀꈜꌚ ꋖꊿ ꀷꂑꑀ (tag 桃桃物语)"
-    },
-    "shared_on": "2026-10-07",
-    "verification": {
-      "status": "unchecked",
-      "checked_at": null,
-      "final_url": null
-    }
-  },
-  {
-    "schema_version": "1.0",
     "id": "claude-monthly-api-credits-for-max-and-team-plans",
     "title": "Claude: Monthly API credits for Max and Team plans",
     "canonical_url": "https://support.claude.com/en/articles/17154008-monthly-api-credits-for-max-and-team-plans",
@@ -2425,14 +2386,52 @@
     ],
     "license": null,
     "open_source": null,
-    "display_period": "providers",
+    "display_period": "1–8 Oct 2026",
     "legacy_categories": [
-      "providers",
       "article"
     ],
     "source": {
-      "channel": "providers",
+      "channel": "share-tech",
       "sharer": "baanish"
+    },
+    "shared_on": "2026-10-07",
+    "verification": {
+      "status": "unchecked",
+      "checked_at": null,
+      "final_url": null
+    }
+  },
+  {
+    "schema_version": "1.0",
+    "id": "opendesign",
+    "title": "OpenDesign",
+    "canonical_url": "https://open-design.ai/pricing/",
+    "brief": "A zero-config design agent whose subscription bundles model credits — plans from $8 to $120/month include an OpenDesign API key that calls both Design Plan models and a roster of hosted models (DeepSeek V4/V4.1 Flash, Kimi K2.7 Code, GPT-6 Luna, MiMo V2.6 Pro/Flash, GLM-5.3 Flash) with a per-model usage table. Useful as a provider listing for those models. Pricing figures are vendor-reported.",
+    "caveat": "OpenDesign is primarily a design agent product — the model API is one feature, not the whole product.",
+    "details": "OpenDesign is a zero-config design agent sold as a subscription from $8 to $120/month, and its plans bundle model credits with an API key. The API can call both Design Plan models and a roster of hosted models — DeepSeek V4 and V4.1 Flash, Kimi K2.7 Code, GPT-6 Luna, MiMo V2.6 Pro and Flash, GLM-5.3 Flash — with a published per-model usage table and 162+ skill workflows plus 152+ design systems. Caveat: this is primarily a design product; the model API is one feature, and BYOK provider keys are supported on every plan. Pricing figures are vendor-reported.",
+    "resource_type": "service-platform",
+    "topics": [
+      "design",
+      "inference"
+    ],
+    "use_cases": [
+      "run-inference"
+    ],
+    "interfaces": [
+      "api",
+      "web"
+    ],
+    "technologies": [],
+    "license": null,
+    "open_source": null,
+    "display_period": "1–8 Oct 2026",
+    "legacy_categories": [
+      "ai-tool",
+      "web-app"
+    ],
+    "source": {
+      "channel": "share-tech",
+      "sharer": "𒄷𒈦🍐ꀷꌅꑀꈜꌚ ꋖꊿ ꀷꂑꑀ (tag 桃桃物语)"
     },
     "shared_on": "2026-10-07",
     "verification": {
@@ -2709,6 +2708,46 @@
   },
   {
     "schema_version": "1.0",
+    "id": "pi-anthropic-auth",
+    "title": "pi-anthropic-auth",
+    "canonical_url": "https://github.com/gotgenes/pi-anthropic-auth",
+    "brief": "A Pi extension package adding Anthropic OAuth compatibility, so Pi can run on Claude OAuth credentials. The sharer calls it \"very safe\"; that assessment is their opinion, not a security audit.",
+    "caveat": "Routes Anthropic OAuth credentials through a community extension — check Anthropic's current policy on OAuth-token use in third-party tools.",
+    "details": "pi-anthropic-auth is a Pi extension package that adds Anthropic OAuth compatibility, letting the Pi coding agent run on Anthropic OAuth credentials. The repo carries an MIT license with about 354 stars and 31 forks. The sharer describes it as \"very safe\", but that is one user's opinion, not a security audit — routing OAuth tokens through community extensions is subject to Anthropic's usage policy, so verify the current terms before use.",
+    "resource_type": "repository",
+    "topics": [
+      "ai-agents",
+      "security"
+    ],
+    "use_cases": [
+      "run-inference"
+    ],
+    "interfaces": [
+      "extension"
+    ],
+    "technologies": [
+      "anthropic-api"
+    ],
+    "license": null,
+    "open_source": null,
+    "display_period": "8–15 Oct 2026",
+    "legacy_categories": [
+      "github",
+      "dev-tool"
+    ],
+    "source": {
+      "channel": "share-tech",
+      "sharer": "Aspiring UBI Recipient"
+    },
+    "shared_on": "2026-10-09",
+    "verification": {
+      "status": "unchecked",
+      "checked_at": null,
+      "final_url": null
+    }
+  },
+  {
+    "schema_version": "1.0",
     "id": "plexus",
     "title": "plexus",
     "canonical_url": "https://github.com/mcowger/plexus",
@@ -2732,54 +2771,14 @@
     ],
     "license": null,
     "open_source": null,
-    "display_period": "providers",
+    "display_period": "8–15 Oct 2026",
     "legacy_categories": [
-      "github",
-      "providers"
+      "ai-tool",
+      "github"
     ],
     "source": {
-      "channel": "providers",
+      "channel": "share-tech",
       "sharer": "RAPTOR_6"
-    },
-    "shared_on": "2026-10-09",
-    "verification": {
-      "status": "unchecked",
-      "checked_at": null,
-      "final_url": null
-    }
-  },
-  {
-    "schema_version": "1.0",
-    "id": "pi-anthropic-auth",
-    "title": "pi-anthropic-auth",
-    "canonical_url": "https://github.com/gotgenes/pi-anthropic-auth",
-    "brief": "A Pi extension package adding Anthropic OAuth compatibility, so Pi can run on Claude OAuth credentials. The sharer calls it \"very safe\"; that assessment is their opinion, not a security audit.",
-    "caveat": "Routes Anthropic OAuth credentials through a community extension — check Anthropic's current policy on OAuth-token use in third-party tools.",
-    "details": "pi-anthropic-auth is a Pi extension package that adds Anthropic OAuth compatibility, letting the Pi coding agent run on Anthropic OAuth credentials. The repo carries an MIT license with about 354 stars and 31 forks. The sharer describes it as \"very safe\", but that is one user's opinion, not a security audit — routing OAuth tokens through community extensions is subject to Anthropic's usage policy, so verify the current terms before use.",
-    "resource_type": "repository",
-    "topics": [
-      "ai-agents",
-      "security"
-    ],
-    "use_cases": [
-      "run-inference"
-    ],
-    "interfaces": [
-      "extension"
-    ],
-    "technologies": [
-      "anthropic-api"
-    ],
-    "license": null,
-    "open_source": null,
-    "display_period": "providers",
-    "legacy_categories": [
-      "github",
-      "dev-tool"
-    ],
-    "source": {
-      "channel": "providers",
-      "sharer": "Aspiring UBI Recipient"
     },
     "shared_on": "2026-10-09",
     "verification": {
@@ -2948,7 +2947,7 @@
     "brief": "An hourly-updated benchmark site testing whether Codex Fast mode delivers on its promise of 2× speed for 2.5× the usage — a running provider comparison of Fast mode against standard. Bare link share (\"lol\"); figures are the site's own measurements.",
     "caveat": null,
     "details": "A single-purpose benchmark site that re-tests OpenAI Codex's Fast mode every hour, measuring throughput (tokens per second) and latency (time to first token) in paired normal-vs-fast runs to check whether Fast mode delivers its promised 2x speed for 2.5x the usage. Powered by \"omp bench\" (omp.sh). (Coverage note: written from the Discord embed and the site's own framing — the live page's benchmark results are JS-rendered and were not directly fetchable.)",
-    "resource_type": "service-platform",
+    "resource_type": "tool",
     "topics": [
       "inference"
     ],
@@ -2961,12 +2960,13 @@
     "technologies": [],
     "license": null,
     "open_source": false,
-    "display_period": "providers",
+    "display_period": "8–15 Oct 2026",
     "legacy_categories": [
-      "providers"
+      "ai-tool",
+      "web-app"
     ],
     "source": {
-      "channel": "providers",
+      "channel": "share-tech",
       "sharer": "baanish"
     },
     "shared_on": "2026-10-10",
@@ -3286,6 +3286,43 @@
   },
   {
     "schema_version": "1.0",
+    "id": "models-dev-opencode-provider-page",
+    "title": "Models.dev — OpenCode provider page",
+    "canonical_url": "https://models.dev/providers/opencode/",
+    "brief": "A directory of the 124 models available through OpenCode's inference endpoint (opencode.ai/inference/v1), with per-model pricing, context windows, and capability flags plus the @ai-sdk/openai-compatible SDK package. Useful for comparing what OpenCode serves and what each model costs there.",
+    "caveat": null,
+    "details": "Models.dev is a third-party directory of AI model providers; this page covers the OpenCode provider (provider ID opencode). It lists 124 models served through OpenCode's inference endpoint at opencode.ai/inference/v1, with per-model input/output pricing per million tokens, context window and max output sizes, and capability flags, plus the @ai-sdk/openai-compatible package name and a link to OpenCode's own docs. It functions as a provider-comparison snapshot — useful for checking which models OpenCode serves and what each costs there, including the newly added Gemini 4 Argon at $2.00/$10.00. Caveat: directory data can lag the provider's live catalog, so verify pricing against OpenCode before relying on it.",
+    "resource_type": "directory-gallery",
+    "topics": [
+      "inference"
+    ],
+    "use_cases": [
+      "run-inference"
+    ],
+    "interfaces": [
+      "web"
+    ],
+    "technologies": [],
+    "license": null,
+    "open_source": false,
+    "display_period": "8–15 Oct 2026",
+    "legacy_categories": [
+      "ai-tool",
+      "web-app"
+    ],
+    "source": {
+      "channel": "share-tech",
+      "sharer": "scarywood75"
+    },
+    "shared_on": "2026-10-14",
+    "verification": {
+      "status": "unchecked",
+      "checked_at": null,
+      "final_url": null
+    }
+  },
+  {
+    "schema_version": "1.0",
     "id": "openscale",
     "title": "OpenScale",
     "canonical_url": "https://app.openscale.so/",
@@ -3324,49 +3361,13 @@
   },
   {
     "schema_version": "1.0",
-    "id": "models-dev-opencode-provider-page",
-    "title": "Models.dev — OpenCode provider page",
-    "canonical_url": "https://models.dev/providers/opencode/",
-    "brief": "A directory of the 124 models available through OpenCode's inference endpoint (opencode.ai/inference/v1), with per-model pricing, context windows, and capability flags plus the @ai-sdk/openai-compatible SDK package. Useful for comparing what OpenCode serves and what each model costs there.",
-    "caveat": null,
-    "details": "Models.dev is a third-party directory of AI model providers; this page covers the OpenCode provider (provider ID opencode). It lists 124 models served through OpenCode's inference endpoint at opencode.ai/inference/v1, with per-model input/output pricing per million tokens, context window and max output sizes, and capability flags, plus the @ai-sdk/openai-compatible package name and a link to OpenCode's own docs. It functions as a provider-comparison snapshot — useful for checking which models OpenCode serves and what each costs there, including the newly added Gemini 4 Argon at $2.00/$10.00. Caveat: directory data can lag the provider's live catalog, so verify pricing against OpenCode before relying on it.",
-    "resource_type": "directory-gallery",
-    "topics": [
-      "inference"
-    ],
-    "use_cases": [
-      "run-inference"
-    ],
-    "interfaces": [
-      "web"
-    ],
-    "technologies": [],
-    "license": null,
-    "open_source": false,
-    "display_period": "providers",
-    "legacy_categories": [
-      "providers"
-    ],
-    "source": {
-      "channel": "providers",
-      "sharer": "scarywood75"
-    },
-    "shared_on": "2026-10-14",
-    "verification": {
-      "status": "unchecked",
-      "checked_at": null,
-      "final_url": null
-    }
-  },
-  {
-    "schema_version": "1.0",
     "id": "flovia",
     "title": "Flovia",
     "canonical_url": "https://flovia.dev",
     "brief": "\"Costco for your API spend\": a group-buying pool that aggregates demand from individuals and startups, buys top-tier API plans in bulk, and covers the cost so members use premium APIs (including AI inference) without enterprise-sized commitments. Early access via waitlist with your X account.",
     "caveat": "Early-access waitlist; \"free\" means within per-API credit and usage limits; savings claims are vendor-reported.",
     "details": "Flovia is a group-buying pool for API spend, pitched as \"Costco for your API spend\": individuals and startups join one pool, Flovia aggregates their demand into a single bulk purchase of top-tier API plans, then covers the cost so members use premium APIs within set credit and usage limits. Listed use cases include running AI inference (via OpenAI models), tracking whale wallets (Nansen, CoinGecko), onchain apps (QuickNode), web and X search (Exa, Firecrawl), and prospecting. Access is early-access via a waitlist joined with an X account, with approved members invited by email; the service is backed by the NVIDIA Inception Program. Caveats: \"free\" means within per-API allowances and rate limits shown before use, not unlimited; the long-term \"up to 70%\" savings target is a goal, not a guarantee; all claims are vendor-reported.",
-    "resource_type": "service-platform",
+    "resource_type": "provider",
     "topics": [
       "inference"
     ],
@@ -3750,12 +3751,13 @@
     "technologies": [],
     "license": null,
     "open_source": false,
-    "display_period": "providers",
+    "display_period": "15–22 Oct 2026",
     "legacy_categories": [
-      "providers"
+      "ai-tool",
+      "web-app"
     ],
     "source": {
-      "channel": "providers",
+      "channel": "share-tech",
       "sharer": "tom App (bot)"
     },
     "shared_on": "2026-10-16",
@@ -4621,7 +4623,7 @@
     "brief": "Naz's four-round head-to-head (same prompt, same DSH harness, DeepSeek-v4.1-Flash-1017) finds DeepSeek's official API ahead on output quality every round, faster, and never timing out, while OpenCode Go timed out repeatedly — yet concludes OpenCode Go's $10-for-$80 value may still be worth it for most users and for personal-assistant use. Per-round results are shown in an attached comparison image rather than a linked page.",
     "caveat": "subjective single-user verdict on non-deterministic runs; quality judgments are not reproducible and the author notes results may differ between people.",
     "details": "Naz's thread reports a four-round, same-prompt, same-harness (DSH) comparison of DeepSeek-v4.1-Flash-1017 served two ways: DeepSeek's official Platform API versus the OpenCode Go subscription. Across all four rounds the official API came out ahead on output quality, felt faster, and never timed out, while OpenCode Go timed out repeatedly; round 4 was arguably a tie on quality. The verdict is split by use case: the official API for anything crucial where multi-turn mistakes compound, OpenCode Go for personal-assistant use, on the grounds that its $10 subscription covering $80 of usage value is hard to beat even with lower perceived quality. Treat this as one user's subjective, non-deterministic comparison — the author says quality judgments may differ between people — and note the per-round results live in an attached image, not a linked data page.",
-    "resource_type": "provider",
+    "resource_type": "article-guide",
     "topics": [
       "inference"
     ],
@@ -4634,12 +4636,12 @@
     "technologies": [],
     "license": null,
     "open_source": null,
-    "display_period": "providers",
+    "display_period": "22–29 Oct 2026",
     "legacy_categories": [
-      "providers"
+      "article"
     ],
     "source": {
-      "channel": "providers",
+      "channel": "share-tech",
       "sharer": "ROman"
     },
     "shared_on": "2026-10-24",
@@ -4698,7 +4700,7 @@
     "brief": "Naz's demo archive for a three-way comparison of the same challenge across DeepSeek Platform, OpenCode Go and CommandCode GOAT: pick a round and step into each contender's original demo result. It extends the earlier DeepSeek-vs-OpenCode Go head-to-head with a third contender and a browsable archive of the demos.",
     "caveat": "single-user, non-deterministic demo runs; results are the author's own and are not reproducible benchmarks.",
     "details": "DeepSeek Benchmarks is a demo archive for a three-way comparison of the same coding challenge across DeepSeek Platform, OpenCode Go and CommandCode GOAT, run by Naz and shared in the channel on 25 October 2026. The site presents the original demos as submitted and lets the reader pick a round, then step inside each contender's result to compare them side by side. It extends an earlier DeepSeek-versus-OpenCode Go head-to-head with a third contender and a browsable archive rather than a single verdict thread. Caveats: these are single-user, non-deterministic demo runs rather than reproducible benchmarks, and the comparison thread itself notes the CommandCode GOAT run failed repeatedly before producing working content.",
-    "resource_type": "provider",
+    "resource_type": "tool",
     "topics": [
       "inference"
     ],
@@ -4711,12 +4713,13 @@
     "technologies": [],
     "license": null,
     "open_source": null,
-    "display_period": "providers",
+    "display_period": "22–29 Oct 2026",
     "legacy_categories": [
-      "providers"
+      "ai-tool",
+      "web-app"
     ],
     "source": {
-      "channel": "providers",
+      "channel": "share-tech",
       "sharer": "ROman"
     },
     "shared_on": "2026-10-25",
@@ -4808,7 +4811,7 @@
     "brief": "AntSeedStats is third-party analytics for AntSeed, the peer-to-peer AI-inference marketplace on Base, listing every model sold on the marketplace with seller counts and input/output prices per million tokens. The models table compares live seller offers side by side, including a savings figure against direct prices, with tracked usage totals.",
     "caveat": "prices and savings are advertised catalog figures from the site's DHT crawl, not verified per-purchase usage; the page itself notes the catalog is advertised, not per-purchase usage.",
     "details": "AntSeedStats is third-party analytics for AntSeed, the peer-to-peer AI-inference marketplace on Base, tracking the models sold on the marketplace from a DHT crawl. Its models table lists 813 models with seller counts, input and output prices per million tokens, savings against direct prices and tracked usage, letting a buyer compare live seller offers for a model side by side. It also tracks network revenue, staking and other marketplace metrics. Prices are advertised catalog figures from the crawl rather than verified per-purchase usage, so confirm an offer on AntSeed itself before relying on a price.",
-    "resource_type": "provider",
+    "resource_type": "directory-gallery",
     "topics": [
       "inference"
     ],
@@ -4821,12 +4824,13 @@
     "technologies": [],
     "license": null,
     "open_source": null,
-    "display_period": "providers",
+    "display_period": "22–29 Oct 2026",
     "legacy_categories": [
-      "providers"
+      "ai-tool",
+      "web-app"
     ],
     "source": {
-      "channel": "providers",
+      "channel": "share-tech",
       "sharer": "0xSaiya"
     },
     "shared_on": "2026-10-27",
@@ -5282,7 +5286,7 @@
     "brief": "Adam Holter's tier list ranks twelve model-and-plan combinations by how much API usage $1 of subscription buys, from Grok 4.7 on X Premium+ ($80) and Claude Opus/Sonnet 5.5 on Claude Max 20x ($66) in S tier down to Gemini 4 Argon on Google AI Pro ($2.8) in F tier, with Claude Haiku 5.5, GPT-5 Astra, Gemini 3.0 Flash and GLM 5.3 in between. It is a quick way to compare which subscription gives the most model usage per dollar across ChatGPT Plus, Claude Max, Google AI Pro, X Premium+ and GLM Coding Pro — presented as a 10-second video, not a page.",
     "caveat": "the dollar figures are the author's own and unverified — the video's methodology footnote was not legible, and Yash himself asked for the workings in the thread; some listed model names are unverified. Treat the ranking as one person's comparison, not measured pricing.",
     "details": "Adam Holter's tier list is a 10-second video ranking twelve model-and-plan combinations by API usage per $1 of subscription, from S tier (Grok 4.7 on X Premium+ at $80, Claude Opus 5.5 and Claude Sonnet 5.5 on Claude Max 20x at $66) through A tier (Claude Haiku 5.5 at $47, GPT-5 Astra on ChatGPT Plus at $32), B tier (Gemini 3.0 Flash $25, GPT-5.1 Sol $24, GPT-5 Luna $19, GPT-5.1 Terra $18), C tier (GLM 5.3 $9.6, Claude Fable 5.1 $6.4) to F tier (Gemini 4 Argon $2.8). It answers a practical question — which subscription buys the most model usage per dollar — across ChatGPT Plus, Claude Max 20x, Google AI Pro, X Premium+ and GLM Coding Pro. The figures are the author's own and unverified: the video's methodology footnote was not legible at the available resolution, and Yash asked for the workings in the thread. The post was shared by 0xSaiya as useful and by thelaggingway, and the video is the whole resource — there is no linked page or data table behind it.",
-    "resource_type": "provider",
+    "resource_type": "article-guide",
     "topics": [
       "inference"
     ],
@@ -5297,7 +5301,7 @@
     "open_source": null,
     "display_period": "29 Oct–5 Nov 2026",
     "legacy_categories": [
-      "providers"
+      "article"
     ],
     "source": {
       "channel": "share-tech",
@@ -5665,7 +5669,7 @@
     "brief": "A directory indexing 19 API providers serving abliterated and uncensored frontier models, with prices, rails, KYC requirements, and cyber scores for each. Useful as a comparison starting point for uncensored-model access.",
     "caveat": "the sharer warns some of these providers will certainly be suspect — verify any provider here yourself before sending it data or money.",
     "details": "A directory indexing 19 API providers that serve abliterated and uncensored frontier models, based on a catalog scan dated 31 Oct 2026 covering 89 priced models. Each provider gets a full sheet with models, per-token prices, payment rails, and KYC status, plus a compare view that ranks by workload cost (1M input plus 250K output tokens) — cheapest listed is GLM-5.3 Flash Uncensored at $0.20 via uncensoredllm.ai — and a section on defense cases for who can buy and who gets gated. Four providers are explicit no-KYC and Monero rails are noted as an access path. The sharer warns some listed providers will certainly be suspect, so treat the directory as a comparison starting point and verify any provider yourself before sending it data or money.",
-    "resource_type": "provider",
+    "resource_type": "directory-gallery",
     "topics": [
       "inference"
     ],
@@ -5678,12 +5682,13 @@
     "technologies": [],
     "license": null,
     "open_source": null,
-    "display_period": "providers",
+    "display_period": "29 Oct–5 Nov 2026",
     "legacy_categories": [
-      "providers"
+      "ai-tool",
+      "web-app"
     ],
     "source": {
-      "channel": "providers",
+      "channel": "share-tech",
       "sharer": "Felix"
     },
     "shared_on": "2026-11-03",
@@ -5912,8 +5917,8 @@
     "open_source": null,
     "display_period": "5–12 Nov 2026",
     "legacy_categories": [
-      "web-app",
-      "providers"
+      "ai-tool",
+      "web-app"
     ],
     "source": {
       "channel": "share-tech",
@@ -5990,8 +5995,8 @@
     "open_source": null,
     "display_period": "5–12 Nov 2026",
     "legacy_categories": [
-      "web-app",
-      "providers"
+      "dev-tool",
+      "web-app"
     ],
     "source": {
       "channel": "share-tech",
@@ -6365,12 +6370,13 @@
     "technologies": [],
     "license": null,
     "open_source": null,
-    "display_period": "providers",
+    "display_period": "5–12 Nov 2026",
     "legacy_categories": [
-      "providers"
+      "ai-tool",
+      "dev-tool"
     ],
     "source": {
-      "channel": "providers",
+      "channel": "share-tech",
       "sharer": "ROman"
     },
     "shared_on": "2026-11-11",
@@ -7212,12 +7218,13 @@
     "technologies": [],
     "license": null,
     "open_source": null,
-    "display_period": "providers",
+    "display_period": "12–19 Nov 2026",
     "legacy_categories": [
-      "providers"
+      "ai-tool",
+      "web-app"
     ],
     "source": {
-      "channel": "providers",
+      "channel": "share-tech",
       "sharer": "ROman"
     },
     "shared_on": "2026-11-18",
@@ -8340,40 +8347,6 @@
   },
   {
     "schema_version": "1.0",
-    "id": "real-api-pricing-2",
-    "title": "Real API Pricing",
-    "canonical_url": "https://github.com/FeiZhuLulu/real-api-pricing",
-    "brief": "GitHub repo behind the real-api-pricing comparison of actual inference API prices. Its web app is already in this library's web-apps section; this is the distinct source repo.",
-    "caveat": null,
-    "details": null,
-    "resource_type": "repository",
-    "topics": [
-      "inference"
-    ],
-    "use_cases": [
-      "run-inference"
-    ],
-    "interfaces": [],
-    "technologies": [],
-    "license": null,
-    "open_source": null,
-    "display_period": "providers",
-    "legacy_categories": [
-      "providers"
-    ],
-    "source": {
-      "channel": "providers",
-      "sharer": "JohnDotOwl"
-    },
-    "shared_on": "2026-09-11",
-    "verification": {
-      "status": "unchecked",
-      "checked_at": null,
-      "final_url": null
-    }
-  },
-  {
-    "schema_version": "1.0",
     "id": "opencode-go",
     "title": "OpenCode Go",
     "canonical_url": "https://opencode.ai/go",
@@ -8447,42 +8420,6 @@
   },
   {
     "schema_version": "1.0",
-    "id": "deepseek-clock",
-    "title": "DeepSeek clock",
-    "canonical_url": "https://deepakness.com/deepseek/",
-    "brief": "Personal utility page showing DeepSeek's live peak/off-peak status in local time with both models' prices either way. Rates match the official docs.",
-    "caveat": null,
-    "details": null,
-    "resource_type": "tool",
-    "topics": [
-      "inference"
-    ],
-    "use_cases": [
-      "run-inference"
-    ],
-    "interfaces": [
-      "web"
-    ],
-    "technologies": [],
-    "license": null,
-    "open_source": null,
-    "display_period": "providers",
-    "legacy_categories": [
-      "providers"
-    ],
-    "source": {
-      "channel": "providers",
-      "sharer": "Alp"
-    },
-    "shared_on": "2026-09-10",
-    "verification": {
-      "status": "unchecked",
-      "checked_at": null,
-      "final_url": null
-    }
-  },
-  {
-    "schema_version": "1.0",
     "id": "token-harbor",
     "title": "Token Harbor",
     "canonical_url": "https://tokenharbor.ai/pricing",
@@ -8525,7 +8462,7 @@
     "brief": "Kuaishou's AI cloud / model-as-a-service platform with API and SDK integration for online inference. Holds ISO 27001/27017/42001 and MLPS Level 3; no explicit zero-retention statement found.",
     "caveat": null,
     "details": null,
-    "resource_type": "service-platform",
+    "resource_type": "provider",
     "topics": [
       "cloud-infrastructure",
       "inference"
@@ -8562,7 +8499,7 @@
     "brief": "GPU cloud infrastructure company offering serverless inference APIs, dedicated endpoints and GPU clusters. Infrastructure rather than a retail model API.",
     "caveat": null,
     "details": null,
-    "resource_type": "service-platform",
+    "resource_type": "provider",
     "topics": [
       "cloud-infrastructure",
       "inference"
@@ -8601,7 +8538,7 @@
     "brief": "GPU cloud with serverless inference APIs and dedicated endpoints; lists H100 at $2/GPU-hour and H200 at $2.60/GPU-hour.",
     "caveat": null,
     "details": null,
-    "resource_type": "service-platform",
+    "resource_type": "provider",
     "topics": [
       "cloud-infrastructure",
       "inference"
@@ -9574,45 +9511,6 @@
   },
   {
     "schema_version": "1.0",
-    "id": "freebuff",
-    "title": "Freebuff",
-    "canonical_url": "https://freebuff.com/",
-    "brief": "Free, ad-supported coding agent (CLI, desktop, web, cloud, chat) powered by open models like DeepSeek V4 Pro/Flash and MiniMax M3. Explicit no-training stance — it doesn't share data with third parties that would train on it.",
-    "caveat": null,
-    "details": null,
-    "resource_type": "tool",
-    "topics": [
-      "ai-agents"
-    ],
-    "use_cases": [
-      "generate-code",
-      "manage-agents"
-    ],
-    "interfaces": [
-      "cli",
-      "desktop",
-      "web"
-    ],
-    "technologies": [],
-    "license": null,
-    "open_source": null,
-    "display_period": "providers",
-    "legacy_categories": [
-      "providers"
-    ],
-    "source": {
-      "channel": "providers",
-      "sharer": "Rykuuun"
-    },
-    "shared_on": "2026-08-14",
-    "verification": {
-      "status": "unchecked",
-      "checked_at": null,
-      "final_url": null
-    }
-  },
-  {
-    "schema_version": "1.0",
     "id": "griphubrouter",
     "title": "GripHubRouter",
     "canonical_url": "https://griphubrouter.com/",
@@ -9763,7 +9661,7 @@
     "brief": "AI-native cloud combining serverless model APIs (200+ models through one API, billed per token) with dedicated private endpoints, secure isolated agent sandboxes, and GPU cloud (on-demand instances, serverless GPU, bare metal). One platform for the full AI stack — model APIs, GPUs, and agent runtimes — backed by testimonials from Hugging Face, Kilo Code, and Fish Audio. Its 'up to 50% less than major cloud providers' claim is vendor-reported and not independently verified.",
     "caveat": "Its 'up to 50% less than major cloud providers' claim is vendor-reported and not independently verified.",
     "details": null,
-    "resource_type": "service-platform",
+    "resource_type": "provider",
     "topics": [
       "cloud-infrastructure",
       "inference"
@@ -10265,50 +10163,13 @@
   },
   {
     "schema_version": "1.0",
-    "id": "privacywatch",
-    "title": "PrivacyWatch",
-    "canonical_url": "https://privacywatch.wyrdwerk.com/",
-    "brief": "Open-source comparison of 86+ provider families (97 surfaces) on training, retention, zero-retention and data location, quoting each provider's own ToS and privacy docs. Maintained by the same crew as this library.",
-    "caveat": null,
-    "details": null,
-    "resource_type": "directory-gallery",
-    "topics": [
-      "inference",
-      "security"
-    ],
-    "use_cases": [
-      "run-inference"
-    ],
-    "interfaces": [
-      "web"
-    ],
-    "technologies": [],
-    "license": null,
-    "open_source": true,
-    "display_period": "providers",
-    "legacy_categories": [
-      "providers"
-    ],
-    "source": {
-      "channel": "providers",
-      "sharer": "thelaggingway"
-    },
-    "shared_on": "2026-07-31",
-    "verification": {
-      "status": "unchecked",
-      "checked_at": null,
-      "final_url": null
-    }
-  },
-  {
-    "schema_version": "1.0",
     "id": "openai-api-pricing",
     "title": "OpenAI API pricing",
     "canonical_url": "https://platform.openai.com/docs/pricing",
     "brief": "OpenAI's official per-1M-token pricing page (e.g. gpt-6-luna $0.10 in / $0.50 out short-context). Useful as the first-party reference behind third-party price comparisons.",
     "caveat": null,
     "details": null,
-    "resource_type": "documentation",
+    "resource_type": "provider",
     "topics": [
       "inference"
     ],
@@ -10563,7 +10424,7 @@
     "brief": "Decentralized, open-source serverless compute platform in the Bittensor ecosystem, aiming to serve new SOTA open-source models 'minutes after release' across text, image, video, speech, and music. Pay-as-you-go billed per token consumed with a live cost estimator, plus TEE/secure compute and a Chutes Chat consumer app. Throughput claims are vendor-reported and not independently verified.",
     "caveat": "Throughput claims are vendor-reported and not independently verified.",
     "details": null,
-    "resource_type": "service-platform",
+    "resource_type": "provider",
     "topics": [
       "inference",
       "cloud-infrastructure"
@@ -10668,42 +10529,6 @@
   },
   {
     "schema_version": "1.0",
-    "id": "tokenwatch",
-    "title": "TokenWatch",
-    "canonical_url": "https://tokenwatch.wyrdwerk.com/",
-    "brief": "Live price comparison across inference providers, maintained by the same crew as this library. The sharer noted a Hyper subscription yields $12.50 of inference a day.",
-    "caveat": null,
-    "details": null,
-    "resource_type": "directory-gallery",
-    "topics": [
-      "inference"
-    ],
-    "use_cases": [
-      "run-inference"
-    ],
-    "interfaces": [
-      "web"
-    ],
-    "technologies": [],
-    "license": null,
-    "open_source": null,
-    "display_period": "providers",
-    "legacy_categories": [
-      "providers"
-    ],
-    "source": {
-      "channel": "providers",
-      "sharer": "thelaggingway"
-    },
-    "shared_on": "2026-07-27",
-    "verification": {
-      "status": "unchecked",
-      "checked_at": null,
-      "final_url": null
-    }
-  },
-  {
-    "schema_version": "1.0",
     "id": "zyloo",
     "title": "Zyloo",
     "canonical_url": "https://zyloo.io/subscription",
@@ -10747,7 +10572,7 @@
     "brief": "Moonshot AI's platform documentation for the Kimi model family. Shared originally via a Kimi-K3 Hugging Face link.",
     "caveat": null,
     "details": null,
-    "resource_type": "documentation",
+    "resource_type": "provider",
     "topics": [
       "inference"
     ],
@@ -12739,6 +12564,43 @@
   },
   {
     "schema_version": "1.0",
+    "id": "tokenwatch",
+    "title": "TokenWatch",
+    "canonical_url": "https://tokenwatch.wyrdwerk.com/",
+    "brief": "Live price comparison across inference providers, maintained by the same crew as this library. The sharer noted a Hyper subscription yields $12.50 of inference a day.",
+    "caveat": null,
+    "details": null,
+    "resource_type": "directory-gallery",
+    "topics": [
+      "inference"
+    ],
+    "use_cases": [
+      "run-inference"
+    ],
+    "interfaces": [
+      "web"
+    ],
+    "technologies": [],
+    "license": null,
+    "open_source": null,
+    "display_period": "23–29 Jul 2026",
+    "legacy_categories": [
+      "ai-tool",
+      "web-app"
+    ],
+    "source": {
+      "channel": "share-tech",
+      "sharer": "thelaggingway"
+    },
+    "shared_on": "2026-07-27",
+    "verification": {
+      "status": "unchecked",
+      "checked_at": null,
+      "final_url": null
+    }
+  },
+  {
+    "schema_version": "1.0",
     "id": "pi-openai-server-compaction",
     "title": "pi-openai-server-compaction",
     "canonical_url": "https://github.com/algal/pi-openai-server-compaction",
@@ -14229,6 +14091,44 @@
   },
   {
     "schema_version": "1.0",
+    "id": "privacywatch",
+    "title": "PrivacyWatch",
+    "canonical_url": "https://privacywatch.wyrdwerk.com/",
+    "brief": "Open-source comparison of 86+ provider families (97 surfaces) on training, retention, zero-retention and data location, quoting each provider's own ToS and privacy docs. Maintained by the same crew as this library.",
+    "caveat": null,
+    "details": null,
+    "resource_type": "directory-gallery",
+    "topics": [
+      "inference",
+      "security"
+    ],
+    "use_cases": [
+      "run-inference"
+    ],
+    "interfaces": [
+      "web"
+    ],
+    "technologies": [],
+    "license": null,
+    "open_source": true,
+    "display_period": "30 Jul–5 Aug 2026",
+    "legacy_categories": [
+      "ai-tool",
+      "web-app"
+    ],
+    "source": {
+      "channel": "share-tech",
+      "sharer": "thelaggingway"
+    },
+    "shared_on": "2026-07-31",
+    "verification": {
+      "status": "unchecked",
+      "checked_at": null,
+      "final_url": null
+    }
+  },
+  {
+    "schema_version": "1.0",
     "id": "aoagents",
     "title": "AoAgents",
     "canonical_url": "https://aoagents.dev/",
@@ -15531,6 +15431,46 @@
   },
   {
     "schema_version": "1.0",
+    "id": "freebuff",
+    "title": "Freebuff",
+    "canonical_url": "https://freebuff.com/",
+    "brief": "Free, ad-supported coding agent (CLI, desktop, web, cloud, chat) powered by open models like DeepSeek V4 Pro/Flash and MiniMax M3. Explicit no-training stance — it doesn't share data with third parties that would train on it.",
+    "caveat": null,
+    "details": null,
+    "resource_type": "tool",
+    "topics": [
+      "ai-agents"
+    ],
+    "use_cases": [
+      "generate-code",
+      "manage-agents"
+    ],
+    "interfaces": [
+      "cli",
+      "desktop",
+      "web"
+    ],
+    "technologies": [],
+    "license": null,
+    "open_source": null,
+    "display_period": "13–20 Aug 2026",
+    "legacy_categories": [
+      "ai-tool",
+      "dev-tool"
+    ],
+    "source": {
+      "channel": "share-tech",
+      "sharer": "Rykuuun"
+    },
+    "shared_on": "2026-08-14",
+    "verification": {
+      "status": "unchecked",
+      "checked_at": null,
+      "final_url": null
+    }
+  },
+  {
+    "schema_version": "1.0",
     "id": "psychology-for-ux-study-guide",
     "title": "Psychology for UX: Study Guide",
     "canonical_url": "https://www.nngroup.com/articles/psychology-study-guide/",
@@ -16791,6 +16731,78 @@
   },
   {
     "schema_version": "1.0",
+    "id": "deepseek-clock",
+    "title": "DeepSeek clock",
+    "canonical_url": "https://deepakness.com/deepseek/",
+    "brief": "Personal utility page showing DeepSeek's live peak/off-peak status in local time with both models' prices either way. Rates match the official docs.",
+    "caveat": null,
+    "details": null,
+    "resource_type": "tool",
+    "topics": [
+      "inference"
+    ],
+    "use_cases": [
+      "run-inference"
+    ],
+    "interfaces": [
+      "web"
+    ],
+    "technologies": [],
+    "license": null,
+    "open_source": null,
+    "display_period": "10–17 Sep 2026",
+    "legacy_categories": [
+      "ai-tool",
+      "web-app"
+    ],
+    "source": {
+      "channel": "share-tech",
+      "sharer": "Alp"
+    },
+    "shared_on": "2026-09-10",
+    "verification": {
+      "status": "unchecked",
+      "checked_at": null,
+      "final_url": null
+    }
+  },
+  {
+    "schema_version": "1.0",
+    "id": "real-api-pricing-2",
+    "title": "Real API Pricing",
+    "canonical_url": "https://github.com/FeiZhuLulu/real-api-pricing",
+    "brief": "GitHub repo behind the real-api-pricing comparison of actual inference API prices. Its web app is already in this library's web-apps section; this is the distinct source repo.",
+    "caveat": null,
+    "details": null,
+    "resource_type": "repository",
+    "topics": [
+      "inference"
+    ],
+    "use_cases": [
+      "run-inference"
+    ],
+    "interfaces": [],
+    "technologies": [],
+    "license": null,
+    "open_source": null,
+    "display_period": "10–17 Sep 2026",
+    "legacy_categories": [
+      "ai-tool",
+      "github"
+    ],
+    "source": {
+      "channel": "share-tech",
+      "sharer": "JohnDotOwl"
+    },
+    "shared_on": "2026-09-11",
+    "verification": {
+      "status": "unchecked",
+      "checked_at": null,
+      "final_url": null
+    }
+  },
+  {
+    "schema_version": "1.0",
     "id": "real-api-pricing",
     "title": "Real API Pricing",
     "canonical_url": "https://real-api-pricing.vercel.app/",
@@ -17615,7 +17627,7 @@
     "brief": "An inference provider that lets Pi (a terminal agent harness) run on Claude Code Pro/Max subscriptions instead of API keys. Kenn is using a fork and admits he \"just closed my eyes and let the agent figure it out\" — expect rough edges.",
     "caveat": "Kenn is using a fork and admits he \"just closed my eyes and let the agent figure it out\" — expect rough edges.",
     "details": "A Pi extension that runs Claude models (Opus, Sonnet, Haiku — including Fable 5.1 and Opus 5.5) inside the Pi coding agent via Anthropic's Agent SDK, billed against your existing Claude Pro/Max subscription quota rather than API spend. Install with `pi install npm:pi-claude-agent-sdk`, then pick any Claude model in `/model`. Behind the scenes it bridges Pi's tools into Claude Code while keeping Pi's TUI, adding streaming, MCP tool bridging, custom tool bridging, session resume/persistence, context sync, thinking support, and skills forwarding. Newer models get 1M context; the model list auto-tracks Pi's Anthropic catalog, so new Claude models appear without a bridge update. The README is unusually honest about caveats: abort-heavy sessions cost noticeably more (session rebuilds re-send the whole conversation and lose prompt cache), exported `ANTHROPIC_*` environment variables redirect the child CLI and break auth, mid-session system-prompt changes may not take effect until a rebuild, and system-prompt edits that strip Pi's prompt refuse the turn to avoid Extra Usage billing. Fork lineage: pi-claude-bridge by Eli Dickinson, originally claude-agent-sdk-pi by Prateek Sunal. MIT.",
-    "resource_type": "provider",
+    "resource_type": "repository",
     "topics": [
       "ai-agents",
       "inference"

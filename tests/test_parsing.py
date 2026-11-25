@@ -106,6 +106,24 @@ class TestParseNotes(unittest.TestCase):
         self.assertEqual(recs[0]["brief"], "First sentence. Second sentence.")
         self.assertEqual(recs[0]["_explicit_warn"], "first line caveat continued caveat.")
 
+    def test_explicit_id_field(self):
+        import tempfile
+        md = (
+            "## Week: 1–7 Jan 2026\n\n"
+            "### Pinned Tool\n"
+            "- URL: https://example.com/pinned\n"
+            "- ID: custom-pinned-id-2\n"
+            "- Posted by: tester1, 3 Jan 12:00 IST\n"
+            "- Category: ai-tool\n"
+            "- Brief: Pinned id test.\n"
+        )
+        with tempfile.TemporaryDirectory() as td:
+            p = Path(td) / "sample.md"
+            p.write_text(md, encoding="utf-8")
+            recs = build.parse_notes(p)
+        self.assertEqual(len(recs), 1)
+        self.assertEqual(recs[0]["_explicit_id"], "custom-pinned-id-2")
+
 
 if __name__ == "__main__":
     unittest.main()

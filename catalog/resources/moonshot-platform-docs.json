@@ -6,7 +6,7 @@
   "brief": "Moonshot AI's platform documentation for the Kimi model family. Shared originally via a Kimi-K3 Hugging Face link.",
   "caveat": null,
   "details": null,
-  "resource_type": "documentation",
+  "resource_type": "provider",
   "topics": [
     "inference"
   ],

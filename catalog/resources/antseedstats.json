@@ -6,7 +6,7 @@
   "brief": "AntSeedStats is third-party analytics for AntSeed, the peer-to-peer AI-inference marketplace on Base, listing every model sold on the marketplace with seller counts and input/output prices per million tokens. The models table compares live seller offers side by side, including a savings figure against direct prices, with tracked usage totals.",
   "caveat": "prices and savings are advertised catalog figures from the site's DHT crawl, not verified per-purchase usage; the page itself notes the catalog is advertised, not per-purchase usage.",
   "details": "AntSeedStats is third-party analytics for AntSeed, the peer-to-peer AI-inference marketplace on Base, tracking the models sold on the marketplace from a DHT crawl. Its models table lists 813 models with seller counts, input and output prices per million tokens, savings against direct prices and tracked usage, letting a buyer compare live seller offers for a model side by side. It also tracks network revenue, staking and other marketplace metrics. Prices are advertised catalog figures from the crawl rather than verified per-purchase usage, so confirm an offer on AntSeed itself before relying on a price.",
-  "resource_type": "provider",
+  "resource_type": "directory-gallery",
   "topics": [
     "inference"
   ],
@@ -19,12 +19,13 @@
   "technologies": [],
   "license": null,
   "open_source": null,
-  "display_period": "providers",
+  "display_period": "22–29 Oct 2026",
   "legacy_categories": [
-    "providers"
+    "ai-tool",
+    "web-app"
   ],
   "source": {
-    "channel": "providers",
+    "channel": "share-tech",
     "sharer": "0xSaiya"
   },
   "shared_on": "2026-10-27",

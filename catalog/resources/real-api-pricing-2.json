@@ -17,12 +17,13 @@
   "technologies": [],
   "license": null,
   "open_source": null,
-  "display_period": "providers",
+  "display_period": "10–17 Sep 2026",
   "legacy_categories": [
-    "providers"
+    "ai-tool",
+    "github"
   ],
   "source": {
-    "channel": "providers",
+    "channel": "share-tech",
     "sharer": "JohnDotOwl"
   },
   "shared_on": "2026-09-11",

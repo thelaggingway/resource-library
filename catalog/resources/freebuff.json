@@ -22,12 +22,13 @@
   "technologies": [],
   "license": null,
   "open_source": null,
-  "display_period": "providers",
+  "display_period": "13–20 Aug 2026",
   "legacy_categories": [
-    "providers"
+    "ai-tool",
+    "dev-tool"
   ],
   "source": {
-    "channel": "providers",
+    "channel": "share-tech",
     "sharer": "Rykuuun"
   },
   "shared_on": "2026-08-14",

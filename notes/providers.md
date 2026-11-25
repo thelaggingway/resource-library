@@ -76,12 +76,6 @@ Methodology: every link-bearing message in #providers across the channel's full 
 - Category: providers
 - Brief: Inference provider at crof.ai; public evidence is thin (snippet-based). Third-party substitution allegations seen during research are unverified and not repeated here.
 
-### Real API Pricing
-- URL: https://github.com/FeiZhuLulu/real-api-pricing
-- Posted by: JohnDotOwl, 11 Sep
-- Category: providers
-- Brief: GitHub repo behind the real-api-pricing comparison of actual inference API prices. Its web app is already in this library's web-apps section; this is the distinct source repo.
-
 ### OpenCode Go
 - URL: https://opencode.ai/go
 - Posted by: UT, 10 Sep
@@ -93,12 +87,6 @@ Methodology: every link-bearing message in #providers across the channel's full 
 - Posted by: uur, 10 Sep
 - Category: providers
 - Brief: A unified AI gateway routing to DeepSeek, Kimi, GLM, and 300+ models through one endpoint, with smart routing by cost, speed, quality, or availability, built-in failover, and usage analytics; it also sells reserved GPU-lane capacity from $0.20/hr for dedicated inference and is currently offering 100% bonus credits on recharges up to $1,000. A forwarded announcement noted DeepSeek-V4.1-Flash going live on the platform. The homepage publishes no per-token price list, and the bonus-credit promo terms are vendor-published.
-
-### DeepSeek clock
-- URL: https://deepakness.com/deepseek/
-- Posted by: Alp, 10 Sep
-- Category: providers
-- Brief: Personal utility page showing DeepSeek's live peak/off-peak status in local time with both models' prices either way. Rates match the official docs.
 
 ### Token Harbor
 - URL: https://tokenharbor.ai/pricing
@@ -280,12 +268,6 @@ Methodology: every link-bearing message in #providers across the channel's full 
 - Category: providers
 - Brief: Inference provider; its DeepSeek V4 Flash $0.13/M input price was corroborated. A "1.8¢/M blended" figure seen in chatter is not a list price.
 
-### Freebuff
-- URL: https://freebuff.com/
-- Posted by: Rykuuun, 14 Aug
-- Category: providers
-- Brief: Free, ad-supported coding agent (CLI, desktop, web, cloud, chat) powered by open models like DeepSeek V4 Pro/Flash and MiniMax M3. Explicit no-training stance — it doesn't share data with third parties that would train on it.
-
 ### GripHubRouter
 - URL: https://griphubrouter.com/
 - Posted by: Febryan, 14 Aug
@@ -394,12 +376,6 @@ Methodology: every link-bearing message in #providers across the channel's full 
 - Category: providers
 - Brief: Flat-rate unlimited time-block subscriptions — Core pool from $22/mo per 8-hour daily block, Frontier $71/mo, Flagship $199/mo. Prompts and completions are processed in memory and discarded, never used for training.
 
-### PrivacyWatch
-- URL: https://privacywatch.wyrdwerk.com/
-- Posted by: thelaggingway, 31 Jul
-- Category: providers
-- Brief: Open-source comparison of 86+ provider families (97 surfaces) on training, retention, zero-retention and data location, quoting each provider's own ToS and privacy docs. Maintained by the same crew as this library.
-
 ### OpenAI API pricing
 - URL: https://platform.openai.com/docs/pricing
 - Posted by: simply soy, 31 Jul
@@ -459,12 +435,6 @@ Methodology: every link-bearing message in #providers across the channel's full 
 - Posted by: Alp, 27 Jul
 - Category: providers
 - Brief: Charm's coding-optimized inference for its Crush agent community: a free tier with 100 Hypercredits per month, a $20/month subscription with 250 Hypercredits refreshing daily, and prepaid bundles ($5–$20) that never expire — one Hypercredit currently maps to 5¢ of token spend. It ships with team governance features (master/sub keys, per-model and per-user usage reports) and advertises zero data retention with GDPR compliance. The zero-data-retention and GDPR claims are vendor-stated and not independently audited or verified.
-
-### TokenWatch
-- URL: https://tokenwatch.wyrdwerk.com/
-- Posted by: thelaggingway, 27 Jul
-- Category: providers
-- Brief: Live price comparison across inference providers, maintained by the same crew as this library. The sharer noted a Hyper subscription yields $12.50 of inference a day.
 
 ### Zyloo
 - URL: https://zyloo.io/subscription

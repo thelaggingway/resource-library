@@ -98,6 +98,8 @@ def parse_notes(path):
                 elif l.startswith("- Category:"):
                     entry["categories"] = [c.strip() for c in l[len("- Category:"):].split(",")]
                     field = None
+                elif l.startswith("- ID:"):
+                    entry["_explicit_id"] = l[len("- ID:"):].strip(); field = None
                 elif l.startswith("- Brief:"):
                     brief_parts = [l[len("- Brief:"):].strip()]; field = "brief"
                 elif l.startswith("- Warning:"):
@@ -329,10 +331,14 @@ def main():
     # published #r-<id> anchors keep pointing at the same card; the providers
     # section (added later) takes the -2 suffixed variants on collision.
     for r in all_res:
-        if r["week"] != "providers":
+        if r.get("_explicit_id"):
+            r["id"] = r["_explicit_id"]
+            seen.add(r["id"])
+    for r in all_res:
+        if not r.get("_explicit_id") and r["week"] != "providers":
             r["id"] = slugify(r["title"], seen)
     for r in all_res:
-        if r["week"] == "providers":
+        if not r.get("_explicit_id") and r["week"] == "providers":
             r["id"] = slugify(r["title"], seen)
 
     # Details sidecars: notes/details-*.md merge a long-form breakdown into
