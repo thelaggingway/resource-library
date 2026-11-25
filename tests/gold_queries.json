@@ -337,10 +337,10 @@
    "pi-better-skills",
    "security-audit-skill",
    "skills-emilkowalski",
-   "linus-torvalds-skill"
+   "gemini-frontend-design"
   ],
   "expect_none": false,
-  "note": "re-reviewed 2026-10-14 against 376-record catalog after the stem double-count fix (a word and its stem variants now score once). singular '-skill' agent skills (security-audit-skill, linus-torvalds-skill) no longer lose to plural titles; ui-skills drops to #6"
+  "note": "re-reviewed 2026-11-25 against 482-record catalog; new Gemini Frontend Design agent skill legitimately ranks #3, pushing linus-torvalds-skill to #6"
  },
  {
   "query": "next.js template",

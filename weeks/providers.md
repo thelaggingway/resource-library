@@ -1,6 +1,6 @@
 # Inference providers — curated from CheapInfra #providers
 
-148 curated providers, with briefs.
+149 curated providers, with briefs.
 
 ## Isoquant
 - URL: https://isoquant.ai/
@@ -403,6 +403,12 @@
 - Shared by: one_phantomic (19 Nov)
 - Categories: providers
 - Brief: Nous Portal is Nous Research's inference portal, serving a large catalogue of frontier and open models — Claude, GPT-6, Gemini, DeepSeek, Qwen, Kimi and more — with published per-token pricing. Accounts buy credits and call the models through one API, with batch pricing listed alongside standard rates.
+
+## Unaligned
+- URL: https://unaligned.pw/pricing
+- Shared by: Thoor (24 Nov)
+- Categories: providers
+- Brief: Unaligned is a pay-as-you-go inference provider with per-token pricing across 43 models, including uncensored GLM and DeepSeek variants alongside frontier models. There is no subscription or monthly fee — top up in crypto from $5 and call any model from the browser chat or API. - Warning: crypto-only top-ups; model names and prices are vendor-listed and unverified.
 
 ## Prism Inference
 - URL: https://prisminference.com/pricing

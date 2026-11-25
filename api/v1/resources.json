@@ -7549,6 +7549,120 @@
   },
   {
     "schema_version": "1.0",
+    "id": "unaligned",
+    "title": "Unaligned",
+    "canonical_url": "https://unaligned.pw/pricing",
+    "brief": "Unaligned is a pay-as-you-go inference provider with per-token pricing across 43 models, including uncensored GLM and DeepSeek variants alongside frontier models. There is no subscription or monthly fee — top up in crypto from $5 and call any model from the browser chat or API. - Warning: crypto-only top-ups; model names and prices are vendor-listed and unverified.",
+    "caveat": "There is no subscription or monthly fee — top up in crypto from $5 and call any model from the browser chat or API. - Warning: crypto-only top-ups; model names and prices are vendor-listed and unverified.",
+    "details": "Unaligned is a pay-as-you-go inference provider that sells per-token access to 43 models with no subscription, seats or monthly fee: create an account, top up in crypto from $5 (with 5% added to the first top-up), then use the models from a browser chat or with an API key. Its pricing page lists uncensored GLM-5.3 and DeepSeek V4.1 variants alongside frontier models, with the cheapest model at $0.05 per million input tokens and most models priced between $0.05 and $2.50 per million input tokens. It is built for developers who want uncensored open-weight models without a monthly commitment, but top-ups are crypto-only and the model names and prices are vendor-listed and unverified.",
+    "resource_type": "provider",
+    "topics": [
+      "inference"
+    ],
+    "use_cases": [
+      "run-inference"
+    ],
+    "interfaces": [
+      "api",
+      "web"
+    ],
+    "technologies": [],
+    "license": null,
+    "open_source": null,
+    "display_period": "providers",
+    "legacy_categories": [
+      "providers"
+    ],
+    "source": {
+      "channel": "providers",
+      "sharer": "Thoor"
+    },
+    "shared_on": "2026-11-24",
+    "verification": {
+      "status": "unchecked",
+      "checked_at": null,
+      "final_url": null
+    }
+  },
+  {
+    "schema_version": "1.0",
+    "id": "gemini-frontend-design",
+    "title": "Gemini Frontend Design",
+    "canonical_url": "https://github.com/google-gemini/demolab",
+    "brief": "An agent skill from Google's Gemini team that teaches coding agents to build fast, clean landing pages with Gemini 4 Neon, built around five anti-slop rules — full-bleed display type, at most two font families, subject-matched colour palettes, custom Nano Banana visuals, and no pill badges, eyebrow kickers or nested cards. Install it with `npx skills add https://github.com/google-gemini/demolab --skill gemini-frontend-design` and it works with any agent that supports the open Agent Skills format, including Claude Code, Cursor and Gemini CLI. - Warning: experimental skill in a Google demo lab repo, not a stable release; the repo contents may change.",
+    "caveat": null,
+    "details": "DemoLab is Google Gemini team's library of creative, frontend and experimental agent skills, and gemini-frontend-design is its first skill: a SKILL.md that steers a coding agent to design polished websites and web apps with a clear visual point of view, a first screen matched to the page's purpose, and typography, proportion, color, imagery and motion doing the work instead of decorative chrome. It was drafted to get the best out of Gemini 4 models for frontend design, and the team's evaluations found users preferred designs made with the skill 67 percent of the time over no skill and 75 percent of the time over popular third-party frontend design skills. The skill's five rules are a full-bleed hero, at most two font families with three body sizes, a subject-matched palette that avoids default beige and purple, custom Nano Banana visuals with clean contrast, and no pill badges, eyebrow kickers or nested cards. Install it with npx skills add google-gemini/demolab --skill gemini-frontend-design; it works with any agent that supports the open Agent Skills format, and the skill is Apache-2.0 licensed.",
+    "resource_type": "repository",
+    "topics": [
+      "ai-agents",
+      "frontend",
+      "design"
+    ],
+    "use_cases": [
+      "build-interfaces",
+      "generate-code"
+    ],
+    "interfaces": [],
+    "technologies": [],
+    "license": null,
+    "open_source": null,
+    "display_period": "19–26 Nov 2026",
+    "legacy_categories": [
+      "ai-tool",
+      "github"
+    ],
+    "source": {
+      "channel": "share-tech",
+      "sharer": "Alp"
+    },
+    "shared_on": "2026-11-25",
+    "verification": {
+      "status": "unchecked",
+      "checked_at": null,
+      "final_url": null
+    }
+  },
+  {
+    "schema_version": "1.0",
+    "id": "blackbox-arena",
+    "title": "BlackBox Arena",
+    "canonical_url": "https://blackboxarena.ai/",
+    "brief": "BlackBox Arena (BB Arena) is an AI security benchmarking site that tests models across 100 black-box web and API security labs using a four-rung proof ladder and a single neutral harness. Alongside model leaderboards, it also publishes side-by-side provider comparison boards (such as DeepSeek V4.1 Flash) tracking solve rate, speed, timeouts, tokens, and cost per solve. - Warning: results come from BB Arena's own harness and are snapshots that change as models and providers are re-run; prices listed on comparison boards are not independently verified.",
+    "caveat": "Alongside model leaderboards, it also publishes side-by-side provider comparison boards (such as DeepSeek V4.1 Flash) tracking solve rate, speed, timeouts, tokens, and cost per solve. - Warning: results come from BB Arena's own harness and are snapshots that change as models and providers are re-run; prices listed on comparison boards are not independently verified.",
+    "details": "BlackBox Arena (BB Arena) is a black-box benchmarking platform that evaluates AI models across 100 web and API security labs using a four-rung proof ladder and a single neutral harness. Rather than relying on static Q&A, each lab tests whether a model can make real progress through practical security tasks, reporting solve rates, rungs reached, timeout shares, speed, throughput, latency, token usage, and cost. Alongside its main model rankings and methodology documentation, the site publishes provider comparison boards — such as its DeepSeek V4.1 Flash board — that run API providers through the same subset of labs (10 labs, 40 attempts, 25-minute limit per attempt) to expose differences in actual solve rate and cost per solve across hosts serving the same model. The numbers are BB Arena's own harness snapshots and change as models and providers are re-run, so treat rankings and listed prices as current-as-shown rather than independently verified.",
+    "resource_type": "tool",
+    "topics": [
+      "testing",
+      "security",
+      "inference"
+    ],
+    "use_cases": [
+      "test-software"
+    ],
+    "interfaces": [
+      "web"
+    ],
+    "technologies": [],
+    "license": null,
+    "open_source": null,
+    "display_period": "19–26 Nov 2026",
+    "legacy_categories": [
+      "ai-tool",
+      "web-app"
+    ],
+    "source": {
+      "channel": "share-tech",
+      "sharer": "scarywood75"
+    },
+    "shared_on": "2026-11-24",
+    "verification": {
+      "status": "unchecked",
+      "checked_at": null,
+      "final_url": null
+    }
+  },
+  {
+    "schema_version": "1.0",
     "id": "annnimate",
     "title": "Annnimate",
     "canonical_url": "https://annnimate.com",
