@@ -1,25 +1,28 @@
 {
   "schema_version": "1.0",
   "id": "pi-coding-agent-in-the-browser-announcement",
-  "title": "Pi coding agent in the browser (announcement)",
-  "canonical_url": "https://x.com/victormustar/status/2099794150879121471",
-  "brief": "Announcement of a coding agent (Pi) running entirely in the browser on a 2B model via WebGPU — MiniCPM5-2B + Pi with Transformers.js and 4-bit ONNX weights. Announcement only; no repo was linked in the post.",
-  "caveat": "Announcement only; no repo was linked in the post.",
+  "title": "MiniCPM5-2B WebGPU Pi (coding agent in the browser)",
+  "canonical_url": "https://huggingface.co/spaces/victor/MiniCPM5-2B-WebGPU-Pi",
+  "brief": "Victor Mustar's Hugging Face Space running the Pi coding agent and a `just-bash` virtual workspace entirely inside the browser on a 2B model (`MiniCPM5-2B`) via WebGPU and 4-bit ONNX weights, with no external API key required.",
+  "caveat": null,
   "details": "An X announcement from Victor Mustar of a coding agent (Pi) running entirely in the browser on a 2B model via WebGPU — MiniCPM5-2B with Transformers.js and 4-bit ONNX weights, matching his \"MiniCPM5-2B WebGPU Pi\" Hugging Face Space. Notable because it pushes a real agentic coding loop (not just chat) into a zero-install browser tab on commodity hardware. The link is the announcement only; no repo was linked in the post. (x.com is not directly fetchable from this environment; the breakdown reflects the announcement's subject as curated.)",
-  "resource_type": "article-guide",
+  "resource_type": "tool",
   "topics": [
     "ai-agents"
   ],
   "use_cases": [
     "learn-technique"
   ],
-  "interfaces": [],
+  "interfaces": [
+    "web"
+  ],
   "technologies": [],
   "license": null,
   "open_source": null,
   "display_period": "10–17 Sep 2026",
   "legacy_categories": [
-    "ai-tool"
+    "ai-tool",
+    "web-app"
   ],
   "source": {
     "channel": "share-tech",

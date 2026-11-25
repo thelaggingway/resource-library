@@ -1,12 +1,12 @@
 {
   "schema_version": "1.0",
   "id": "brokenarxiv-arxivmath-announcement",
-  "title": "BrokenArXiv / ArXivMath (announcement)",
-  "canonical_url": "https://x.com/j_dekoninck/status/2100180792601420138/photo/1",
-  "brief": "Jasper Dekoninck releasing new versions of the BrokenArXiv and ArXivMath benchmarks. Announcement only; useful pointer for anyone tracking eval benchmarks.",
-  "caveat": "Announcement only; useful pointer for anyone tracking eval benchmarks.",
+  "title": "MathArena (BrokenArXiv / ArXivMath)",
+  "canonical_url": "https://matharena.ai/",
+  "brief": "Live LLM math evaluation platform from ETH Zurich's SRI Lab and INSAIT (including Jasper Dekoninck) hosting the BrokenArXiv and ArXivMath benchmarks on recent arXiv preprints to prevent data contamination.",
+  "caveat": null,
   "details": "An X announcement from Jasper Dekoninck releasing new versions of the BrokenArXiv and ArXivMath benchmarks — eval benchmarks for mathematical reasoning, where \"broken\" arXiv-style problems test whether models can work through real mathematical content rather than memorized answers. The link is the announcement itself (a photo post), not the benchmark documentation, so it serves as a pointer for anyone tracking eval benchmarks rather than a usable resource on its own. (x.com is not directly fetchable from this environment; the breakdown reflects the announcement's subject as curated.)",
-  "resource_type": "article-guide",
+  "resource_type": "tool",
   "topics": [
     "testing"
   ],
@@ -22,7 +22,8 @@
   "open_source": null,
   "display_period": "17–24 Sep 2026",
   "legacy_categories": [
-    "ai-tool"
+    "ai-tool",
+    "web-app"
   ],
   "source": {
     "channel": "share-tech",

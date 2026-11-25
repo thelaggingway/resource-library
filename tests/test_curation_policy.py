@@ -1,8 +1,6 @@
 """Automated curation-policy gates (see docs/curation-policy.md).
 
-Global checks run against every record in data.json and catalog/resources/.
-Forward-looking checks apply from FORWARD_POLICY_START onward while historical
-records await retroactive cleanup; remove the cutoff once Phase 2 lands.
+All checks run globally across every record in data.json and catalog/resources/.
 """
 import json
 import re
@@ -14,14 +12,11 @@ import pytest
 ROOT = Path(__file__).resolve().parent.parent
 CAT_DIR = ROOT / "catalog" / "resources"
 
-# Cutoff for rules that historical records do not yet satisfy cleanly.
-# Remove this gate date after the retroactive catalog cleanup PR lands.
-FORWARD_POLICY_START = "2026-11-26"
-
 SOCIAL_STATUS_RE = re.compile(
     r"^https?://(?:www\.)?(?:x\.com|twitter\.com|fxtwitter\.com|vxtwitter\.com|t\.co)/",
     re.I,
 )
+X_ARTICLE_RE = re.compile(r"^https://x\.com/i/article/\d+$", re.I)
 X_TRACKING_PARAM_RE = re.compile(r"(?:^|[?&])(?:s|a|t)=(?:20|46|[A-Za-z0-9_-]{8,})(?:&|$)")
 
 
@@ -85,14 +80,12 @@ def test_provider_consistency(catalog_records):
     )
 
 
-def test_forward_no_social_urls_or_x_tracking(catalog_records):
+def test_no_social_status_urls_or_x_tracking(catalog_records):
     bad = []
     for r in catalog_records:
-        if r["shared_on"] < FORWARD_POLICY_START:
-            continue
         url = r["canonical_url"]
-        if SOCIAL_STATUS_RE.match(url):
+        if SOCIAL_STATUS_RE.match(url) and not X_ARTICLE_RE.match(url):
             bad.append((r["id"], "social status/post URL", url))
         if X_TRACKING_PARAM_RE.search(url):
             bad.append((r["id"], "X tracking param", url))
-    assert bad == [], f"Forward URL hygiene violations: {bad}"
+    assert bad == [], f"URL hygiene violations: {bad}"

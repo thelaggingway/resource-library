@@ -7,10 +7,10 @@ Counts are curated resources kept after filtering.
 - 14 resources → 17–24 Sep 2026
 
 ## week-2026-09-03_to_2026-09-17.md
-- 37 resources → 10–17 Sep 2026, 3–10 Sep 2026
+- 36 resources → 10–17 Sep 2026, 3–10 Sep 2026
 
 ## week-2026-08-27_to_2026-09-03.md
-- 21 resources → 10–17 Sep 2026, 17–24 Sep 2026, 27 Aug–3 Sep 2026, 3–10 Sep 2026
+- 19 resources → 10–17 Sep 2026, 17–24 Sep 2026, 27 Aug–3 Sep 2026, 3–10 Sep 2026
 
 ## week-2026-08-13_to_2026-08-27.md
 - 36 resources → 13–20 Aug 2026, 20–27 Aug 2026
@@ -73,7 +73,7 @@ Counts are curated resources kept after filtering.
 - 3 resources → 12–19 Nov 2026, providers
 
 ## daily-2026-11-13.md
-- 2 resources → 5–12 Nov 2026, providers
+- 1 resources → providers
 
 ## daily-2026-11-12.md
 - 4 resources → 5–12 Nov 2026, providers
@@ -112,7 +112,7 @@ Counts are curated resources kept after filtering.
 - 4 resources → 29 Oct–5 Nov 2026, providers
 
 ## daily-2026-10-31.md
-- 3 resources → 29 Oct–5 Nov 2026
+- 2 resources → 29 Oct–5 Nov 2026
 
 ## daily-2026-10-30.md
 - 4 resources → 22–29 Oct 2026, providers
@@ -127,7 +127,7 @@ Counts are curated resources kept after filtering.
 - 2 resources → 22–29 Oct 2026
 
 ## daily-2026-10-25.md
-- 2 resources → 22–29 Oct 2026, providers
+- 1 resources → providers
 
 ## daily-2026-10-24.md
 - 3 resources → 22–29 Oct 2026, providers
