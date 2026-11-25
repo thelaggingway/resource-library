@@ -1,12 +1,12 @@
 {
  "baseline_commit": "scripts/regen.py",
  "generated_sha256": {
-  "CHANGELOG.md": "ef35eb6cca2118d35e3a48f5d5c00aee6a060f230a0918fad637e995d78a6f16",
-  "data.json": "0a4f671ef1c199583fc7985322e04a519c5da047bb261f510323d70103747ef5",
-  "feed.xml": "d41418afd9ad6928c50c12b578fa45742dc688457c0ec2e78d2ef3d4dd1ea6f3",
-  "index.html": "3fde6d727753eb92335967fcb63e2a05243f4731b95a95b1827b6259d4b2d836",
-  "llms.txt": "eb1b7b23e4532b5d3e2f936efb6e5bb91ac07055dd0cbd6e8e79b3d5a0c070ff",
-  "og-image.png": "e8afaee573c7cbe013c719fc863fd04020048e59aa0b9cf8058fcd4e978eccfc",
+  "CHANGELOG.md": "810467683d84c15106eccab7c4d490474012981020238ecea4956cd7387bcb37",
+  "data.json": "e1e05a889d8bb0a166037f899c81be698bf87348143ee66278874a40af642128",
+  "feed.xml": "2125619cd2db255711aa51ba1ced621da5ec9949782836ced1324746f91a76b9",
+  "index.html": "87c559073ec333a25f7bbabe840a95f9de87c88708d3a3312798d85c74c25283",
+  "llms.txt": "a4a7a234d0a3d6a071f3ac1073b8075c75dc500a156e5521fe9030ab18114881",
+  "og-image.png": "3a45f97ad047b8112d9497f899ba4514b69191c777fbb9e36906b86e775a057e",
   "robots.txt": "b2834e28a8a876d4adf4d27806f0ac783dc0f6617aaf32dd42e9f5453a0ac56e",
   "sitemap.xml": "26be8fa7cebf4865d57b615c7110539a8cd697edeef4ad459f5abb438f86b09e",
   "weeks/2026-06-04_to_2026-06-10.md": "f17652a5eb159df59ced4eeb8cc4e1704e99ee37c8202da73c2c78fa8635de15",
@@ -33,8 +33,8 @@
   "weeks/2026-10-29_to_2026-11-05.md": "259c835f2a1d25fdf631b1bcc49f1fe741201db383ce6ad8ed05598bd873708e",
   "weeks/2026-11-05_to_2026-11-12.md": "23597c08ad25e7c54582192f4826a9a976a1978985e468590b10aa9e7329f414",
   "weeks/2026-11-12_to_2026-11-19.md": "483b41305ee3af24ffd335fa9ed5ed702cc399b1f1a92def79707c8717906578",
-  "weeks/2026-11-19_to_2026-11-26.md": "f3c6d59f410844fbb9c0742cf47cea0c7bdb62921899efa569ab9e94f12b6972",
-  "weeks/providers.md": "9b96ff55c86ff3b1bc5f1e09cd3f22741374ee3010be442622582848c9dec553"
+  "weeks/2026-11-19_to_2026-11-26.md": "945ddba748c611a78ad4fe407e1507edd620103c8ec06afc255676e74bd9bec4",
+  "weeks/providers.md": "18e9cc04009e1af5508892b2a36ca1be127d6b360622ed0c8f92392c30cc8dd3"
  },
  "inventory": {
   "categories": [
@@ -45,13 +45,13 @@
    "providers",
    "web-app"
   ],
-  "https_urls": 482,
-  "nonempty_warnings": 105,
-  "providers": 151,
-  "share_tech": 331,
-  "total": 482,
-  "unique_ids": 482,
-  "unique_urls": 482
+  "https_urls": 481,
+  "nonempty_warnings": 104,
+  "providers": 149,
+  "share_tech": 332,
+  "total": 481,
+  "unique_ids": 481,
+  "unique_urls": 481
  },
  "ordered_ids": [
   "railway-changelog-0309-free-vms-without-an-account",
@@ -252,9 +252,8 @@
   "wland",
   "openui-live-replies",
   "unaligned",
-  "google-ai-student",
   "gemini-frontend-design",
-  "blackbox-arena-deepseek-v4-1-flash-provider-comparison",
+  "blackbox-arena",
   "annnimate",
   "hyperiux",
   "vanta-ui",
