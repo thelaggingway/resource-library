@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "id": "gemini-api-cli",
+  "title": "Gemini API CLI",
+  "canonical_url": "https://github.com/google-gemini/gemini-api-cli",
+  "brief": "Google's experimental CLI for the Gemini API (Apache-2.0) gives coding agents and shell scripts a single binary for Gemini text and reasoning models, multimodal file analysis, and image, audio, music, and video generation. Configure an API key, put `gemini-api` on PATH, and any agent with shell access can generate assets, analyze files, or launch a managed agent in the background and pick up the result later.",
+  "caveat": "experimental CLI from Google; needs a Gemini API key.",
+  "details": "Gemini API CLI is Google's experimental, Apache-2.0-licensed command-line interface for the Gemini API, built so coding agents and shell scripts can use Gemini models without a chat UI. Give Codex, Claude Code, Antigravity, OpenClaw, Hermes, or any other agent with shell access an API key, put gemini-api on PATH, and the agent can choose a model, generate an image, analyze a file, or launch a managed agent in the background and retrieve the result later with the returned interaction ID. One binary covers text and reasoning models, multimodal file analysis, and image, audio, music, and video generation, with script-friendly output (structured JSON or compact TOON, inline --jq filtering), a self-describing interface (--schema, --usage), and a --dry-run mode that validates inputs and prints the resolved HTTP request with credentials redacted. It is a single Go binary for macOS, Linux, and Windows, and each invocation is stateless, so the calling agent supplies the context and controls the next step.",
+  "resource_type": "repository",
+  "topics": [
+    "developer-tools",
+    "inference"
+  ],
+  "use_cases": [
+    "run-inference",
+    "create-media"
+  ],
+  "interfaces": [
+    "cli"
+  ],
+  "technologies": [
+    "go"
+  ],
+  "license": null,
+  "open_source": null,
+  "display_period": "19–26 Nov 2026",
+  "legacy_categories": [
+    "ai-tool",
+    "github"
+  ],
+  "source": {
+    "channel": "share-tech",
+    "sharer": "Blessed Piss Enjoyer"
+  },
+  "shared_on": "2026-11-26",
+  "verification": {
+    "status": "unchecked",
+    "checked_at": null,
+    "final_url": null
+  }
+}
