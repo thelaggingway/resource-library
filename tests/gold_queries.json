@@ -283,14 +283,14 @@
   },
   "expect_top1": null,
   "expect_top5": [
+   "gemini-api-cli",
    "teamai-cli",
    "alysis-code",
    "arc-ui",
-   "bb",
-   "boat"
+   "bb"
   ],
   "expect_none": false,
-  "note": "re-reviewed 2026-11-22 against 479-record catalog; Alysis Code (coding agent for desktop and CLI) legitimately ranks #2, shifting boxd to #6"
+  "note": "re-reviewed 2026-11-26 against 478-record catalog; new Gemini API CLI (genuine CLI for the Gemini API) legitimately ranks #1, shifting boat to #6"
  },
  {
   "query": "browser extension",
@@ -367,11 +367,12 @@
   "filters": {},
   "expect_top1": null,
   "expect_top5": [
+   "atas",
    "oil-motion",
-   "moneyprinterturbo"
+   "gemini-api-cli"
   ],
   "expect_none": false,
-  "note": "reviewed 2026-09-29 against 285-record catalog"
+  "note": "re-reviewed 2026-11-26 against 478-record catalog; new Gemini API CLI (image/audio/music/video generation) legitimately ranks #3; moneyprinterturbo shifts out of top 5"
  },
  {
   "query": "free unlimited inference",

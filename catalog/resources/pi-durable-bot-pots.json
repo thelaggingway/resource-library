@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "id": "pi-durable-bot-pots",
+  "title": "pi-durable-bot (Pots)",
+  "canonical_url": "https://github.com/Crokily/pi-durable-bot",
+  "brief": "Pots is a self-hosted, open-source AI coworker (MIT) that reads the channels you give it — Slack, Discord, Telegram, Teams — decides what matters, and does the work on its own computer instead of just answering when mentioned. Built on pi-durable, it runs any model you choose — a subscription login, an API key from 40+ providers, or a local model — and each bot keeps its own name, persona, responsibilities, and memory.",
+  "caveat": "young project (created Oct 2026) — expect rough edges; needs a model subscription login or API key to run.",
+  "details": "Pots (pi-durable-bot) is an open-source, MIT-licensed AI coworker that lives in the chat tools a team already uses — Slack, Discord, Telegram, and Microsoft Teams in preview — and acts on its own computer rather than only answering when mentioned. It reads every channel, email, and event it is given, decides what matters, does the work (checking a page, sending a comparison, taking an API key on a one-time page), and speaks up when it should; it can also run several bots on one machine, each with its own name, persona, responsibilities, and memory, and a bot can even edit its own definition or create a new bot. It is built on pi-durable, so it works with any model: a subscription login, an API key from any of the 40+ providers pi supports, an OpenAI-compatible endpoint, or a local model via Ollama, LM Studio, or llama.cpp — with a local model for the agent and the judge, nothing leaves the machine. Unlike the closed Grok Bot, dots, Claude Duet, and Claude Tag it is modeled on, it runs where you put it, with the model you choose, and your data stays on your machine in each bot's folder.",
+  "resource_type": "repository",
+  "topics": [
+    "ai-agents",
+    "self-hosting"
+  ],
+  "use_cases": [
+    "manage-agents"
+  ],
+  "interfaces": [],
+  "technologies": [],
+  "license": null,
+  "open_source": true,
+  "display_period": "19–26 Nov 2026",
+  "legacy_categories": [
+    "ai-tool",
+    "github"
+  ],
+  "source": {
+    "channel": "share-tech",
+    "sharer": "Thoor"
+  },
+  "shared_on": "2026-11-25",
+  "verification": {
+    "status": "unchecked",
+    "checked_at": null,
+    "final_url": null
+  }
+}

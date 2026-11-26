@@ -1,12 +1,12 @@
 {
  "baseline_commit": "scripts/regen.py",
  "generated_sha256": {
-  "CHANGELOG.md": "6012a9e8b47ff208760e3042313aea37458fc7ad54fbdb6f00409e1071a37f9b",
-  "data.json": "00a9f023bdbe7461bd04c8a3b997da697a0979e29df079dbeba605a184a78aed",
-  "feed.xml": "db59c73a317dbc8861ced0ff0f1e8bc64119d49b000393dd93829136d548cfc1",
-  "index.html": "a5bac7f9a7b0d47024395fa7aa15d80ff53b04a6d754a88aa476a7284dae3d78",
-  "llms.txt": "3124b9af0397d80b082a7b6d675066f6369656af763c622dc332cd8b1852edcd",
-  "og-image.png": "e4f488628bb24a1c1171ba8e6391bdee03013cb4bd11aa94e64e9019fe97d2cc",
+  "CHANGELOG.md": "0b36a329f420f60eb46e5c6f3dd08a0209b5e7784cdc8f272251983e71fa57a6",
+  "data.json": "4d4460452b239df3f98bd698b97015ca40162d0c2d78eb04f63e09ab72a0cd9a",
+  "feed.xml": "e7715723d157ca263511d3ca68d988c9b43bfae6d5200b4b74a2146af5630db0",
+  "index.html": "da7e4104841fc6e621f3c9c6aef76ccf452f21554f9110fc153fabbe78ec3b80",
+  "llms.txt": "62f5316dd9262c692f17ba17985951aab46107bc137f93770d0118229ac777e2",
+  "og-image.png": "4583e3310342d6cf895a3e7795e0f91ab65edfb8b23537a7d7e620c1328fed9a",
   "robots.txt": "b2834e28a8a876d4adf4d27806f0ac783dc0f6617aaf32dd42e9f5453a0ac56e",
   "sitemap.xml": "26be8fa7cebf4865d57b615c7110539a8cd697edeef4ad459f5abb438f86b09e",
   "weeks/2026-06-04_to_2026-06-10.md": "f17652a5eb159df59ced4eeb8cc4e1704e99ee37c8202da73c2c78fa8635de15",
@@ -33,7 +33,7 @@
   "weeks/2026-10-29_to_2026-11-05.md": "1e22d762c7ed55b8a2d3980a44ad2c90612bd2541f944842523a9310be1704a0",
   "weeks/2026-11-05_to_2026-11-12.md": "bfe15b4a9a91f3f1f9b820d4ace9aa9ddd7e84c5df374fdc3276c9b6769dfc84",
   "weeks/2026-11-12_to_2026-11-19.md": "ef4c78689e69f7ed275083226401891392afa90ba86b8737dd621486823c3423",
-  "weeks/2026-11-19_to_2026-11-26.md": "3753a579fd5eb5c294db3939b1f4dac47c65fabdb66786ca69d9c75ec1c23ffb",
+  "weeks/2026-11-19_to_2026-11-26.md": "1ba4e25aaec713d8df9410b2966af058e1f43c8b9adcb54c3d40d2e38e358a82",
   "weeks/providers.md": "1c7e7ac8e396c652f1c9968e46fbb37006d62a6ff36d20160de25ac78ef74fd2"
  },
  "inventory": {
@@ -45,13 +45,13 @@
    "providers",
    "web-app"
   ],
-  "https_urls": 475,
-  "nonempty_warnings": 142,
+  "https_urls": 478,
+  "nonempty_warnings": 145,
   "providers": 123,
-  "share_tech": 352,
-  "total": 475,
-  "unique_ids": 475,
-  "unique_urls": 475
+  "share_tech": 355,
+  "total": 478,
+  "unique_ids": 478,
+  "unique_urls": 478
  },
  "ordered_ids": [
   "railway-changelog-0309-free-vms-without-an-account",
@@ -251,6 +251,9 @@
   "unaligned",
   "gemini-frontend-design",
   "blackbox-arena",
+  "pi-durable-bot-pots",
+  "gemini-api-cli",
+  "vals-ai",
   "annnimate",
   "hyperiux",
   "vanta-ui",

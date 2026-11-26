@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0",
+  "id": "vals-ai",
+  "title": "Vals AI",
+  "canonical_url": "https://www.vals.ai/",
+  "brief": "Vals AI independently benchmarks leading AI models on economically valuable real-world tasks — finance, software, cybersecurity, and frontier-risk areas — running its own evaluations and building many benchmarks in-house. Its Vals Index leaderboards rank models per task area (including cyber, finance, legal, science, and code migration) with per-model pages comparing scores, prices, and speed.",
+  "caveat": "benchmark scores are Vals' own harness snapshots and change as models are re-run; index versions differ between pages, so don't treat small gaps as exact.",
+  "details": "Vals AI is an independent AI benchmarking site that tests leading models on economically valuable real-world tasks — finance, software, cybersecurity, and frontier-risk areas such as recursive self-improvement and mental health — running its own evaluations and building many of its benchmarks in-house rather than relying on static Q&A. Its Vals Index leaderboards rank models per task area, with per-model pages comparing index scores alongside cyber, finance, legal, science, and code-migration sub-scores, token prices, and speed, and it publishes dated benchmark reports (such as its Nov 24, 2026 Swarm Speed study on multi-agent team efficiency). Scores are Vals' own harness snapshots and change as models are re-run, and index versions differ between pages, so small gaps between models should not be treated as exact.",
+  "resource_type": "tool",
+  "topics": [
+    "testing",
+    "inference"
+  ],
+  "use_cases": [
+    "test-software"
+  ],
+  "interfaces": [
+    "web"
+  ],
+  "technologies": [],
+  "license": null,
+  "open_source": null,
+  "display_period": "19–26 Nov 2026",
+  "legacy_categories": [
+    "ai-tool",
+    "web-app"
+  ],
+  "source": {
+    "channel": "share-tech",
+    "sharer": "tom"
+  },
+  "shared_on": "2026-11-25",
+  "verification": {
+    "status": "unchecked",
+    "checked_at": null,
+    "final_url": null
+  }
+}
