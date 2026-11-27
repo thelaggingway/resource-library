@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "id": "openkodo",
+  "title": "OpenKodo",
+  "canonical_url": "https://openkodo.dev/",
+  "brief": "OpenKodo is a $9.9/month coding-agent subscription that puts 79 frontier models from seven vendors — OpenAI, Anthropic, DeepSeek, Zhipu, Moonshot, Qwen and MiniMax — behind one key, with Responses, Chat and Anthropic-compatible APIs at a vendor-stated 200+ tokens/sec. It also bundles video models (Seedance, Kling, Vidu) billed per second, and works with Codex, OpenCode, Claude Code, Cline and other agents.",
+  "caveat": "third-party reseller subscription, not a direct vendor plan — no zero-data-retention assurances were stated (per the channel discussion); usage limits are vendor-stated estimates.",
+  "details": "OpenKodo is a $9.9-per-month subscription (up to $100 of usage included) that gives coding agents one API key for 79 models across seven vendors — OpenAI, Anthropic, DeepSeek, Zhipu, Moonshot, Qwen and MiniMax — through Responses, Chat and Anthropic-compatible endpoints, at a vendor-stated 200+ tokens per second. It lists current frontier models (Claude Opus 5.5, GPT 6.2 Astra, DeepSeek V4.1, GLM-5.3), compares itself directly with OpenCode Go ($10/month) on requests per 5-hour window (vendor-reported comparison), and adds video models such as Seedance, Kling and Vidu billed per second. It works with Codex, OpenCode, Claude Code, Cline, Continue, Cursor and Aider. The first month is $4.90 with an invite code, and it is a third-party reseller rather than a direct vendor plan.",
+  "resource_type": "provider",
+  "topics": [
+    "inference",
+    "developer-tools"
+  ],
+  "use_cases": [
+    "run-inference",
+    "generate-code"
+  ],
+  "interfaces": [
+    "api"
+  ],
+  "technologies": [
+    "anthropic-api",
+    "openai-api"
+  ],
+  "license": null,
+  "open_source": null,
+  "display_period": "providers",
+  "legacy_categories": [
+    "providers"
+  ],
+  "source": {
+    "channel": "providers",
+    "sharer": "thelaggingway"
+  },
+  "shared_on": "2026-11-26",
+  "verification": {
+    "status": "unchecked",
+    "checked_at": null,
+    "final_url": null
+  }
+}

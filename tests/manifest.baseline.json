@@ -1,12 +1,12 @@
 {
  "baseline_commit": "scripts/regen.py",
  "generated_sha256": {
-  "CHANGELOG.md": "0b36a329f420f60eb46e5c6f3dd08a0209b5e7784cdc8f272251983e71fa57a6",
-  "data.json": "4d4460452b239df3f98bd698b97015ca40162d0c2d78eb04f63e09ab72a0cd9a",
-  "feed.xml": "e7715723d157ca263511d3ca68d988c9b43bfae6d5200b4b74a2146af5630db0",
-  "index.html": "da7e4104841fc6e621f3c9c6aef76ccf452f21554f9110fc153fabbe78ec3b80",
-  "llms.txt": "62f5316dd9262c692f17ba17985951aab46107bc137f93770d0118229ac777e2",
-  "og-image.png": "4583e3310342d6cf895a3e7795e0f91ab65edfb8b23537a7d7e620c1328fed9a",
+  "CHANGELOG.md": "762c5493cfcf098c1dbe271c59b16eace2cd960b2179df4962baea88861e841b",
+  "data.json": "2be6fba1eed183aadd3d4304a87cc69bef94fef850ea45b67a71af9b1166da04",
+  "feed.xml": "d49e4c68e8b909d47406241241b647509aa54c0dc2979ea1826025dd6b205e82",
+  "index.html": "1a02801857c5c70bceb0245a0ef0a6c9208ab8ce97442895ca9d9a69c30a4a4d",
+  "llms.txt": "b7cc615a0a6a75fd29377d9169928a590ddbabd403c61d286b2c9e73ba9ee748",
+  "og-image.png": "5d21d48bba19f5f0820ea80a386efd39a795a63eb474f7356cd2cd268476e224",
   "robots.txt": "b2834e28a8a876d4adf4d27806f0ac783dc0f6617aaf32dd42e9f5453a0ac56e",
   "sitemap.xml": "26be8fa7cebf4865d57b615c7110539a8cd697edeef4ad459f5abb438f86b09e",
   "weeks/2026-06-04_to_2026-06-10.md": "f17652a5eb159df59ced4eeb8cc4e1704e99ee37c8202da73c2c78fa8635de15",
@@ -33,8 +33,8 @@
   "weeks/2026-10-29_to_2026-11-05.md": "1e22d762c7ed55b8a2d3980a44ad2c90612bd2541f944842523a9310be1704a0",
   "weeks/2026-11-05_to_2026-11-12.md": "bfe15b4a9a91f3f1f9b820d4ace9aa9ddd7e84c5df374fdc3276c9b6769dfc84",
   "weeks/2026-11-12_to_2026-11-19.md": "ef4c78689e69f7ed275083226401891392afa90ba86b8737dd621486823c3423",
-  "weeks/2026-11-19_to_2026-11-26.md": "1ba4e25aaec713d8df9410b2966af058e1f43c8b9adcb54c3d40d2e38e358a82",
-  "weeks/providers.md": "1c7e7ac8e396c652f1c9968e46fbb37006d62a6ff36d20160de25ac78ef74fd2"
+  "weeks/2026-11-19_to_2026-11-26.md": "dca15c94506faffca95ee389ab03b41123e1b4c6732fd2453ba5bb04f7486ef7",
+  "weeks/providers.md": "c50804a32f7d42ff00a169f26c9c96752fdb65f4537a45fe33404140918e3426"
  },
  "inventory": {
   "categories": [
@@ -45,13 +45,13 @@
    "providers",
    "web-app"
   ],
-  "https_urls": 478,
-  "nonempty_warnings": 145,
-  "providers": 123,
-  "share_tech": 355,
-  "total": 478,
-  "unique_ids": 478,
-  "unique_urls": 478
+  "https_urls": 484,
+  "nonempty_warnings": 150,
+  "providers": 124,
+  "share_tech": 360,
+  "total": 484,
+  "unique_ids": 484,
+  "unique_urls": 484
  },
  "ordered_ids": [
   "railway-changelog-0309-free-vms-without-an-account",
@@ -254,6 +254,12 @@
   "pi-durable-bot-pots",
   "gemini-api-cli",
   "vals-ai",
+  "paradev",
+  "perf-gs",
+  "opengame",
+  "supermemory",
+  "ornn-data",
+  "openkodo",
   "annnimate",
   "hyperiux",
   "vanta-ui",

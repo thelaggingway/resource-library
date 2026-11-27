@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0",
+  "id": "opengame",
+  "title": "opengame",
+  "canonical_url": "https://github.com/nexu-io/opengame",
+  "brief": "opengame is a \"Super Game Agent\" framework that turns coding agents (Claude Code, Codex, DeepSeek and others) into a full-stack AI game studio, with 100+ viral games to remix. It builds and publishes 3D and mini-games to WeChat, Douyin, TikTok, Telegram, itch.io and more from text prompts.",
+  "caveat": null,
+  "details": "opengame is an open-source framework that turns coding agents into a game studio. Point Claude Code, Codex, DeepSeek or 20+ other agents at it and it builds 3D and mini-games, with 100+ viral games included to remix. Games publish to WeChat, Douyin, TikTok, Telegram, itch.io and more, and the pitch is text-to-game with multiplayer and instant play — positioned as the Unity and Unreal for AI agents. The repo is the whole product: agent orchestration, game templates and publishing targets in one place.",
+  "resource_type": "repository",
+  "topics": [
+    "ai-agents",
+    "app-development"
+  ],
+  "use_cases": [
+    "generate-code",
+    "create-media"
+  ],
+  "interfaces": [],
+  "technologies": [
+    "claude-code"
+  ],
+  "license": null,
+  "open_source": true,
+  "display_period": "19–26 Nov 2026",
+  "legacy_categories": [
+    "ai-tool",
+    "github"
+  ],
+  "source": {
+    "channel": "share-tech",
+    "sharer": "thelaggingway"
+  },
+  "shared_on": "2026-11-26",
+  "verification": {
+    "status": "unchecked",
+    "checked_at": null,
+    "final_url": null
+  }
+}
