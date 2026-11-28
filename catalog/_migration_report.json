@@ -1,6 +1,6 @@
 {
-  "migrated": 478,
-  "source_rows": 478,
+  "migrated": 485,
+  "source_rows": 485,
   "order_preserved": true,
   "all_fields_equal": true,
   "rows": [
@@ -3203,6 +3203,118 @@
       "all_equal": true,
       "shared_on": "2026-11-25",
       "date_evidence": "posted '25 Nov' inside week label '19–26 Nov 2026'"
+    },
+    {
+      "id": "paradev",
+      "checks": {
+        "id": true,
+        "title": true,
+        "url": true,
+        "brief": true,
+        "warning->caveat": true,
+        "sharer": true,
+        "week->display_period": true,
+        "categories->legacy_categories": true
+      },
+      "all_equal": true,
+      "shared_on": "2026-11-26",
+      "date_evidence": "posted '26 Nov' inside week label '19–26 Nov 2026'"
+    },
+    {
+      "id": "perf-gs",
+      "checks": {
+        "id": true,
+        "title": true,
+        "url": true,
+        "brief": true,
+        "warning->caveat": true,
+        "sharer": true,
+        "week->display_period": true,
+        "categories->legacy_categories": true
+      },
+      "all_equal": true,
+      "shared_on": "2026-11-26",
+      "date_evidence": "posted '26 Nov' inside week label '19–26 Nov 2026'"
+    },
+    {
+      "id": "opengame",
+      "checks": {
+        "id": true,
+        "title": true,
+        "url": true,
+        "brief": true,
+        "warning->caveat": true,
+        "sharer": true,
+        "week->display_period": true,
+        "categories->legacy_categories": true
+      },
+      "all_equal": true,
+      "shared_on": "2026-11-26",
+      "date_evidence": "posted '26 Nov' inside week label '19–26 Nov 2026'"
+    },
+    {
+      "id": "supermemory",
+      "checks": {
+        "id": true,
+        "title": true,
+        "url": true,
+        "brief": true,
+        "warning->caveat": true,
+        "sharer": true,
+        "week->display_period": true,
+        "categories->legacy_categories": true
+      },
+      "all_equal": true,
+      "shared_on": "2026-11-26",
+      "date_evidence": "posted '26 Nov' inside week label '19–26 Nov 2026'"
+    },
+    {
+      "id": "ornn-data",
+      "checks": {
+        "id": true,
+        "title": true,
+        "url": true,
+        "brief": true,
+        "warning->caveat": true,
+        "sharer": true,
+        "week->display_period": true,
+        "categories->legacy_categories": true
+      },
+      "all_equal": true,
+      "shared_on": "2026-11-26",
+      "date_evidence": "posted '26 Nov' inside week label '19–26 Nov 2026'"
+    },
+    {
+      "id": "openkodo",
+      "checks": {
+        "id": true,
+        "title": true,
+        "url": true,
+        "brief": true,
+        "warning->caveat": true,
+        "sharer": true,
+        "week->display_period": true,
+        "categories->legacy_categories": true
+      },
+      "all_equal": true,
+      "shared_on": "2026-11-26",
+      "date_evidence": "posted '26 Nov' within documented #providers lifetime 2026-07-20..2026-09-25 (raw/providers_2026-07-20_to_2026-09-25.md)"
+    },
+    {
+      "id": "scalattice",
+      "checks": {
+        "id": true,
+        "title": true,
+        "url": true,
+        "brief": true,
+        "warning->caveat": true,
+        "sharer": true,
+        "week->display_period": true,
+        "categories->legacy_categories": true
+      },
+      "all_equal": true,
+      "shared_on": "2026-11-28",
+      "date_evidence": "posted '28 Nov' within documented #providers lifetime 2026-07-20..2026-09-25 (raw/providers_2026-07-20_to_2026-09-25.md)"
     },
     {
       "id": "annnimate",

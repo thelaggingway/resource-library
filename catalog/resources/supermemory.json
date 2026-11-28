@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0",
+  "id": "supermemory",
+  "title": "Supermemory",
+  "canonical_url": "https://supermemory.ai/",
+  "brief": "Supermemory is a memory and continual-learning layer for AI agents — it turns raw conversation and document context into long-horizon knowledge with hybrid retrieval, extractors and connectors, exposed via API and MCP. It reports top scores on LongMemEval, LoCoMo and ConvoMem, with a free tier to start building.",
+  "caveat": "benchmark rankings are vendor-reported and unverified.",
+  "details": "Supermemory is a hosted memory layer for AI agents. It ingests conversation and documents through connectors and extractors, then builds long-horizon knowledge with hybrid retrieval and reranking, exposed through an API and an MCP server so agents can recall and update memories across sessions. The team reports top scores on the LongMemEval, LoCoMo and ConvoMem benchmarks (vendor-reported, unverified) and says the system serves over a trillion tokens a month in production, with a free tier to start. It is pitched as the memory system agents need for personalization and self-improvement over long tasks.",
+  "resource_type": "service-platform",
+  "topics": [
+    "ai-agents",
+    "databases"
+  ],
+  "use_cases": [
+    "operate-databases",
+    "manage-agents"
+  ],
+  "interfaces": [
+    "api",
+    "mcp"
+  ],
+  "technologies": [
+    "mcp-protocol"
+  ],
+  "license": null,
+  "open_source": null,
+  "display_period": "19–26 Nov 2026",
+  "legacy_categories": [
+    "ai-tool",
+    "dev-tool"
+  ],
+  "source": {
+    "channel": "share-tech",
+    "sharer": "baanish"
+  },
+  "shared_on": "2026-11-26",
+  "verification": {
+    "status": "unchecked",
+    "checked_at": null,
+    "final_url": null
+  }
+}

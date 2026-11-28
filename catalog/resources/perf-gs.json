@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0",
+  "id": "perf-gs",
+  "title": "PERF-GS",
+  "canonical_url": "https://electronicarts.github.io/perf-gs/",
+  "brief": "Electronic Arts' PERF-GS trains 3D Gaussian Splatting scenes in about ten seconds on a consumer GPU, with a dependency-free, cross-vendor trainer that keeps VRAM use low. The project page walks through the trainer design with real-time training videos and measured reconstructions, and links the code for running it yourself.",
+  "caveat": "the ~10-second training figures are EA's own measurements on an RTX 4090; results vary by GPU and scene.",
+  "details": "PERF-GS is Electronic Arts' research project for ultrafast 3D Gaussian Splatting training. The Ultrafast preset trains a scene in about 10 seconds on an RTX 4090, with a Quality preset at about 23 seconds and Quality+ at about 123 seconds for higher PSNR — all EA's own measurements, so treat them as indicative rather than exact. The trainer is dependency-free, cross-vendor and low-VRAM, built on SlangPy for GPU dispatch, and the page documents the design (initialization, forward and backward passes, densification) with real-time training videos and held-out reconstructions across the nine-scene Mip-NeRF 360 dataset. You can run COLMAP on your own photos in the PERF-GS hub or open an existing scene, then train and explore the result; code is linked from the page.",
+  "resource_type": "tool",
+  "topics": [
+    "design",
+    "developer-tools"
+  ],
+  "use_cases": [
+    "create-media"
+  ],
+  "interfaces": [
+    "web"
+  ],
+  "technologies": [
+    "python"
+  ],
+  "license": null,
+  "open_source": null,
+  "display_period": "19–26 Nov 2026",
+  "legacy_categories": [
+    "ai-tool",
+    "web-app"
+  ],
+  "source": {
+    "channel": "share-tech",
+    "sharer": "Alp"
+  },
+  "shared_on": "2026-11-26",
+  "verification": {
+    "status": "unchecked",
+    "checked_at": null,
+    "final_url": null
+  }
+}

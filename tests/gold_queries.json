@@ -117,10 +117,10 @@
    "boat",
    "artificial-analysis-mimo-v2-6-pro-providers",
    "botperch",
-   "openai-api-pricing"
+   "ornn-data"
   ],
   "expect_none": false,
-  "note": "re-reviewed 2026-11-25 against 475-record catalog after PR B cleanup; deepseek-platform-api-vs-opencode-go-4-round-comparison (image-only X post) was dropped, and openai-api-pricing enters top 5"
+  "note": "re-reviewed 2026-11-27 against 484-record catalog; new Ornn Data (compute price indices: GPU rental, token, memory, power) legitimately ranks #5, shifting openai-api-pricing to #6"
  },
  {
   "query": "open source react components",
@@ -459,10 +459,10 @@
    "baseten",
    "piramyd-cloud",
    "refuseless",
-   "wally"
+   "scalattice"
   ],
   "expect_none": false,
-  "note": "re-reviewed 2026-10-25 against 414-record catalog; new piramyd-cloud (unified model API provider) ties at 16.47 with the leaders, shifting ai-router to #6"
+  "note": "re-reviewed 2026-11-28 against 485-record catalog; new scalattice (OpenAI-compatible API provider) ties at 16.08 with the leaders, shifting wally to #6"
  },
  {
   "query": "benchmark",

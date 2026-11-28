@@ -1,6 +1,6 @@
 # Inference providers — curated from CheapInfra #providers
 
-123 curated providers, with briefs.
+125 curated providers, with briefs.
 
 ## Isoquant
 - URL: https://isoquant.ai/
@@ -283,6 +283,18 @@
 - Shared by: Thoor (24 Nov)
 - Categories: providers
 - Brief: Unaligned is a pay-as-you-go inference provider with per-token pricing across 43 models, including uncensored GLM and DeepSeek variants alongside frontier models. There is no subscription or monthly fee — top up in crypto from $5 and call any model from the browser chat or API.
+
+## OpenKodo
+- URL: https://openkodo.dev/
+- Shared by: thelaggingway (26 Nov)
+- Categories: providers
+- Brief: OpenKodo is a $9.9/month coding-agent subscription that puts 79 frontier models from seven vendors — OpenAI, Anthropic, DeepSeek, Zhipu, Moonshot, Qwen and MiniMax — behind one key, with Responses, Chat and Anthropic-compatible APIs at a vendor-stated 200+ tokens/sec. It also bundles video models (Seedance, Kling, Vidu) billed per second, and works with Codex, OpenCode, Claude Code, Cline and other agents.
+
+## Scalattice
+- URL: https://scalattice.com/
+- Shared by: scarywood75 (28 Nov)
+- Categories: providers
+- Brief: Scalattice is an OpenAI-compatible inference API selling token access to open-weight models, with regional routing, response vetting and data-residency controls. It also lets GPU owners earn by hosting inference through its open-source hosting software.
 
 ## Prism Inference
 - URL: https://prisminference.com/pricing

@@ -2911,6 +2911,109 @@
     "details": "Vals AI is an independent AI benchmarking site that tests leading models on economically valuable real-world tasks — finance, software, cybersecurity, and frontier-risk areas such as recursive self-improvement and mental health — running its own evaluations and building many of its benchmarks in-house rather than relying on static Q&A. Its Vals Index leaderboards rank models per task area, with per-model pages comparing index scores alongside cyber, finance, legal, science, and code-migration sub-scores, token prices, and speed, and it publishes dated benchmark reports (such as its Nov 24, 2026 Swarm Speed study on multi-agent team efficiency). Scores are Vals' own harness snapshots and change as models are re-run, and index versions differ between pages, so small gaps between models should not be treated as exact."
   },
   {
+    "title": "Paradev",
+    "week": "19–26 Nov 2026",
+    "url": "https://paradev.com/",
+    "sharer": "thelaggingway",
+    "date": "26 Nov",
+    "categories": [
+      "ai-tool",
+      "dev-tool"
+    ],
+    "brief": "Paradev (formerly Superset) is an open-source workspace for running coding agents — Claude Code, Codex, OpenCode and others — in parallel, each in its own isolated worktree, with a shared view for review. It ships macOS and Linux desktop apps plus mobile apps, automations, a plugin system, and cloud hosting in beta, so a team can orchestrate dozens of agents from one place.",
+    "id": "paradev",
+    "warning": "cloud hosting is in beta; Pro is a paid tier.",
+    "details": "Paradev (formerly Superset) is an open-source workspace for orchestrating coding agents. It runs Claude Code, Codex, OpenCode and other agents in parallel, each in its own isolated worktree on a separate branch, and shows every agent's work in one review surface with a command palette and Linear and PR automation. Desktop apps for macOS and Linux, mobile apps for iOS and Android, automations that trigger on events, a plugin system that works across agents, and cloud workspaces in beta, plus remote hosts. The project page reports 16.8k GitHub stars and a recent $11.5M seed round. The core workspace is MIT-licensed open source; Pro is a paid tier with cloud hosting."
+  },
+  {
+    "title": "PERF-GS",
+    "week": "19–26 Nov 2026",
+    "url": "https://electronicarts.github.io/perf-gs/",
+    "sharer": "Alp",
+    "date": "26 Nov",
+    "categories": [
+      "ai-tool",
+      "web-app"
+    ],
+    "brief": "Electronic Arts' PERF-GS trains 3D Gaussian Splatting scenes in about ten seconds on a consumer GPU, with a dependency-free, cross-vendor trainer that keeps VRAM use low. The project page walks through the trainer design with real-time training videos and measured reconstructions, and links the code for running it yourself.",
+    "id": "perf-gs",
+    "warning": "the ~10-second training figures are EA's own measurements on an RTX 4090; results vary by GPU and scene.",
+    "details": "PERF-GS is Electronic Arts' research project for ultrafast 3D Gaussian Splatting training. The Ultrafast preset trains a scene in about 10 seconds on an RTX 4090, with a Quality preset at about 23 seconds and Quality+ at about 123 seconds for higher PSNR — all EA's own measurements, so treat them as indicative rather than exact. The trainer is dependency-free, cross-vendor and low-VRAM, built on SlangPy for GPU dispatch, and the page documents the design (initialization, forward and backward passes, densification) with real-time training videos and held-out reconstructions across the nine-scene Mip-NeRF 360 dataset. You can run COLMAP on your own photos in the PERF-GS hub or open an existing scene, then train and explore the result; code is linked from the page."
+  },
+  {
+    "title": "opengame",
+    "week": "19–26 Nov 2026",
+    "url": "https://github.com/nexu-io/opengame",
+    "sharer": "thelaggingway",
+    "date": "26 Nov",
+    "categories": [
+      "ai-tool",
+      "github"
+    ],
+    "brief": "opengame is a \"Super Game Agent\" framework that turns coding agents (Claude Code, Codex, DeepSeek and others) into a full-stack AI game studio, with 100+ viral games to remix. It builds and publishes 3D and mini-games to WeChat, Douyin, TikTok, Telegram, itch.io and more from text prompts.",
+    "id": "opengame",
+    "warning": "",
+    "details": "opengame is an open-source framework that turns coding agents into a game studio. Point Claude Code, Codex, DeepSeek or 20+ other agents at it and it builds 3D and mini-games, with 100+ viral games included to remix. Games publish to WeChat, Douyin, TikTok, Telegram, itch.io and more, and the pitch is text-to-game with multiplayer and instant play — positioned as the Unity and Unreal for AI agents. The repo is the whole product: agent orchestration, game templates and publishing targets in one place."
+  },
+  {
+    "title": "Supermemory",
+    "week": "19–26 Nov 2026",
+    "url": "https://supermemory.ai/",
+    "sharer": "baanish",
+    "date": "26 Nov",
+    "categories": [
+      "ai-tool",
+      "dev-tool"
+    ],
+    "brief": "Supermemory is a memory and continual-learning layer for AI agents — it turns raw conversation and document context into long-horizon knowledge with hybrid retrieval, extractors and connectors, exposed via API and MCP. It reports top scores on LongMemEval, LoCoMo and ConvoMem, with a free tier to start building.",
+    "id": "supermemory",
+    "warning": "benchmark rankings are vendor-reported and unverified.",
+    "details": "Supermemory is a hosted memory layer for AI agents. It ingests conversation and documents through connectors and extractors, then builds long-horizon knowledge with hybrid retrieval and reranking, exposed through an API and an MCP server so agents can recall and update memories across sessions. The team reports top scores on the LongMemEval, LoCoMo and ConvoMem benchmarks (vendor-reported, unverified) and says the system serves over a trillion tokens a month in production, with a free tier to start. It is pitched as the memory system agents need for personalization and self-improvement over long tasks."
+  },
+  {
+    "title": "Ornn Data",
+    "week": "19–26 Nov 2026",
+    "url": "https://data.ornn.com/analytics",
+    "sharer": "thelaggingway",
+    "date": "26 Nov",
+    "categories": [
+      "ai-tool",
+      "web-app"
+    ],
+    "brief": "Ornn Data publishes market data and price indices for AI compute — GPU rental prices, token prices, memory spot prices and wholesale power — settled daily from real transacted deals rather than posted rate cards. The analytics hub lists every dataset it tracks, with free daily indices for six GPUs and token labs, and its compute index is listed on Bloomberg.",
+    "id": "ornn-data",
+    "warning": "full history, forward curves and most datasets need a paid plan; index values settle once daily and move with the market.",
+    "details": "Ornn Data tracks AI compute markets: GPU rental prices, model token prices, memory spot prices and wholesale power, settled daily from real transacted deals and published as price indices. The free daily indices cover six GPUs (H100 SXM, H200, B200, B300, A100 SXM4, RTX PRO 6000) plus token labs, with the H100 SXM index at $3.10 per GPU-hour as settled November 25, 2026 (vendor-reported; the value moves daily). Full history, forward curves, occupancy, payback and depreciation data need a paid plan. The Ornn Compute Price Index is listed on Bloomberg and used for pricing, hedging and settlement across the compute market."
+  },
+  {
+    "title": "OpenKodo",
+    "week": "providers",
+    "url": "https://openkodo.dev/",
+    "sharer": "thelaggingway",
+    "date": "26 Nov",
+    "categories": [
+      "providers"
+    ],
+    "brief": "OpenKodo is a $9.9/month coding-agent subscription that puts 79 frontier models from seven vendors — OpenAI, Anthropic, DeepSeek, Zhipu, Moonshot, Qwen and MiniMax — behind one key, with Responses, Chat and Anthropic-compatible APIs at a vendor-stated 200+ tokens/sec. It also bundles video models (Seedance, Kling, Vidu) billed per second, and works with Codex, OpenCode, Claude Code, Cline and other agents.",
+    "id": "openkodo",
+    "warning": "third-party reseller subscription, not a direct vendor plan — no zero-data-retention assurances were stated (per the channel discussion); usage limits are vendor-stated estimates.",
+    "details": "OpenKodo is a $9.9-per-month subscription (up to $100 of usage included) that gives coding agents one API key for 79 models across seven vendors — OpenAI, Anthropic, DeepSeek, Zhipu, Moonshot, Qwen and MiniMax — through Responses, Chat and Anthropic-compatible endpoints, at a vendor-stated 200+ tokens per second. It lists current frontier models (Claude Opus 5.5, GPT 6.2 Astra, DeepSeek V4.1, GLM-5.3), compares itself directly with OpenCode Go ($10/month) on requests per 5-hour window (vendor-reported comparison), and adds video models such as Seedance, Kling and Vidu billed per second. It works with Codex, OpenCode, Claude Code, Cline, Continue, Cursor and Aider. The first month is $4.90 with an invite code, and it is a third-party reseller rather than a direct vendor plan."
+  },
+  {
+    "title": "Scalattice",
+    "week": "providers",
+    "url": "https://scalattice.com/",
+    "sharer": "scarywood75",
+    "date": "28 Nov",
+    "categories": [
+      "providers"
+    ],
+    "brief": "Scalattice is an OpenAI-compatible inference API selling token access to open-weight models, with regional routing, response vetting and data-residency controls. It also lets GPU owners earn by hosting inference through its open-source hosting software.",
+    "id": "scalattice",
+    "warning": "channel discussion flagged a prior rug-pull allegation and a catalogue limited to older open-weight models (K3.1, no DeepSeek at time of sharing) — unverified community claims; verify current models, pricing and terms before topping up.",
+    "details": "Scalattice is a managed inference network that sells OpenAI-compatible API access to a curated catalog of 15 open models, with per-token pricing published in real time and prepaid credits; the API supports per-request regional routing, output vetting, and security tiers, and drops into existing OpenAI SDK code by changing the base URL to api.scalattice.cloud/v1. On the supply side, anyone with a modern GPU can install the open-source Scalattice agent, choose which catalog models to serve on a schedule they control, and keep a majority share of the token revenue from completed jobs, with no connection fee. The homepage lists a 10M-token maximum context and 15 curated models (vendor-reported figures); pricing lives at scalattice.com/pricing and can move with demand, and a scalattice-cli is offered for setup via coding agents."
+  },
+  {
     "title": "Annnimate",
     "week": "1–8 Oct 2026",
     "url": "https://annnimate.com",
