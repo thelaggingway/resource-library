@@ -459,10 +459,10 @@
    "baseten",
    "piramyd-cloud",
    "refuseless",
-   "wally"
+   "scalattice"
   ],
   "expect_none": false,
-  "note": "re-reviewed 2026-10-25 against 414-record catalog; new piramyd-cloud (unified model API provider) ties at 16.47 with the leaders, shifting ai-router to #6"
+  "note": "re-reviewed 2026-11-28 against 485-record catalog; new scalattice (OpenAI-compatible API provider) ties at 16.08 with the leaders, shifting wally to #6"
  },
  {
   "query": "benchmark",

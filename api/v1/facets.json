@@ -1,7 +1,7 @@
 {
   "resource_type": {
     "repository": 136,
-    "provider": 124,
+    "provider": 125,
     "tool": 72,
     "article-guide": 49,
     "library-framework": 39,
@@ -14,15 +14,15 @@
   },
   "topic": {
     "ai-agents": 199,
-    "inference": 177,
+    "inference": 178,
     "developer-tools": 118,
     "frontend": 49,
     "design": 47,
     "cloud-infrastructure": 28,
     "productivity": 21,
     "security": 15,
+    "self-hosting": 14,
     "app-development": 13,
-    "self-hosting": 13,
     "testing": 9,
     "devops": 8,
     "backend": 6,
@@ -31,7 +31,7 @@
     "web-development": 5
   },
   "use_case": {
-    "run-inference": 149,
+    "run-inference": 150,
     "manage-agents": 119,
     "learn-technique": 84,
     "build-interfaces": 40,
@@ -42,15 +42,15 @@
     "test-software": 19,
     "provision-infrastructure": 16,
     "deploy-applications": 10,
-    "host-models": 9,
+    "host-models": 10,
     "monitor-systems": 9,
     "search-code": 8,
     "operate-databases": 4
   },
   "interface": {
     "web": 212,
-    "api": 151,
-    "cli": 69,
+    "api": 152,
+    "cli": 70,
     "desktop": 37,
     "mcp": 19,
     "extension": 13
@@ -62,8 +62,8 @@
     "rust": 21,
     "mcp-protocol": 19,
     "python": 19,
+    "openai-api": 13,
     "javascript": 12,
-    "openai-api": 12,
     "anthropic-api": 9,
     "go": 7,
     "docker": 4,
@@ -84,10 +84,10 @@
   },
   "channel": {
     "share-tech": 360,
-    "providers": 124
+    "providers": 125
   },
   "open_source": {
-    "true": 61,
+    "true": 62,
     "false": 24
   }
 }

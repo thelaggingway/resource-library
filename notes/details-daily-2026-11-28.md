@@ -1,0 +1,4 @@
+## Details
+
+### scalattice
+- Details: Scalattice is a managed inference network that sells OpenAI-compatible API access to a curated catalog of 15 open models, with per-token pricing published in real time and prepaid credits; the API supports per-request regional routing, output vetting, and security tiers, and drops into existing OpenAI SDK code by changing the base URL to api.scalattice.cloud/v1. On the supply side, anyone with a modern GPU can install the open-source Scalattice agent, choose which catalog models to serve on a schedule they control, and keep a majority share of the token revenue from completed jobs, with no connection fee. The homepage lists a 10M-token maximum context and 15 curated models (vendor-reported figures); pricing lives at scalattice.com/pricing and can move with demand, and a scalattice-cli is offered for setup via coding agents.
